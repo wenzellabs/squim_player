@@ -1,0 +1,48 @@
+#!/usr/bin/env python3
+
+
+import time
+import socket
+from generated_tlv import *
+
+
+# UDP Setup
+sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+sock.setsockopt(socket.SOL_SOCKET, socket.SO_BROADCAST, 1)
+
+MAESTRO_PORT = 11000
+INITIAL_LATENCY = 1 * 1000 * 1000
+
+def send_tlv_packet(packet):
+    sock.sendto(packet.to_bytes(), ('255.255.255.255', MAESTRO_PORT))
+
+def get_us_since_1900():
+    NTP_DELTA = 2208988800      # seconds between 1900 and 1970
+    current_time = time.time()  # seconds since epoch (1970)
+    us_since_1900 = int((current_time + NTP_DELTA) * 1e6) # convert to us since 1900
+    return us_since_1900
+
+
+t_start = get_us_since_1900() + INITIAL_LATENCY
+duration=400*1000
+
+
+distance = 8
+lo = 24
+hi = 112
+
+offset = 0
+mid = (hi + lo) // 2
+while True:
+    for tone in range(lo, hi, distance):
+        
+        if tone+offset < mid: # lower half?
+            vol = int(255 * (tone+offset - lo) / (mid - lo))
+        else:
+            vol = int(255 * (hi - tone+offset) / (hi - mid))
+        vol=min(255,vol)
+        p = TLVPacketNoteOnOff(t_start, t_start + duration, tone+offset, 1, vol)
+        send_tlv_packet(p)
+    t_start += duration
+    time.sleep(duration/1000/1000)
+    offset = (offset + 1) % distance
