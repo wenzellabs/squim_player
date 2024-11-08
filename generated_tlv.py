@@ -4,7 +4,6 @@
 import struct
 from enum import Enum
 
-MAESTRO_PORT = 11000 # UDP port
 
 # base TLV Packet class
 class TLVPacket:

@@ -9,7 +9,7 @@ from generated_tlv import *
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 sock.setsockopt(socket.SOL_SOCKET, socket.SO_BROADCAST, 1)
 
-MAESTRO_PORT = 11000
+SQUIM_PORT = 11000
 
 # calculate microseconds since 1900
 def get_us_since_1900():
@@ -32,7 +32,7 @@ def create_note_packet(event, current_time_us):
         return None
 
 def send_tlv_packet(packet):
-    sock.sendto(packet.to_bytes(), ('255.255.255.255', MAESTRO_PORT))
+    sock.sendto(packet.to_bytes(), ('255.255.255.255', SQUIM_PORT))
 
 # load a MIDI file
 midi_file_path = 'your_file.mid'  # default
