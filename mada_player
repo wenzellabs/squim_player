@@ -1,0 +1,246 @@
+#!/usr/bin/env python3
+
+import re
+import time
+import socket
+import random
+import argparse
+from typing import List
+from generated_tlv import *
+
+# UDP Setup
+sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+sock.setsockopt(socket.SOL_SOCKET, socket.SO_BROADCAST, 1)
+
+SQUIM_PORT = 11000
+INITIAL_LATENCY = 3 * 1000 * 1000
+
+midi_notes = {
+    "C": 60,
+    "C#": 61,
+    "Db": 61,
+    "D": 62,
+    "D#": 63,
+    "Eb": 63,
+    "E": 64,
+    "F": 65,
+    "F#": 66,
+    "Gb": 66,
+    "G": 67,
+    "G#": 68,
+    "Ab": 68,
+    "A": 69,
+    "A#": 70,
+    "Bb": 70,
+    "B": 71
+}
+
+class ChordProgression:
+    def __init__(self, t_start:int = None, bpm:int = None) -> None:
+        self.initial_latency = INITIAL_LATENCY
+        if t_start is None:
+            self.t_start = get_us_since_1900() + self.initial_latency
+        else:
+            self.t_start = t_start + self.initial_latency
+        if bpm is None:
+            self.bpm = random.randint(80, 160)
+        else:
+            self.bpm = bpm
+        
+        self.set_bpm(self.bpm)
+
+    def generate_chord(self, n_beat64:int, root:str, notes:List[int], advance_beats:bool):
+        
+        r = midi_notes.get(root)
+        notes = [n + r for n in notes]
+
+        while len(notes) < 16:
+            notes.append(0x80)
+
+        packet = TLVPacketChord(self.t_start, self.t_start + n_beat64*self.beat64_us, notes)
+        if advance_beats:
+            self.t_start += n_beat64*self.beat64_us
+        return packet
+
+    def play_chord(self, n_beat64:int, root:str, notes:List[int], advance_beats:bool):
+        p = self.generate_chord(n_beat64, root, notes, advance_beats)
+        send_tlv_packet(p)
+        if advance_beats:
+            time.sleep(n_beat64*self.beat64_us / 1e6)
+
+    def note_on_off(self, note_midi, n_beat64, advance_beats):
+
+        p = TLVPacketNoteOnOff(self.t_start, self.t_start + n_beat64*self.beat64_us, note_midi, 1, 255)
+        send_tlv_packet(p)
+        if advance_beats:
+            self.t_start += n_beat64*self.beat64_us
+            time.sleep(n_beat64*self.beat64_us / 1e6)
+
+    def set_bpm(self, bpm: int):
+        self.bpm = bpm
+        self.beat_us = int(60.0 / self.bpm * 1000.0 * 1000.0)
+        self.beat64_us = int(60.0 / self.bpm * 1000.0 * 1000.0 / 16.0)
+
+def get_us_since_1900():
+    NTP_DELTA = 2208988800      # seconds between 1900 and 1970
+    current_time = time.time()  # seconds since epoch (1970)
+    us_since_1900 = int((current_time + NTP_DELTA) * 1e6) # convert to us since 1900
+    return us_since_1900
+
+def send_tlv_packet(packet):
+    sock.sendto(packet.to_bytes(), ('255.255.255.255', SQUIM_PORT))
+
+# stop all notes
+for _ in range(3):
+    send_tlv_packet(TLVPacketPanic())
+
+
+t_start = get_us_since_1900() + INITIAL_LATENCY
+
+cp = ChordProgression(t_start)
+
+def remove_comments(line):
+    return re.sub(r"\s*;.*", "", line)
+
+def parse_bpm(line):
+    match = re.match(r"bpm\s+(\d+)", line)
+    if match:
+        bpm = int(match.group(1))
+        print(f"setting BPM to {bpm}")
+        cp.set_bpm(bpm)
+        send_tlv_packet(TLVPacketStart(t_start, bpm, 0))
+
+def parse_scale(line):
+    match = re.match(r"scale (\w+) (\w+)", line)
+    if match:
+        root = match.group(1)
+        scale_type = match.group(2)
+        root = re.sub(r'(maj|min|dim|aug|sus|7|9|11|13|69|add)', '', root) # FIXME sus, sus4 etc
+        print(f"setting scale to {root} {scale_type}")
+        send_tlv_packet(TLVPacketScale(midi_notes.get(root), getattr(TLVPacketScale.Enum_scale_type, scale_type)))
+
+def parse_chord(line):
+    chord_type2list = {
+        "maj"       : [0, 4, 7],
+        "m"         : [0, 3, 7],
+        "m9"        : [0, 3, 7, 10, 14],
+        "m7"        : [0, 3, 7, 10],
+        "maj7"      : [0, 4, 7, 11],
+        "7"         : [0, 4, 7, 11], # same
+        "maj9"      : [0, 4, 7, 10, 14],
+        "9"         : [0, 4, 7, 10, 14], # same
+        "chord69"   : [0, 4, 7, 9, 14],
+        "69"        : [0, 4, 7, 9, 14], # same
+        "6/9"       : [0, 4, 7, 9, 14], # same
+    }
+    match = re.match(r"([A-G](#|b)?)\s*(maj|m|m7|m9|maj7|7|maj9|9|chord69|69|6/9)?\s+(\d+)\s*(&?)$", line.strip())
+
+    if match:
+        root = match.group(1)  # the root note (e.g., A, B, C#, Cb)
+        chord_type = match.group(3)  # chord type (e.g., "m", "maj", etc.)
+        
+        # default to "maj" if no chord type is specified
+        if chord_type is None:
+            chord_type = "maj"
+
+        n_beat = int(match.group(4))  # duration in beat/16
+        advance_beats = not bool(match.group(5))
+
+        print(f"playing chord: {root}{chord_type} for {n_beat} beats")
+        
+        # call the function to play the chord, with midi lookup inside
+        cp.play_chord(n_beat * 16, root, chord_type2list.get(chord_type), advance_beats)
+    else:
+        print(f"error: invalid chord format in line '{line}'")
+
+
+def note_to_midi(note:str, octave:int) -> int:
+    base_midi_note = midi_notes[note]
+    midi_number = base_midi_note + (octave - 4) * 12
+    return midi_number
+
+def parse_artist(line):
+    match = re.match(r"artist\s+([^;]+)", line)
+    if match:
+        artist = match.group(1).strip()[:234]
+        print(f'setting artist to {artist}')
+        artist = artist.ljust(234, '\0').encode('utf-8')
+        send_tlv_packet(TLVPacketArtist(artist))
+
+def parse_title(line):
+    match = re.match(r"title\s+([^;]+)", line)
+    if match:
+        title = match.group(1).strip()[:234]
+        print(f'setting title to {title}')
+        title = title.ljust(234, '\0').encode('utf-8')
+        send_tlv_packet(TLVPacketTitle(title))
+
+def parse_note(line):
+    match = re.match(r"note\s+([A-G](#|b)?)\s*(\d+)\s+(\d+)\s*(&?)$", line)
+    if match:
+        note_str = match.group(1)
+        octave = int(match.group(3))
+        n_beat64 = int(match.group(4))
+        advance_beats = not bool(match.group(5))
+
+        note_midi = note_to_midi(note_str, octave)
+
+        print(f'playing note  {note_str} for {int(n_beat64 / 16)} beats')
+        cp.note_on_off(note_midi, n_beat64, advance_beats)
+    else:
+        print(f"error: invalid note format in line '{line}'")
+
+def parse_midinote(line):
+    match = re.match(r"midinote\s+(\d+)\s+(\d+)\s*(&?)$", line)
+    if match:
+        midinote = int(match.group(1))
+        n_beat64 = int(match.group(2))
+        advance_beats = not bool(match.group(3))
+
+        print(f'playing note {midinote} for {int(n_beat64 / 16)} beats')
+        cp.note_on_off(midinote, n_beat64, advance_beats)
+    else:
+        print(f"error: invalid note format in line '{line}'")
+
+def parse_line(line):
+    line = remove_comments(line).strip()
+    if not line:
+        return  # ignore empty lines
+
+    if line.startswith("bpm"):
+        parse_bpm(line)
+    elif line.startswith("scale"):
+        parse_scale(line)
+    elif line.startswith("artist"):
+        parse_artist(line)
+    elif line.startswith("title"):
+        parse_title(line)
+    elif line.startswith("note"):
+        parse_note(line)
+    elif line.startswith("midinote"):
+        parse_midinote(line)
+    else:
+        parse_chord(line)
+
+def play_song(song_lines):
+    for line in song_lines:
+        line = line.strip()
+        if line:
+            parse_line(line)
+
+def play_mada_file(filename):
+    with open(filename, 'r') as file:
+        song_lines = file.readlines()
+    play_song(song_lines)
+
+def main():
+    parser = argparse.ArgumentParser(description="MADA player")
+    parser.add_argument("filename", nargs="?", default="default.mada", help="The MADA piece to play (default: default.mada)")
+    args = parser.parse_args()
+    
+    play_mada_file(args.filename)
+
+if __name__ == "__main__":
+    main()
+
+sock.close()
