@@ -1,0 +1,30 @@
+#!/bin/bash
+
+# Define the NTP server (you can change it to any NTP server of your choice)
+ntp_server="time.google.com"
+ntp_server="77.48.28.248" # went down 2024-09-18
+ntp_server="162.159.200.123"
+ntp_port=123
+
+# Create a request packet: 48 bytes (NTP message format)
+request_packet="\x1b\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00"
+
+# Send the request packet to the NTP server and receive the response (48 bytes)
+response=$(echo -ne "$request_packet" | nc -u -w1 $ntp_server $ntp_port | xxd -p -c 48)
+
+# Check if the response is valid
+if [ -z "$response" ]; then
+    echo "No response from NTP server"
+    exit 1
+fi
+
+# The NTP timestamp starts at the 40th byte (in the 48-byte response)
+# We need to extract the 40th to 43rd bytes (32 bits) that represent the seconds since 1900
+ntp_seconds_hex=$(echo "$response" | cut -c 81-88)
+
+# Convert the NTP timestamp from hex to decimal
+ntp_seconds=$((16#$ntp_seconds_hex))
+
+# Output the number of seconds since 1900
+#echo "Seconds since 1900: $ntp_seconds"
+echo "$ntp_seconds"

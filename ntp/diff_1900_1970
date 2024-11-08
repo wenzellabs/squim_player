@@ -1,0 +1,8 @@
+
+sec1970=$(TZ="UTC"  date  +%s)
+
+sec1900=$(./ntp_1900)
+
+difference=$((sec1900 - sec1970))
+
+echo $difference

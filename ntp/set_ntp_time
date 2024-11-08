@@ -1,0 +1,10 @@
+#!/bin/bash
+
+
+sec1900=$(./ntp_1900)
+
+sec1970=$(( $sec1900 - 2208988800 ))
+
+
+sudo date -s "$(date -d "@$sec1970")"
+sudo hwclock --systohc
