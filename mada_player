@@ -16,6 +16,7 @@ SQUIM_PORT = 11000
 INITIAL_LATENCY = 3 * 1000 * 1000
 
 midi_notes = {
+    "Cb": 71,
     "C": 60,
     "C#": 61,
     "Db": 61,
@@ -23,6 +24,8 @@ midi_notes = {
     "D#": 63,
     "Eb": 63,
     "E": 64,
+    "E#": 65,
+    "Fb": 64,
     "F": 65,
     "F#": 66,
     "Gb": 66,
@@ -32,7 +35,8 @@ midi_notes = {
     "A": 69,
     "A#": 70,
     "Bb": 70,
-    "B": 71
+    "B": 71,
+    "B#": 60
 }
 
 class ChordProgression:
@@ -238,10 +242,17 @@ def play_mada_file(filename):
 
 def main():
     parser = argparse.ArgumentParser(description="MADA player")
-    parser.add_argument("filename", nargs="?", default="default.mada", help="The MADA piece to play (default: default.mada)")
+    parser.add_argument("filename", nargs="*", default="default.mada", help="The MADA piece to play (default: default.mada)")
+    parser.add_argument("-r", "--randomize", action="store_true", help="Randomize the order of files before playing")
     args = parser.parse_args()
     
-    play_mada_file(args.filename)
+    files = args.filename
+
+    if args.randomize:
+        random.shuffle(files)
+
+    for f in files:
+        play_mada_file(f)
 
 if __name__ == "__main__":
     main()
