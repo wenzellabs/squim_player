@@ -73,7 +73,6 @@ class ChordProgression:
             time.sleep(n_beat64*self.beat64_us / 1e6)
 
     def note_on_off(self, note_midi, n_beat64, advance_beats):
-
         p = TLVPacketNoteOnOff(self.t_start, self.t_start + n_beat64*self.beat64_us, note_midi, 1, 255)
         send_tlv_packet(p)
         if advance_beats:
@@ -141,7 +140,7 @@ def parse_chord(line):
         "sus2"      : [0, 2, 7],
         "6"         : [0, 4, 7, 9],
     }
-    match = re.match(r"([A-G](#|b)?)\s*(maj|m|m7|m9|maj7|7|maj9|9|chord69|69|6/9|5|sus4|sus2|6)?\s+(\d+)\s*(&?)$", line.strip())
+    match = re.match(r"([A-G](#|b)?)\s*(maj|m|m7|m9|maj7|7|maj9|9|chord69|69|6/9|5|sus4|sus2|6)?\s+(\d+)\s*(s?)\s*(&?)$", line.strip())
 
     if match:
         root = match.group(1)  # the root note (e.g., A, B, C#, Cb)
@@ -151,13 +150,16 @@ def parse_chord(line):
         if chord_type is None:
             chord_type = "maj"
 
-        n_beat = int(match.group(4))  # duration in beat/16
-        advance_beats = not bool(match.group(5))
+        n_beat = int(match.group(4))  # duration in beats
+        sixtyfourth = match.group(5)
+        if sixtyfourth == '':
+            n_beat *= 16
+        advance_beats = not bool(match.group(6))
 
-        print(f"playing chord: {root}{chord_type} for {n_beat} beats")
+        print(f"playing chord: {root}{chord_type} for {n_beat/16} beats")
         
         # call the function to play the chord, with midi lookup inside
-        cp.play_chord(n_beat * 16, root, chord_type2list.get(chord_type), advance_beats)
+        cp.play_chord(n_beat, root, chord_type2list.get(chord_type), advance_beats)
     else:
         print(f"error: invalid chord format in line '{line}'")
 
@@ -184,29 +186,35 @@ def parse_title(line):
         send_tlv_packet(TLVPacketTitle(title))
 
 def parse_note(line):
-    match = re.match(r"note\s+([A-G](#|b)?)\s*(\d+)\s+(\d+)\s*(&?)$", line)
+    match = re.match(r"note\s+([A-G](#|b)?)\s*(\d+)\s+(\d+)\s*(s?)\s*(&?)$", line)
     if match:
         note_str = match.group(1)
         octave = int(match.group(3))
-        n_beat64 = int(match.group(4))
-        advance_beats = not bool(match.group(5))
+        n_beat = int(match.group(4))
+        sixtyfourth = match.group(5)
+        if sixtyfourth == '':
+            n_beat *= 16
+        advance_beats = not bool(match.group(6))
 
         note_midi = note_to_midi(note_str, octave)
 
-        print(f'playing note  {note_str} for {int(n_beat64 / 16)} beats')
-        cp.note_on_off(note_midi, n_beat64, advance_beats)
+        print(f'playing note  {note_str} for {int(n_beat / 16)} beats')
+        cp.note_on_off(note_midi, n_beat, advance_beats)
     else:
         print(f"error: invalid note format in line '{line}'")
 
 def parse_midinote(line):
-    match = re.match(r"midinote\s+(\d+)\s+(\d+)\s*(&?)$", line)
+    match = re.match(r"midinote\s+(\d+)\s+(\d+)\s*(s?)\s*(&?)$", line)
     if match:
         midinote = int(match.group(1))
-        n_beat64 = int(match.group(2))
-        advance_beats = not bool(match.group(3))
+        n_beat = int(match.group(2))
+        sixtyfourth = match.group(3)
+        if sixtyfourth == '':
+            n_beat *= 16
+        advance_beats = not bool(match.group(4))
 
-        print(f'playing note {midinote} for {int(n_beat64 / 16)} beats')
-        cp.note_on_off(midinote, n_beat64, advance_beats)
+        print(f'playing note {midinote} for {int(n_beat / 16)} beats')
+        cp.note_on_off(midinote, n_beat, advance_beats)
     else:
         print(f"error: invalid note format in line '{line}'")
 
