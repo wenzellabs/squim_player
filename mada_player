@@ -156,7 +156,7 @@ def parse_chord(line):
             n_beat *= 16
         advance_beats = not bool(match.group(6))
 
-        print(f"playing chord: {root}{chord_type} for {n_beat/16} beats")
+        print(f"playing chord: {root}{chord_type} for {n_beat / 16} beats")
         
         # call the function to play the chord, with midi lookup inside
         cp.play_chord(n_beat, root, chord_type2list.get(chord_type), advance_beats)
@@ -198,7 +198,7 @@ def parse_note(line):
 
         note_midi = note_to_midi(note_str, octave)
 
-        print(f'playing note  {note_str} for {int(n_beat / 16)} beats')
+        print(f'playing note  {note_str} for {n_beat / 16} beats')
         cp.note_on_off(note_midi, n_beat, advance_beats)
     else:
         print(f"error: invalid note format in line '{line}'")
@@ -213,7 +213,7 @@ def parse_midinote(line):
             n_beat *= 16
         advance_beats = not bool(match.group(4))
 
-        print(f'playing note {midinote} for {int(n_beat / 16)} beats')
+        print(f'playing note {midinote} for {n_beat / 16} beats')
         cp.note_on_off(midinote, n_beat, advance_beats)
     else:
         print(f"error: invalid note format in line '{line}'")
