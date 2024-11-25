@@ -1,0 +1,212 @@
+#!/usr/bin/env python3
+
+import zipfile
+import xml.etree.ElementTree as ET
+import sys
+
+def name2midi(name: str) -> int:
+    # note names to semitone offsets within an octave
+    pitch_offsets = {
+        'C': 0, 'B#': 0,
+        'C#': 1, 'Db': 1,
+        'D': 2,
+        'D#': 3, 'Eb': 3,
+        'E': 4, 'Fb': 4,
+        'E#': 5, 'F': 5,
+        'F#': 6, 'Gb': 6,
+        'G': 7,
+        'G#': 8, 'Ab': 8,
+        'A': 9,
+        'A#': 10, 'Bb': 10,
+        'B': 11, 'Cb': 11
+    }
+
+    note = name[:-1]
+    octave = int(name[-1])
+
+    midi_number = 12 * (octave + 1) + pitch_offsets.get(note, 0)
+    return midi_number
+
+class Note:
+    def __init__(self, pitch_step, pitch_alter, pitch_octave, rest, duration, voice, chord, measure):
+
+        if pitch_step is not None and  pitch_octave is not None:
+            self.name = f'{pitch_step.text}'
+            if pitch_alter is not None:
+                if pitch_alter.text == '1':
+                    self.name  += '#'
+                if pitch_alter.text == '-1':
+                    self.name  += 'b'
+            self.name += pitch_octave.text
+            self.is_rest = False
+        else:
+            self.is_rest = True
+            if rest is None:
+                print(f'WARNING: restless rest')
+                if pitch_step is not None:
+                    print(f'\t{pitch_step.text=}')
+                if pitch_octave is not None:
+                    print(f'\t{pitch_octave.text=}')
+                if rest is not None:
+                    print(f'\t{rest.text=}')
+            self.name = 'pause'
+
+        if self.name != 'pause':
+            self.midi = name2midi(self.name)
+        else:
+            self.midi = -1
+        if duration is not None:
+            self.duration = int(duration.text)
+        else:
+            self.duration = None
+        if voice is not None:
+            self.voice = voice.text
+        else:
+            self.voice = 0 # otherwise unused
+        self.measure = measure
+        if chord is not None:
+            self.chord = chord
+        else:
+            self.chord = None
+        self.dump()
+
+    def dump(self):
+        print(f'{self.name} - midi{self.midi} - voice{self.voice} - dur{self.duration} - meas{self.measure} - chord{self.chord}')
+
+    def match_duration(self, other_note):
+        return self.duration == other_note.duration
+    
+    def set_starttime(self, starttime):
+        self.starttime = starttime
+
+    def is_chord(self):
+        return not self.chord == None
+
+
+class MXL2mada:
+    def __init__(self, filename:str) -> None:
+        self.in_filename = filename
+        self.fin = zipfile.ZipFile(self.in_filename, 'r')
+        self.out_filename = self.in_filename.rsplit('.', 1)[0] + ".mada"
+        self.fout = open(self.out_filename, 'w')
+        musicxml_path = self._get_musicxml_path(self.fin)
+        if not musicxml_path:
+            print("No MusicXML file path found in META-INF/container.xml.")
+            exit(1)
+        self.musicxml_file = self.fin.open(musicxml_path)
+        self.tree = ET.parse(self.musicxml_file)
+        self.root = self.tree.getroot()
+        self._extract_key_signature()
+        self._extract_divisions()
+        self.bpm = 120 # will be updated each measure
+        self._collect_notes()
+        self._process_measures()
+
+    def _get_musicxml_path(self, mxl_zip):
+        try:
+            with mxl_zip.open('META-INF/container.xml') as container_file:
+                container_tree = ET.parse(container_file)
+                rootfile_element = container_tree.find('.//rootfile')
+                if rootfile_element is not None:
+                    return rootfile_element.attrib['full-path']
+        except (KeyError, ET.ParseError):
+            print("Error reading container.xml or file not found.")
+        return None
+
+    def _extract_key_signature(self):
+        key_element = self.root.find('.//key')
+        if key_element is not None:
+            fifths_element = key_element.find('fifths')
+            mode_element = key_element.find('mode')
+
+            # Map the fifths to key names
+            fifths_to_key = {
+                0: "C", 1: "G", 2: "D", 3: "A", 4: "E", 5: "B", 6: "F#", 7: "C#",
+                -1: "F", -2: "Bb", -3: "Eb", -4: "Ab", -5: "Db", -6: "Gb", -7: "Cb"
+            }
+            key_name = fifths_to_key.get(int(fifths_element.text), "Unknown") if fifths_element is not None else "Unknown"
+            scale_mode = mode_element.text if mode_element is not None else "major"
+
+            self.fout.write(f"; key {key_name}\n")
+            self.fout.write(f"; scale {scale_mode}\n")
+    
+    def _extract_divisions(self):
+        # number of time steps that make up a quarter note
+        self.divisions = int(self.root.find('.//attributes/divisions').text)
+        print(f'{self.divisions=}')
+
+    def _collect_notes(self):
+        all_measures = []
+        for measure in self.root.findall('.//measure'):
+            measure_notes = []
+            all_measures.append(measure_notes)
+            for note in measure.findall('note'):
+                if note.find('duration') is not None:
+                    all_measures[-1].append(Note(
+                            note.find('pitch/step'),
+                            note.find('pitch/alter'),
+                            note.find('pitch/octave'),
+                            note.find('rest'),
+                            note.find('duration'),
+                            note.find('voice'),
+                            note.find('chord'),
+                            len(all_measures) -1
+                        )
+                    )
+        self.measures = all_measures
+
+    def _process_measures(self):
+        print(f'got {len(self.measures)} measures.')
+        self.voices = []
+        for m in self.measures:
+            for n in m:
+                if n.voice not in self.voices:
+                    self.voices.append(n.voice)
+        print(f'got {len(self.voices)} voices: {self.voices}')
+        for v in self.voices:
+            t_start = 0
+            for m in self.measures:
+                for n in m:
+                    if n.voice == v:
+                        n.set_starttime(t_start)
+                        print(f'{n.name} v{v}', end='')
+                        if not n.is_chord():
+                            print(f' advances {n.duration}', end='')
+                            t_start += n.duration
+                        print()
+
+        # sort notes by starttime in t_sorted_notes
+        t_sorted_notes = []
+        for m in self.measures:
+            for n in m:
+                t_sorted_notes.append(n)
+        t_sorted_notes = sorted(t_sorted_notes, key=lambda n: n.starttime)
+
+        # basic strategy: play all notes (and rests) concurrently (by appending &)
+        # play a (blocking) rest each time the starttime advances
+        t_start = 0
+        rest = Note(None, 0, 0, True, None, None, False, 0)
+        for n in t_sorted_notes:
+
+            if n.starttime != t_start:
+                rest.duration = n.starttime - t_start
+                self._emit_note(rest, False)
+            t_start = n.starttime
+            self._emit_note(n, True)
+
+    def _emit_note(self, n:Note, concurrent:bool):
+        suffix = ''
+        if concurrent:
+            suffix = '&'
+        the_factor = 16 # convert MXL duration in quarternotes to sixtyfourths
+        if n.midi == -1:
+            self.fout.write(f'pause {n.duration * the_factor // self.divisions }s{suffix}\n')
+        else:
+            self.fout.write(f'midinote {n.midi} {n.duration * the_factor // self.divisions }s{suffix}\n')
+
+
+if __name__ == "__main__":
+    if len(sys.argv) < 2:
+        print("Usage: python parse_mxl.py <path_to_mxl_file>")
+    else:
+        converter = MXL2mada(sys.argv[1])
