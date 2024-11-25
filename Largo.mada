@@ -1,0 +1,3264 @@
+; key Bb
+; scale major
+pause 4s&
+midinote 43 4s&
+midinote 62 64s&
+midinote 46 64s&
+pause 4s
+midinote 43 32s&
+midinote 55 4s&
+midinote 43 32s&
+pause 32s
+midinote 43 16s&
+midinote 55 32s&
+midinote 43 16s&
+pause 16s
+pause 16s&
+midinote 55 16s&
+pause 12s&
+pause 12s
+midinote 41 4s&
+midinote 62 64s&
+midinote 53 32s&
+pause 4s
+midinote 43 32s&
+midinote 53 4s&
+midinote 43 32s&
+pause 28s
+midinote 55 32s&
+pause 4s
+midinote 43 16s&
+midinote 55 32s&
+midinote 43 16s&
+pause 16s
+pause 16s&
+midinote 55 16s&
+midinote 58 16s&
+pause 16s
+midinote 62 64s&
+midinote 62 16s&
+midinote 60 16s&
+pause 16s
+midinote 58 16s&
+pause 16s
+midinote 54 16s&
+pause 16s
+midinote 57 16s&
+midinote 55 16s&
+pause 16s
+midinote 62 8s&
+midinote 58 16s&
+midinote 62 8s&
+pause 8s
+midinote 61 8s&
+midinote 61 8s&
+pause 8s
+midinote 62 8s&
+midinote 62 8s&
+pause 8s
+midinote 61 8s&
+midinote 61 8s&
+pause 8s
+midinote 62 16s&
+midinote 62 16s&
+pause 16s
+pause 16s&
+pause 16s&
+pause 16s
+midinote 60 48s&
+midinote 60 48s&
+pause 48s
+midinote 58 16s&
+midinote 63 48s&
+midinote 58 16s&
+pause 16s
+midinote 60 48s&
+midinote 62 16s&
+midinote 60 48s&
+pause 48s
+midinote 58 16s&
+midinote 63 48s&
+midinote 58 16s&
+pause 16s
+midinote 57 16s&
+midinote 62 16s&
+midinote 60 64s&
+pause 16s
+pause 16s&
+pause 16s
+pause 32s&
+pause 32s
+pause 32s&
+midinote 63 64s&
+midinote 50 32s&
+pause 32s
+pause 16s&
+midinote 58 32s&
+midinote 50 16s&
+pause 16s
+pause 12s&
+midinote 57 16s&
+pause 16s&
+pause 12s
+midinote 55 4s&
+pause 4s
+midinote 55 32s&
+pause 8s&
+pause 8s
+midinote 43 8s&
+pause 8s
+midinote 46 8s&
+pause 8s
+midinote 50 8s&
+pause 8s
+midinote 50 16s&
+midinote 55 16s&
+pause 16s
+midinote 51 12s&
+pause 16s&
+pause 12s
+midinote 58 4s&
+pause 4s
+midinote 58 32s&
+pause 8s&
+pause 8s
+midinote 43 8s&
+pause 8s
+midinote 46 8s&
+pause 8s
+midinote 50 8s&
+pause 8s
+midinote 55 16s&
+midinote 55 16s&
+pause 16s
+midinote 62 16s&
+pause 16s&
+pause 16s
+midinote 54 16s&
+midinote 60 16s&
+pause 16s
+midinote 55 16s&
+midinote 58 16s&
+pause 16s
+midinote 60 16s&
+midinote 57 16s&
+pause 16s
+midinote 58 16s&
+midinote 55 16s&
+pause 16s
+midinote 58 32s&
+midinote 62 32s&
+pause 32s
+midinote 57 16s&
+midinote 50 16s&
+pause 16s
+pause 16s&
+pause 16s&
+pause 16s
+midinote 63 32s&
+midinote 48 64s&
+pause 32s
+midinote 60 16s&
+pause 16s
+midinote 57 16s&
+pause 16s
+midinote 62 32s&
+midinote 60 64s&
+midinote 46 32s&
+pause 32s
+midinote 55 24s&
+midinote 48 32s&
+pause 24s
+midinote 57 8s&
+pause 8s
+midinote 58 32s&
+midinote 50 8s&
+pause 8s
+midinote 51 8s&
+pause 8s
+midinote 50 8s&
+pause 8s
+midinote 49 8s&
+pause 8s
+midinote 57 16s&
+midinote 50 16s&
+pause 16s
+midinote 60 8s&
+midinote 38 16s&
+pause 8s
+midinote 58 8s&
+pause 8s
+midinote 55 16s&
+midinote 55 8s&
+pause 8s
+midinote 67 8s&
+pause 8s
+pause 16s&
+midinote 65 8s&
+pause 8s
+midinote 67 8s&
+pause 8s
+pause 32s&
+midinote 55 8s&
+pause 8s
+midinote 67 8s&
+pause 8s
+midinote 65 8s&
+pause 8s
+midinote 67 8s&
+pause 8s
+pause 64s&
+midinote 55 8s&
+pause 8s
+midinote 63 8s&
+midinote 66 8s&
+pause 8s
+midinote 55 8s&
+pause 8s
+midinote 63 8s&
+midinote 66 8s&
+pause 8s
+midinote 55 8s&
+pause 8s
+midinote 58 8s&
+midinote 67 8s&
+pause 8s
+midinote 55 8s&
+pause 8s
+midinote 60 8s&
+midinote 66 8s&
+pause 8s
+pause 32s&
+midinote 55 8s&
+pause 8s
+midinote 58 8s&
+midinote 67 8s&
+pause 8s
+midinote 62 8s&
+pause 8s
+midinote 67 8s&
+pause 8s
+pause 16s&
+midinote 55 8s&
+pause 8s
+midinote 58 8s&
+midinote 67 8s&
+pause 8s
+midinote 62 8s&
+midinote 62 8s&
+pause 8s
+midinote 62 8s&
+midinote 67 8s&
+pause 8s
+midinote 62 8s&
+midinote 50 8s&
+pause 8s
+midinote 60 8s&
+pause 8s&
+pause 8s
+midinote 60 8s&
+midinote 62 8s&
+pause 8s
+midinote 60 8s&
+pause 8s&
+pause 8s
+midinote 60 8s&
+midinote 50 8s&
+pause 8s
+midinote 58 8s&
+pause 8s&
+pause 8s
+midinote 58 8s&
+midinote 62 8s&
+pause 8s
+midinote 58 8s&
+pause 8s&
+pause 8s
+midinote 57 16s&
+midinote 54 8s&
+pause 8s
+midinote 62 8s&
+pause 8s
+pause 16s&
+midinote 57 8s&
+pause 8s
+midinote 62 8s&
+pause 8s
+pause 32s&
+midinote 54 8s&
+pause 8s
+midinote 62 8s&
+pause 8s
+midinote 57 8s&
+pause 8s
+midinote 62 8s&
+pause 8s
+pause 64s&
+midinote 55 8s&
+pause 8s
+midinote 63 8s&
+pause 8s
+midinote 58 8s&
+pause 8s
+midinote 63 8s&
+pause 8s
+midinote 57 8s&
+pause 8s
+midinote 65 8s&
+pause 8s
+midinote 60 8s&
+pause 8s
+midinote 65 8s&
+pause 8s
+pause 32s&
+midinote 58 8s&
+pause 8s
+midinote 65 8s&
+pause 8s
+midinote 62 8s&
+pause 8s
+midinote 65 8s&
+pause 8s
+pause 8s&
+midinote 58 8s&
+pause 8s
+midinote 65 8s&
+midinote 65 8s&
+pause 8s
+midinote 63 8s&
+midinote 62 8s&
+pause 8s
+midinote 62 8s&
+midinote 65 8s&
+pause 8s
+midinote 60 16s&
+midinote 51 8s&
+pause 8s
+midinote 60 8s&
+pause 8s
+midinote 60 16s&
+midinote 55 8s&
+pause 8s
+midinote 60 8s&
+pause 8s
+midinote 61 8s&
+midinote 52 32s&
+pause 8s
+midinote 63 4s&
+pause 4s
+midinote 61 4s&
+pause 4s
+midinote 60 8s&
+pause 8s
+midinote 58 8s&
+pause 8s
+midinote 53 64s&
+midinote 53 8s&
+pause 8s
+midinote 57 8s&
+midinote 65 8s&
+pause 8s
+midinote 60 8s&
+pause 8s
+midinote 65 8s&
+pause 8s
+midinote 53 8s&
+pause 8s
+midinote 57 8s&
+midinote 65 8s&
+pause 8s
+midinote 60 8s&
+pause 8s
+midinote 65 8s&
+pause 8s
+midinote 53 8s&
+midinote 53 8s&
+pause 8s
+pause 8s&
+midinote 58 8s&
+midinote 65 8s&
+pause 8s
+pause 16s&
+midinote 62 8s&
+pause 8s
+midinote 65 8s&
+pause 8s
+midinote 61 24s&
+midinote 53 8s&
+pause 8s
+midinote 58 8s&
+midinote 61 8s&
+midinote 64 8s&
+pause 8s
+midinote 53 8s&
+pause 8s
+midinote 58 8s&
+midinote 58 8s&
+midinote 61 8s&
+midinote 64 8s&
+pause 8s
+midinote 57 16s&
+midinote 53 8s&
+pause 8s
+midinote 57 8s&
+midinote 65 8s&
+pause 8s
+pause 16s&
+midinote 60 8s&
+pause 8s
+midinote 65 8s&
+pause 8s
+midinote 53 32s&
+midinote 53 8s&
+pause 8s
+midinote 57 8s&
+midinote 65 8s&
+pause 8s
+midinote 60 8s&
+pause 8s
+midinote 65 8s&
+pause 8s
+midinote 53 8s&
+midinote 53 8s&
+pause 8s
+pause 8s&
+midinote 58 8s&
+midinote 65 8s&
+pause 8s
+pause 16s&
+midinote 62 8s&
+pause 8s
+midinote 65 8s&
+pause 8s
+midinote 61 24s&
+midinote 53 8s&
+pause 8s
+midinote 58 8s&
+midinote 61 8s&
+midinote 64 8s&
+pause 8s
+midinote 53 8s&
+pause 8s
+midinote 58 8s&
+midinote 58 8s&
+midinote 61 8s&
+midinote 64 8s&
+pause 8s
+midinote 57 8s&
+midinote 53 16s&
+pause 8s
+pause 8s&
+pause 8s
+midinote 65 16s&
+midinote 65 16s&
+pause 16s&
+pause 16s
+midinote 63 16s&
+pause 32s&
+pause 16s
+midinote 60 16s&
+pause 16s
+midinote 62 32s&
+midinote 46 64s&
+pause 32s
+midinote 60 8s&
+pause 8s
+midinote 58 8s&
+pause 8s
+midinote 57 8s&
+pause 8s
+midinote 55 8s&
+pause 8s
+midinote 55 32s&
+midinote 53 64s&
+midinote 58 64s&
+midinote 46 64s&
+pause 32s
+midinote 53 16s&
+pause 16s
+midinote 62 16s&
+pause 16s
+midinote 60 24s&
+midinote 53 64s&
+midinote 58 64s&
+midinote 54 32s&
+pause 24s
+midinote 63 8s&
+pause 8s
+midinote 57 24s&
+midinote 53 32s&
+pause 24s
+midinote 60 8s&
+pause 8s
+midinote 58 32s&
+midinote 46 64s&
+pause 32s
+midinote 53 16s&
+pause 16s
+pause 16s&
+pause 16s
+midinote 62 32s&
+midinote 53 64s&
+midinote 58 64s&
+midinote 46 64s&
+pause 32s
+midinote 60 8s&
+pause 8s
+midinote 58 8s&
+pause 8s
+midinote 57 8s&
+pause 8s
+midinote 55 8s&
+pause 8s
+midinote 55 32s&
+midinote 58 64s&
+midinote 46 32s&
+pause 32s
+midinote 53 16s&
+midinote 53 32s&
+midinote 58 32s&
+midinote 46 16s&
+pause 16s
+midinote 62 16s&
+midinote 53 16s&
+midinote 58 16s&
+pause 16s&
+pause 16s
+midinote 62 8s&
+midinote 48 8s&
+pause 8s
+midinote 60 8s&
+midinote 53 8s&
+pause 8s
+midinote 57 8s&
+midinote 57 8s&
+pause 8s
+midinote 60 8s&
+midinote 60 8s&
+pause 8s
+midinote 60 8s&
+midinote 48 8s&
+pause 8s
+midinote 58 8s&
+midinote 52 8s&
+pause 8s
+midinote 57 8s&
+midinote 55 8s&
+pause 8s
+midinote 55 8s&
+midinote 60 8s&
+pause 8s
+midinote 53 16s&
+midinote 53 16s&
+pause 16s
+pause 16s&
+pause 16s&
+pause 16s
+pause 32s&
+pause 32s&
+pause 32s
+midinote 46 16s&
+midinote 62 8s&
+pause 8s
+midinote 65 8s&
+pause 8s
+pause 16s&
+midinote 62 8s&
+pause 8s
+midinote 65 8s&
+pause 8s
+pause 32s&
+midinote 58 8s&
+pause 8s
+midinote 67 8s&
+pause 8s
+midinote 63 8s&
+pause 8s
+midinote 67 8s&
+pause 8s
+midinote 46 16s&
+midinote 58 8s&
+pause 8s
+midinote 65 8s&
+pause 8s
+pause 16s&
+midinote 62 8s&
+pause 8s
+midinote 65 8s&
+pause 8s
+pause 32s&
+midinote 58 8s&
+pause 8s
+midinote 65 8s&
+pause 8s
+midinote 62 8s&
+pause 8s
+midinote 65 8s&
+pause 8s
+midinote 46 64s&
+midinote 58 8s&
+pause 8s
+midinote 66 8s&
+pause 8s
+midinote 63 8s&
+pause 8s
+midinote 66 8s&
+pause 8s
+midinote 58 8s&
+pause 8s
+midinote 65 8s&
+pause 8s
+midinote 63 8s&
+pause 8s
+midinote 65 8s&
+pause 8s
+midinote 46 32s&
+midinote 58 8s&
+pause 8s
+midinote 65 8s&
+pause 8s
+midinote 62 8s&
+pause 8s
+midinote 65 8s&
+pause 8s
+pause 32s&
+midinote 58 8s&
+pause 8s
+midinote 65 8s&
+pause 8s
+midinote 62 8s&
+pause 8s
+midinote 65 8s&
+pause 8s
+midinote 46 16s&
+midinote 58 8s&
+pause 8s
+midinote 65 8s&
+pause 8s
+pause 16s&
+midinote 62 8s&
+pause 8s
+midinote 65 8s&
+pause 8s
+pause 32s&
+midinote 58 8s&
+pause 8s
+midinote 67 8s&
+pause 8s
+midinote 63 8s&
+pause 8s
+midinote 67 8s&
+pause 8s
+midinote 46 32s&
+midinote 58 8s&
+pause 8s
+midinote 65 8s&
+pause 8s
+midinote 62 8s&
+pause 8s
+midinote 65 8s&
+pause 8s
+pause 32s&
+midinote 58 8s&
+pause 8s
+midinote 65 8s&
+pause 8s
+midinote 62 8s&
+pause 8s
+midinote 65 8s&
+pause 8s
+midinote 51 32s&
+midinote 51 8s&
+pause 8s
+midinote 60 8s&
+pause 8s
+pause 8s&
+pause 8s
+midinote 60 8s&
+pause 8s
+midinote 53 32s&
+midinote 53 8s&
+pause 8s
+midinote 58 8s&
+midinote 62 8s&
+pause 8s
+midinote 53 8s&
+pause 8s
+midinote 57 8s&
+midinote 63 8s&
+pause 8s
+midinote 58 8s&
+midinote 58 8s&
+pause 8s
+pause 8s&
+midinote 62 8s&
+midinote 53 8s&
+pause 8s
+midinote 58 8s&
+midinote 58 8s&
+pause 8s
+midinote 58 8s&
+midinote 62 8s&
+midinote 53 8s&
+pause 8s
+midinote 58 8s&
+midinote 58 8s&
+pause 8s
+midinote 60 4s&
+midinote 62 8s&
+midinote 53 8s&
+pause 4s
+midinote 58 4s&
+pause 4s
+midinote 57 8s&
+midinote 58 8s&
+pause 8s
+midinote 58 8s&
+midinote 62 8s&
+midinote 53 8s&
+pause 8s
+midinote 59 8s&
+midinote 60 8s&
+pause 8s
+midinote 60 8s&
+midinote 63 8s&
+midinote 53 8s&
+pause 8s
+midinote 60 8s&
+midinote 60 8s&
+pause 8s
+midinote 60 8s&
+midinote 63 8s&
+midinote 53 8s&
+pause 8s
+midinote 60 8s&
+midinote 60 8s&
+pause 8s
+midinote 62 4s&
+midinote 63 8s&
+midinote 53 8s&
+pause 4s
+midinote 60 4s&
+pause 4s
+midinote 59 8s&
+midinote 60 8s&
+pause 8s
+midinote 60 8s&
+midinote 63 8s&
+midinote 53 8s&
+pause 8s
+midinote 61 8s&
+midinote 58 8s&
+pause 8s
+midinote 62 8s&
+midinote 62 8s&
+midinote 53 8s&
+pause 8s
+midinote 62 8s&
+midinote 58 8s&
+pause 8s
+midinote 62 8s&
+midinote 62 8s&
+midinote 53 8s&
+pause 8s
+midinote 67 8s&
+midinote 58 8s&
+pause 8s
+midinote 65 8s&
+midinote 62 8s&
+midinote 53 8s&
+pause 8s
+midinote 63 8s&
+midinote 58 8s&
+pause 8s
+midinote 62 8s&
+midinote 62 8s&
+midinote 53 8s&
+pause 8s
+midinote 62 8s&
+midinote 60 8s&
+pause 8s
+midinote 60 8s&
+midinote 63 8s&
+midinote 53 8s&
+pause 8s
+midinote 60 8s&
+midinote 60 8s&
+pause 8s
+midinote 60 8s&
+midinote 63 8s&
+midinote 53 8s&
+pause 8s
+midinote 60 8s&
+midinote 60 8s&
+pause 8s
+midinote 62 4s&
+midinote 63 8s&
+midinote 53 8s&
+pause 4s
+midinote 63 4s&
+pause 4s
+midinote 62 8s&
+midinote 60 8s&
+pause 8s
+midinote 60 8s&
+midinote 63 8s&
+midinote 53 8s&
+pause 8s
+midinote 58 8s&
+midinote 58 16s&
+pause 8s
+pause 8s&
+pause 8s
+midinote 58 8s&
+midinote 62 16s&
+pause 16s&
+pause 8s
+midinote 60 8s&
+pause 8s
+midinote 62 8s&
+midinote 58 16s&
+pause 8s
+pause 8s&
+pause 8s
+midinote 58 8s&
+pause 16s&
+pause 8s
+midinote 60 8s&
+pause 8s
+midinote 62 8s&
+midinote 58 16s&
+pause 8s
+pause 8s&
+pause 8s
+midinote 58 8s&
+pause 16s&
+pause 8s
+midinote 60 8s&
+pause 8s
+midinote 62 8s&
+midinote 58 16s&
+pause 8s
+midinote 63 8s&
+pause 8s
+midinote 65 8s&
+midinote 58 16s&
+pause 8s
+midinote 62 8s&
+pause 8s
+midinote 63 8s&
+midinote 51 16s&
+pause 8s
+midinote 62 8s&
+pause 8s
+midinote 63 8s&
+pause 16s&
+pause 8s
+midinote 62 8s&
+pause 8s
+midinote 63 8s&
+midinote 51 16s&
+pause 8s
+midinote 62 8s&
+pause 8s
+midinote 63 8s&
+pause 16s&
+pause 8s
+midinote 62 8s&
+pause 8s
+midinote 63 16s&
+midinote 51 16s&
+pause 16s
+midinote 67 16s&
+pause 16s&
+pause 16s
+midinote 65 16s&
+pause 32s&
+pause 16s
+midinote 63 16s&
+pause 16s
+midinote 62 16s&
+midinote 53 16s&
+pause 16s
+midinote 58 8s&
+pause 16s&
+pause 8s
+midinote 62 8s&
+pause 8s
+midinote 62 8s&
+midinote 53 16s&
+pause 8s
+midinote 60 8s&
+pause 8s
+midinote 58 8s&
+midinote 53 16s&
+pause 8s
+midinote 57 8s&
+pause 8s
+midinote 58 8s&
+midinote 58 16s&
+pause 8s
+pause 8s&
+pause 8s
+midinote 62 8s&
+pause 16s&
+pause 8s
+midinote 62 8s&
+pause 8s
+midinote 62 8s&
+midinote 51 8s&
+pause 8s
+midinote 60 8s&
+pause 8s&
+pause 8s
+midinote 60 8s&
+midinote 51 8s&
+pause 8s
+midinote 60 8s&
+pause 8s&
+pause 8s
+midinote 60 8s&
+midinote 53 8s&
+pause 8s
+midinote 58 8s&
+pause 8s&
+pause 8s
+midinote 58 8s&
+midinote 53 8s&
+pause 8s
+midinote 58 8s&
+pause 8s&
+pause 8s
+midinote 58 8s&
+midinote 41 8s&
+pause 8s
+midinote 57 8s&
+pause 8s&
+pause 8s
+midinote 57 8s&
+midinote 41 8s&
+pause 8s
+midinote 57 8s&
+pause 8s&
+pause 8s
+midinote 63 8s&
+midinote 46 8s&
+pause 8s
+midinote 62 8s&
+pause 8s&
+pause 8s
+midinote 62 8s&
+midinote 46 8s&
+pause 8s
+midinote 62 8s&
+pause 8s&
+pause 8s
+midinote 62 8s&
+midinote 51 8s&
+pause 8s
+midinote 60 8s&
+pause 8s&
+pause 8s
+midinote 60 8s&
+midinote 51 8s&
+pause 8s
+midinote 60 8s&
+pause 8s&
+pause 8s
+midinote 60 8s&
+midinote 53 8s&
+pause 8s
+midinote 58 8s&
+pause 8s&
+pause 8s
+midinote 58 8s&
+midinote 53 8s&
+pause 8s
+midinote 58 8s&
+pause 8s&
+pause 8s
+midinote 58 8s&
+midinote 41 8s&
+pause 8s
+midinote 57 8s&
+pause 8s&
+pause 8s
+midinote 57 8s&
+midinote 41 8s&
+pause 8s
+midinote 57 8s&
+pause 8s&
+pause 8s
+midinote 58 16s&
+midinote 58 8s&
+pause 8s
+midinote 62 8s&
+pause 8s
+pause 16s&
+midinote 65 8s&
+midinote 62 8s&
+pause 8s
+midinote 65 8s&
+midinote 62 8s&
+pause 8s
+pause 32s&
+midinote 65 8s&
+midinote 58 8s&
+pause 8s
+midinote 62 8s&
+pause 8s
+midinote 65 8s&
+midinote 62 8s&
+pause 8s
+midinote 65 8s&
+midinote 62 8s&
+pause 8s
+pause 64s&
+midinote 65 8s&
+midinote 58 8s&
+pause 8s
+midinote 62 8s&
+pause 8s
+midinote 65 8s&
+midinote 62 8s&
+pause 8s
+midinote 65 8s&
+midinote 62 8s&
+pause 8s
+midinote 65 8s&
+midinote 58 8s&
+pause 8s
+midinote 63 8s&
+pause 8s
+midinote 67 8s&
+midinote 63 8s&
+pause 8s
+midinote 67 8s&
+midinote 63 8s&
+pause 8s
+pause 64s&
+midinote 67 8s&
+midinote 58 8s&
+pause 8s
+midinote 62 8s&
+pause 8s
+midinote 65 8s&
+midinote 62 8s&
+pause 8s
+midinote 65 8s&
+midinote 62 8s&
+pause 8s
+midinote 65 8s&
+midinote 58 8s&
+pause 8s
+midinote 62 8s&
+pause 8s
+midinote 65 8s&
+midinote 62 8s&
+pause 8s
+midinote 65 8s&
+midinote 62 8s&
+pause 8s
+pause 64s&
+midinote 65 8s&
+midinote 53 8s&
+pause 8s
+midinote 63 8s&
+pause 8s
+midinote 63 8s&
+pause 8s
+midinote 63 8s&
+pause 8s
+midinote 53 8s&
+pause 8s
+midinote 63 8s&
+pause 8s
+midinote 63 8s&
+pause 8s
+midinote 63 8s&
+pause 8s
+pause 64s&
+midinote 58 8s&
+pause 8s
+midinote 62 8s&
+pause 8s
+midinote 65 8s&
+midinote 62 8s&
+pause 8s
+midinote 65 8s&
+midinote 62 8s&
+pause 8s
+midinote 65 8s&
+midinote 58 8s&
+pause 8s
+midinote 62 8s&
+pause 8s
+midinote 65 8s&
+midinote 62 8s&
+pause 8s
+midinote 65 8s&
+midinote 62 8s&
+pause 8s
+midinote 58 32s&
+midinote 65 8s&
+midinote 58 8s&
+pause 8s
+midinote 62 8s&
+pause 8s
+midinote 65 8s&
+midinote 62 8s&
+pause 8s
+midinote 65 8s&
+midinote 62 8s&
+pause 8s
+midinote 57 32s&
+midinote 65 8s&
+midinote 57 8s&
+pause 8s
+midinote 60 8s&
+pause 8s
+midinote 58 8s&
+pause 8s
+midinote 57 8s&
+pause 8s
+midinote 55 32s&
+midinote 55 8s&
+pause 8s
+midinote 58 8s&
+pause 8s
+midinote 62 8s&
+midinote 58 8s&
+pause 8s
+midinote 62 8s&
+midinote 58 8s&
+pause 8s
+pause 32s&
+midinote 62 8s&
+midinote 55 8s&
+pause 8s
+midinote 58 8s&
+pause 8s
+midinote 62 8s&
+midinote 58 8s&
+pause 8s
+midinote 62 8s&
+midinote 58 8s&
+pause 8s
+pause 64s&
+midinote 62 8s&
+midinote 51 64s&
+pause 64s
+pause 64s&
+midinote 55 64s&
+midinote 61 64s&
+midinote 50 8s&
+pause 8s
+midinote 54 8s&
+pause 8s
+midinote 57 8s&
+midinote 62 8s&
+midinote 54 8s&
+pause 8s
+midinote 57 8s&
+midinote 62 8s&
+midinote 54 8s&
+pause 8s
+midinote 57 8s&
+midinote 62 8s&
+midinote 50 8s&
+pause 8s
+midinote 57 8s&
+pause 8s
+midinote 60 8s&
+midinote 57 8s&
+pause 8s
+midinote 60 8s&
+midinote 57 8s&
+pause 8s
+pause 64s&
+midinote 60 8s&
+midinote 50 8s&
+pause 8s
+midinote 55 8s&
+pause 8s
+midinote 58 8s&
+midinote 55 8s&
+pause 8s
+midinote 58 8s&
+midinote 55 8s&
+pause 8s
+midinote 58 8s&
+midinote 50 8s&
+pause 8s
+midinote 55 8s&
+pause 8s
+midinote 58 8s&
+midinote 55 8s&
+pause 8s
+midinote 58 8s&
+midinote 55 8s&
+pause 8s
+pause 64s&
+midinote 58 8s&
+midinote 50 28s&
+pause 28s
+midinote 50 4s&
+pause 4s
+midinote 50 28s&
+pause 28s
+midinote 50 4s&
+pause 4s
+midinote 58 16s&
+midinote 50 32s&
+pause 16s
+midinote 62 16s&
+pause 16s
+midinote 65 16s&
+pause 32s&
+pause 16s
+midinote 69 16s&
+pause 16s
+midinote 71 32s&
+midinote 43 32s&
+pause 32s
+midinote 69 8s&
+midinote 55 32s&
+midinote 43 32s&
+pause 8s
+midinote 67 8s&
+pause 8s
+midinote 66 8s&
+pause 8s
+midinote 64 8s&
+pause 8s
+midinote 64 32s&
+midinote 55 32s&
+midinote 43 32s&
+pause 32s
+midinote 62 16s&
+midinote 55 32s&
+pause 32s&
+pause 16s
+midinote 67 8s&
+pause 8s
+midinote 66 8s&
+pause 8s
+midinote 64 16s&
+midinote 48 32s&
+pause 16s
+midinote 64 16s&
+pause 16s
+midinote 67 8s&
+midinote 52 32s&
+pause 8s
+midinote 66 8s&
+pause 8s
+midinote 64 8s&
+pause 8s
+midinote 66 8s&
+pause 8s
+midinote 67 32s&
+midinote 55 32s&
+pause 32s
+midinote 62 16s&
+pause 32s&
+pause 16s
+midinote 62 16s&
+pause 16s
+midinote 71 32s&
+midinote 43 32s&
+pause 32s
+midinote 69 8s&
+midinote 55 32s&
+midinote 43 32s&
+pause 8s
+midinote 67 8s&
+pause 8s
+midinote 66 8s&
+pause 8s
+midinote 64 8s&
+pause 8s
+midinote 64 32s&
+midinote 55 32s&
+midinote 43 32s&
+pause 32s
+midinote 62 16s&
+midinote 55 32s&
+pause 32s&
+pause 16s
+midinote 59 12s&
+pause 12s
+midinote 61 4s&
+pause 4s
+midinote 62 24s&
+midinote 57 32s&
+pause 24s
+midinote 64 8s&
+pause 8s
+midinote 66 12s&
+midinote 45 32s&
+pause 12s
+midinote 67 4s&
+pause 4s
+midinote 64 12s&
+pause 12s
+midinote 66 4s&
+pause 4s
+midinote 62 32s&
+midinote 50 16s&
+pause 16s
+pause 16s&
+pause 16s
+pause 32s&
+pause 32s&
+pause 32s
+midinote 43 32s&
+midinote 55 8s&
+pause 8s
+midinote 59 8s&
+midinote 67 8s&
+pause 8s
+midinote 62 8s&
+pause 8s
+midinote 67 8s&
+pause 8s
+pause 32s&
+midinote 55 8s&
+pause 8s
+midinote 60 8s&
+midinote 67 8s&
+pause 8s
+midinote 62 8s&
+pause 8s
+midinote 67 8s&
+pause 8s
+midinote 43 32s&
+midinote 55 8s&
+pause 8s
+midinote 59 8s&
+midinote 67 8s&
+pause 8s
+midinote 62 8s&
+pause 8s
+midinote 67 8s&
+pause 8s
+pause 32s&
+midinote 55 8s&
+pause 8s
+midinote 59 8s&
+midinote 67 8s&
+pause 8s
+midinote 62 8s&
+pause 8s
+midinote 67 8s&
+pause 8s
+midinote 43 32s&
+midinote 55 8s&
+pause 8s
+midinote 60 8s&
+midinote 67 8s&
+pause 8s
+midinote 64 8s&
+pause 8s
+midinote 67 8s&
+pause 8s
+midinote 43 32s&
+midinote 60 8s&
+pause 8s
+midinote 66 8s&
+pause 8s
+midinote 62 8s&
+pause 8s
+midinote 66 8s&
+pause 8s
+midinote 43 32s&
+midinote 55 8s&
+pause 8s
+midinote 59 8s&
+midinote 67 8s&
+pause 8s
+midinote 62 8s&
+pause 8s
+midinote 67 8s&
+pause 8s
+pause 32s&
+midinote 55 8s&
+pause 8s
+midinote 59 8s&
+midinote 67 8s&
+pause 8s
+midinote 62 8s&
+pause 8s
+midinote 67 8s&
+pause 8s
+midinote 43 16s&
+midinote 55 8s&
+pause 8s
+midinote 59 8s&
+midinote 67 8s&
+pause 8s
+pause 16s&
+midinote 62 8s&
+pause 8s
+midinote 67 8s&
+pause 8s
+pause 32s&
+midinote 55 8s&
+pause 8s
+midinote 60 8s&
+midinote 64 8s&
+pause 8s
+midinote 55 8s&
+pause 8s
+midinote 60 8s&
+midinote 64 8s&
+pause 8s
+midinote 43 16s&
+midinote 55 8s&
+pause 8s
+midinote 59 8s&
+midinote 67 8s&
+pause 8s
+pause 16s&
+midinote 62 8s&
+pause 8s
+midinote 67 8s&
+pause 8s
+pause 32s&
+midinote 55 8s&
+pause 8s
+midinote 60 8s&
+midinote 67 8s&
+pause 8s
+midinote 62 8s&
+pause 8s
+midinote 67 8s&
+pause 8s
+midinote 48 16s&
+midinote 48 8s&
+pause 8s
+midinote 52 8s&
+midinote 60 8s&
+pause 8s
+pause 16s&
+midinote 57 8s&
+pause 8s
+midinote 60 8s&
+pause 8s
+pause 32s&
+midinote 47 8s&
+pause 8s
+midinote 50 8s&
+midinote 55 8s&
+midinote 59 8s&
+pause 8s
+midinote 50 8s&
+pause 8s
+midinote 54 8s&
+midinote 57 8s&
+midinote 60 8s&
+pause 8s
+pause 16s&
+midinote 55 8s&
+pause 8s
+midinote 59 8s&
+midinote 50 8s&
+pause 8s
+midinote 59 8s&
+midinote 55 8s&
+pause 8s
+midinote 59 8s&
+midinote 59 8s&
+midinote 50 8s&
+pause 8s
+midinote 59 8s&
+midinote 55 8s&
+pause 8s
+midinote 60 4s&
+midinote 59 8s&
+midinote 50 8s&
+pause 4s
+midinote 59 4s&
+pause 4s
+midinote 59 8s&
+midinote 55 8s&
+pause 8s
+midinote 60 8s&
+midinote 59 8s&
+midinote 50 8s&
+pause 8s
+midinote 60 8s&
+midinote 57 8s&
+pause 8s
+midinote 62 8s&
+midinote 60 8s&
+midinote 50 8s&
+pause 8s
+midinote 62 8s&
+midinote 57 8s&
+pause 8s
+midinote 62 8s&
+midinote 60 8s&
+midinote 50 8s&
+pause 8s
+midinote 62 8s&
+midinote 57 8s&
+pause 8s
+midinote 64 4s&
+midinote 60 8s&
+midinote 50 8s&
+pause 4s
+midinote 62 4s&
+pause 4s
+midinote 60 8s&
+midinote 57 8s&
+pause 8s
+midinote 62 8s&
+midinote 60 8s&
+midinote 50 8s&
+pause 8s
+midinote 63 8s&
+midinote 55 8s&
+pause 8s
+midinote 64 8s&
+midinote 59 8s&
+midinote 50 8s&
+pause 8s
+midinote 64 8s&
+midinote 55 8s&
+pause 8s
+midinote 64 8s&
+midinote 59 8s&
+midinote 50 8s&
+pause 8s
+midinote 67 8s&
+midinote 55 8s&
+pause 8s
+midinote 66 8s&
+midinote 59 8s&
+midinote 50 8s&
+pause 8s
+midinote 64 8s&
+midinote 55 8s&
+pause 8s
+midinote 62 8s&
+midinote 59 8s&
+midinote 50 8s&
+pause 8s
+midinote 62 8s&
+midinote 57 8s&
+pause 8s
+midinote 60 8s&
+midinote 60 8s&
+midinote 50 8s&
+pause 8s
+midinote 60 8s&
+midinote 57 8s&
+pause 8s
+midinote 60 8s&
+midinote 60 8s&
+midinote 50 8s&
+pause 8s
+midinote 60 8s&
+midinote 57 8s&
+pause 8s
+midinote 62 4s&
+midinote 60 8s&
+midinote 50 8s&
+pause 4s
+midinote 60 4s&
+pause 4s
+midinote 62 8s&
+midinote 57 8s&
+pause 8s
+midinote 60 8s&
+midinote 60 8s&
+midinote 50 8s&
+pause 8s
+midinote 59 8s&
+midinote 55 16s&
+pause 8s
+pause 8s&
+pause 8s
+midinote 59 8s&
+pause 16s&
+pause 8s
+midinote 60 8s&
+pause 8s
+midinote 62 8s&
+midinote 55 16s&
+pause 8s
+pause 8s&
+pause 8s
+midinote 59 8s&
+pause 16s&
+pause 8s
+midinote 60 8s&
+pause 8s
+midinote 62 8s&
+midinote 55 16s&
+pause 8s
+pause 8s&
+pause 8s
+midinote 59 8s&
+pause 16s&
+pause 8s
+midinote 60 8s&
+pause 8s
+midinote 62 8s&
+midinote 55 8s&
+pause 8s
+midinote 64 8s&
+pause 8s&
+pause 8s
+midinote 65 8s&
+midinote 55 8s&
+pause 8s
+midinote 62 8s&
+pause 8s&
+pause 8s
+midinote 64 16s&
+midinote 48 16s&
+pause 16s
+midinote 63 16s&
+pause 16s&
+pause 16s
+midinote 64 16s&
+midinote 48 16s&
+pause 16s
+midinote 63 16s&
+pause 16s&
+pause 16s
+midinote 66 16s&
+midinote 48 16s&
+pause 16s
+midinote 64 16s&
+pause 16s&
+pause 16s
+midinote 62 16s&
+pause 32s&
+pause 16s
+midinote 60 16s&
+pause 16s
+midinote 60 8s&
+midinote 50 16s&
+pause 8s
+midinote 59 8s&
+pause 8s
+midinote 64 8s&
+pause 16s&
+pause 8s
+midinote 62 8s&
+pause 8s
+midinote 62 8s&
+midinote 50 16s&
+pause 8s
+midinote 60 8s&
+pause 8s
+midinote 59 8s&
+pause 16s&
+pause 8s
+midinote 57 8s&
+pause 8s
+midinote 59 8s&
+midinote 55 16s&
+pause 8s
+pause 8s&
+pause 8s
+midinote 62 8s&
+pause 16s&
+pause 8s
+midinote 62 8s&
+pause 8s
+midinote 62 8s&
+midinote 48 8s&
+pause 8s
+midinote 60 8s&
+pause 8s&
+pause 8s
+midinote 60 8s&
+midinote 48 8s&
+pause 8s
+midinote 60 8s&
+pause 8s&
+pause 8s
+midinote 60 8s&
+midinote 50 16s&
+pause 8s
+midinote 59 8s&
+pause 8s
+midinote 59 8s&
+pause 16s&
+pause 8s
+midinote 59 8s&
+pause 8s
+midinote 59 8s&
+midinote 50 8s&
+pause 8s
+midinote 57 8s&
+pause 8s&
+pause 8s
+midinote 57 8s&
+midinote 50 8s&
+pause 8s
+midinote 57 8s&
+pause 8s&
+pause 8s
+midinote 64 8s&
+midinote 55 16s&
+pause 8s
+midinote 62 8s&
+pause 8s
+midinote 62 8s&
+pause 16s&
+pause 8s
+midinote 62 8s&
+pause 8s
+midinote 62 8s&
+midinote 48 8s&
+pause 8s
+midinote 60 8s&
+pause 8s&
+pause 8s
+midinote 60 8s&
+midinote 48 8s&
+pause 8s
+midinote 60 8s&
+pause 8s&
+pause 8s
+midinote 60 8s&
+midinote 50 16s&
+pause 8s
+midinote 59 8s&
+pause 8s
+midinote 59 8s&
+pause 16s&
+pause 8s
+midinote 59 8s&
+pause 8s
+midinote 59 8s&
+midinote 50 8s&
+pause 8s
+midinote 57 8s&
+pause 8s&
+pause 8s
+midinote 57 8s&
+midinote 50 8s&
+pause 8s
+midinote 57 8s&
+pause 8s&
+pause 8s
+midinote 59 16s&
+midinote 55 16s&
+pause 16s
+pause 16s&
+pause 16s&
+pause 16s
+pause 32s&
+pause 32s&
+pause 32s
+midinote 57 16s&
+midinote 50 64s&
+pause 16s
+midinote 55 16s&
+pause 16s
+midinote 57 16s&
+pause 16s
+midinote 59 16s&
+pause 16s
+midinote 55 16s&
+midinote 55 16s&
+pause 16s
+pause 16s&
+pause 16s&
+pause 16s
+midinote 50 16s&
+midinote 43 16s&
+pause 16s
+midinote 59 16s&
+pause 16s&
+midinote 55 16s&
+pause 16s&
+pause 16s
+midinote 43 32s&
+midinote 43 32s&
+pause 32s
+midinote 55 32s&
+pause 32s&
+midinote 55 32s&
+pause 32s&
+pause 32s
+midinote 58 4s&
+pause 4s
+midinote 67 4s&
+midinote 58 32s&
+pause 32s
+midinote 67 32s&
+midinote 58 16s&
+pause 16s
+midinote 62 16s&
+pause 12s&
+pause 12s
+midinote 62 4s&
+pause 4s
+midinote 70 4s&
+midinote 62 32s&
+pause 32s
+midinote 70 32s&
+midinote 62 16s&
+pause 16s
+midinote 67 16s&
+midinote 74 8s&
+pause 8s
+midinote 70 4s&
+pause 4s
+midinote 67 4s&
+pause 4s
+midinote 66 16s&
+pause 16s
+midinote 67 16s&
+pause 16s
+midinote 72 16s&
+pause 16s
+midinote 70 16s&
+pause 16s
+midinote 67 32s&
+pause 32s
+midinote 70 32s&
+midinote 66 16s&
+pause 16s
+midinote 69 16s&
+pause 16s&
+pause 16s
+midinote 66 24s&
+pause 24s
+midinote 75 24s&
+midinote 72 4s&
+pause 4s
+midinote 69 4s&
+pause 4s
+midinote 66 16s&
+pause 16s
+midinote 67 16s&
+pause 16s
+midinote 66 24s&
+pause 24s
+midinote 75 24s&
+midinote 72 4s&
+pause 4s
+midinote 69 4s&
+pause 4s
+midinote 66 16s&
+pause 16s
+midinote 67 16s&
+pause 16s
+midinote 69 8s&
+pause 8s
+midinote 70 8s&
+pause 8s
+midinote 72 8s&
+pause 8s
+midinote 74 8s&
+pause 8s
+midinote 75 8s&
+pause 8s
+midinote 71 8s&
+pause 8s
+midinote 72 8s&
+pause 8s
+midinote 69 8s&
+pause 8s
+midinote 67 32s&
+pause 32s
+midinote 66 16s&
+pause 16s
+pause 16s&
+pause 16s
+midinote 58 32s&
+pause 32s
+midinote 67 32s&
+midinote 58 16s&
+pause 16s
+midinote 62 16s&
+pause 16s&
+pause 16s
+midinote 58 32s&
+pause 32s
+midinote 67 32s&
+midinote 58 16s&
+pause 16s
+midinote 62 16s&
+pause 16s&
+pause 16s
+midinote 66 16s&
+pause 16s
+midinote 67 16s&
+pause 16s
+midinote 69 16s&
+pause 16s
+midinote 70 16s&
+pause 16s
+midinote 67 32s&
+pause 32s
+midinote 70 32s&
+midinote 66 16s&
+pause 16s
+midinote 69 16s&
+pause 16s&
+pause 16s
+midinote 63 64s&
+pause 64s
+midinote 64 64s&
+midinote 62 32s&
+pause 32s
+midinote 67 32s&
+midinote 63 32s&
+pause 32s
+midinote 67 32s&
+midinote 58 32s&
+pause 32s
+midinote 67 32s&
+midinote 57 32s&
+pause 32s
+midinote 66 32s&
+midinote 58 16s&
+pause 16s
+midinote 67 16s&
+pause 16s&
+pause 16s
+pause 8s&
+pause 8s
+midinote 74 8s&
+pause 8s
+midinote 86 8s&
+midinote 74 8s&
+pause 8s
+midinote 86 8s&
+midinote 74 8s&
+pause 8s
+midinote 86 8s&
+midinote 75 8s&
+pause 8s
+midinote 87 8s&
+midinote 66 8s&
+pause 8s
+midinote 78 8s&
+midinote 66 8s&
+pause 8s
+midinote 78 8s&
+midinote 66 8s&
+pause 8s
+midinote 78 8s&
+midinote 67 8s&
+pause 8s
+midinote 79 8s&
+midinote 69 8s&
+pause 8s
+midinote 81 8s&
+midinote 69 8s&
+pause 8s
+midinote 81 8s&
+midinote 69 8s&
+pause 8s
+midinote 81 8s&
+midinote 70 16s&
+pause 16s
+midinote 82 16s&
+midinote 67 8s&
+pause 8s
+midinote 79 8s&
+pause 8s&
+pause 8s
+pause 16s&
+pause 16s
+midinote 82 8s&
+pause 8s
+midinote 82 8s&
+pause 8s
+midinote 82 8s&
+pause 8s
+midinote 81 8s&
+pause 8s
+midinote 81 8s&
+pause 8s
+midinote 81 8s&
+pause 8s
+midinote 81 8s&
+pause 8s
+midinote 79 8s&
+pause 8s
+midinote 79 8s&
+pause 8s
+midinote 79 8s&
+pause 8s
+midinote 66 16s&
+pause 16s
+midinote 78 16s&
+pause 16s&
+pause 16s
+pause 8s&
+pause 8s
+midinote 74 8s&
+pause 8s
+midinote 86 8s&
+midinote 74 8s&
+pause 8s
+midinote 86 8s&
+midinote 74 8s&
+pause 8s
+midinote 86 8s&
+midinote 87 16s&
+pause 16s
+midinote 87 16s&
+pause 16s
+midinote 87 4s&
+pause 4s
+midinote 84 4s&
+pause 4s
+midinote 81 4s&
+pause 4s
+midinote 77 4s&
+pause 4s
+midinote 78 4s&
+pause 4s
+midinote 79 4s&
+pause 4s
+midinote 77 4s&
+pause 4s
+midinote 75 4s&
+pause 4s
+midinote 74 8s&
+pause 8s
+midinote 77 4s&
+pause 4s
+midinote 75 4s&
+pause 4s
+midinote 74 16s&
+pause 16s
+pause 32s&
+pause 32s
+midinote 72 8s&
+pause 8s
+pause 8s&
+pause 8s
+midinote 72 8s&
+pause 8s
+pause 8s&
+pause 8s
+midinote 67 32s&
+pause 32s
+midinote 70 32s&
+midinote 65 4s&
+pause 4s
+midinote 69 4s&
+midinote 65 4s&
+pause 4s
+midinote 69 4s&
+pause 4s
+midinote 72 4s&
+pause 4s
+midinote 75 4s&
+pause 4s
+midinote 77 4s&
+pause 4s
+midinote 81 4s&
+pause 4s
+midinote 84 4s&
+pause 4s
+midinote 87 4s&
+pause 4s
+midinote 84 4s&
+pause 4s
+midinote 81 4s&
+pause 4s
+midinote 77 4s&
+pause 4s
+midinote 75 4s&
+pause 4s
+midinote 72 4s&
+pause 4s
+midinote 69 4s&
+pause 4s
+midinote 72 4s&
+pause 4s
+midinote 70 8s&
+pause 8s
+midinote 86 4s&
+pause 4s
+midinote 84 4s&
+pause 4s
+midinote 82 4s&
+pause 4s
+midinote 81 4s&
+pause 4s
+midinote 79 4s&
+pause 4s
+midinote 77 4s&
+pause 4s
+midinote 76 4s&
+pause 4s
+midinote 79 4s&
+pause 4s
+midinote 82 4s&
+pause 4s
+midinote 84 4s&
+pause 4s
+midinote 85 4s&
+pause 4s
+midinote 82 4s&
+pause 4s
+midinote 79 4s&
+pause 4s
+midinote 76 4s&
+pause 4s
+midinote 77 4s&
+pause 4s
+midinote 65 4s&
+pause 4s
+midinote 69 4s&
+pause 4s
+midinote 72 4s&
+pause 4s
+midinote 75 4s&
+pause 4s
+midinote 77 4s&
+pause 4s
+midinote 81 4s&
+pause 4s
+midinote 84 4s&
+pause 4s
+midinote 87 4s&
+pause 4s
+midinote 84 4s&
+pause 4s
+midinote 81 4s&
+pause 4s
+midinote 77 4s&
+pause 4s
+midinote 75 4s&
+pause 4s
+midinote 72 4s&
+pause 4s
+midinote 69 4s&
+pause 4s
+midinote 72 4s&
+pause 4s
+midinote 70 8s&
+pause 8s
+midinote 86 4s&
+pause 4s
+midinote 84 4s&
+pause 4s
+midinote 82 4s&
+pause 4s
+midinote 81 4s&
+pause 4s
+midinote 79 4s&
+pause 4s
+midinote 77 4s&
+pause 4s
+midinote 76 4s&
+pause 4s
+midinote 79 4s&
+pause 4s
+midinote 82 4s&
+pause 4s
+midinote 84 4s&
+pause 4s
+midinote 85 4s&
+pause 4s
+midinote 82 4s&
+pause 4s
+midinote 79 4s&
+pause 4s
+midinote 76 4s&
+pause 4s
+midinote 77 16s&
+pause 16s
+pause 16s&
+pause 16s
+pause 32s&
+pause 32s
+midinote 62 8s&
+pause 8s
+midinote 65 8s&
+pause 8s
+midinote 70 8s&
+pause 8s
+midinote 65 8s&
+pause 8s
+midinote 62 8s&
+pause 8s
+midinote 65 8s&
+pause 8s
+midinote 70 8s&
+pause 8s
+midinote 65 8s&
+pause 8s
+midinote 62 8s&
+pause 8s
+midinote 65 8s&
+pause 8s
+midinote 70 8s&
+pause 8s
+midinote 65 8s&
+pause 8s
+midinote 62 8s&
+pause 8s
+midinote 65 8s&
+pause 8s
+midinote 70 8s&
+pause 8s
+midinote 65 8s&
+pause 8s
+midinote 63 8s&
+pause 8s
+midinote 66 8s&
+pause 8s
+midinote 69 8s&
+pause 8s
+midinote 66 8s&
+pause 8s
+midinote 62 8s&
+pause 8s
+midinote 65 8s&
+pause 8s
+midinote 69 8s&
+pause 8s
+midinote 65 8s&
+pause 8s
+midinote 62 8s&
+pause 8s
+midinote 65 8s&
+pause 8s
+midinote 70 8s&
+pause 8s
+midinote 65 8s&
+pause 8s
+midinote 62 8s&
+pause 8s
+midinote 65 8s&
+pause 8s
+midinote 70 8s&
+pause 8s
+midinote 65 8s&
+pause 8s
+midinote 62 8s&
+pause 8s
+midinote 65 8s&
+pause 8s
+midinote 70 8s&
+pause 8s
+midinote 65 8s&
+pause 8s
+midinote 62 8s&
+pause 8s
+midinote 65 8s&
+pause 8s
+midinote 70 8s&
+pause 8s
+midinote 65 8s&
+pause 8s
+midinote 62 8s&
+pause 8s
+midinote 65 8s&
+pause 8s
+midinote 70 8s&
+pause 8s
+midinote 65 8s&
+pause 8s
+midinote 62 16s&
+pause 16s
+midinote 82 16s&
+pause 16s
+midinote 82 8s&
+pause 8s
+midinote 81 8s&
+pause 8s
+midinote 77 8s&
+pause 8s
+midinote 81 8s&
+pause 8s
+midinote 81 8s&
+pause 8s
+midinote 79 8s&
+pause 8s
+midinote 77 8s&
+pause 8s
+midinote 76 8s&
+pause 8s
+midinote 77 8s&
+pause 8s
+midinote 76 8s&
+pause 8s
+midinote 77 8s&
+pause 8s
+midinote 76 8s&
+pause 8s
+midinote 77 8s&
+pause 8s
+midinote 76 8s&
+pause 8s
+midinote 74 8s&
+pause 8s
+midinote 77 8s&
+midinote 76 8s&
+pause 8s
+midinote 86 32s&
+pause 32s
+midinote 86 4s&
+pause 4s
+midinote 84 4s&
+pause 4s
+midinote 87 4s&
+pause 4s
+midinote 86 4s&
+pause 4s
+midinote 84 4s&
+pause 4s
+midinote 82 4s&
+pause 4s
+midinote 81 4s&
+pause 4s
+midinote 79 4s&
+pause 4s
+midinote 79 24s&
+pause 24s
+midinote 78 8s&
+pause 8s
+midinote 77 16s&
+pause 16s
+midinote 81 4s&
+pause 4s
+midinote 82 4s&
+pause 4s
+midinote 81 4s&
+pause 4s
+midinote 82 4s&
+pause 4s
+midinote 84 16s&
+pause 16s
+midinote 87 16s&
+pause 16s
+midinote 81 16s&
+pause 16s
+midinote 82 8s&
+pause 8s
+midinote 84 8s&
+pause 8s
+midinote 82 24s&
+pause 24s
+midinote 86 8s&
+pause 8s
+midinote 75 5s&
+pause 5s
+midinote 77 5s&
+pause 5s
+midinote 79 5s&
+pause 5s
+midinote 81 5s&
+pause 5s
+midinote 82 5s&
+pause 5s
+midinote 84 5s&
+pause 5s
+midinote 86 32s&
+pause 32s
+midinote 84 4s&
+pause 4s
+midinote 82 4s&
+pause 4s
+midinote 87 4s&
+pause 4s
+midinote 86 4s&
+pause 4s
+midinote 84 4s&
+pause 4s
+midinote 82 4s&
+pause 4s
+midinote 81 4s&
+pause 4s
+midinote 79 4s&
+pause 4s
+midinote 77 24s&
+pause 24s
+midinote 81 4s&
+pause 4s
+midinote 79 4s&
+pause 4s
+midinote 77 16s&
+pause 16s
+midinote 82 8s&
+pause 8s
+midinote 81 8s&
+pause 8s
+midinote 78 4s&
+pause 4s
+midinote 79 4s&
+pause 4s
+midinote 93 4s&
+pause 4s
+midinote 91 4s&
+pause 4s
+midinote 89 4s&
+pause 4s
+midinote 87 4s&
+pause 4s
+midinote 86 4s&
+pause 4s
+midinote 84 4s&
+pause 4s
+midinote 82 16s&
+pause 16s
+midinote 84 16s&
+pause 16s
+midinote 82 8s&
+pause 8s
+pause 8s&
+pause 8s
+midinote 74 8s&
+pause 8s
+midinote 74 8s&
+pause 8s
+midinote 74 8s&
+pause 8s
+midinote 75 4s&
+pause 4s
+midinote 74 4s&
+pause 4s
+midinote 72 8s&
+pause 8s
+midinote 74 8s&
+pause 8s
+midinote 74 8s&
+pause 8s
+midinote 75 8s&
+pause 8s
+midinote 75 8s&
+pause 8s
+midinote 75 8s&
+pause 8s
+midinote 75 8s&
+pause 8s
+midinote 77 4s&
+pause 4s
+midinote 75 4s&
+pause 4s
+midinote 74 8s&
+pause 8s
+midinote 75 8s&
+pause 8s
+midinote 76 8s&
+pause 8s
+midinote 77 8s&
+pause 8s
+midinote 77 8s&
+pause 8s
+midinote 77 8s&
+pause 8s
+midinote 82 8s&
+pause 8s
+midinote 81 8s&
+pause 8s
+midinote 79 8s&
+pause 8s
+midinote 77 8s&
+pause 8s
+midinote 77 8s&
+pause 8s
+midinote 75 8s&
+pause 8s
+midinote 75 8s&
+pause 8s
+midinote 75 8s&
+pause 8s
+midinote 75 8s&
+pause 8s
+midinote 77 4s&
+pause 4s
+midinote 79 4s&
+pause 4s
+midinote 77 8s&
+pause 8s
+midinote 75 8s&
+pause 8s
+midinote 74 8s&
+pause 8s
+pause 8s&
+pause 8s
+midinote 74 8s&
+pause 8s
+midinote 75 8s&
+pause 8s
+midinote 77 8s&
+pause 8s
+pause 8s&
+pause 8s
+midinote 74 8s&
+pause 8s
+midinote 75 8s&
+pause 8s
+midinote 77 8s&
+pause 8s
+pause 8s&
+pause 8s
+midinote 74 8s&
+pause 8s
+midinote 75 8s&
+pause 8s
+midinote 77 8s&
+pause 8s
+midinote 79 8s&
+pause 8s
+midinote 80 8s&
+pause 8s
+midinote 77 8s&
+pause 8s
+midinote 79 8s&
+pause 8s
+midinote 78 8s&
+pause 8s
+midinote 79 8s&
+pause 8s
+midinote 78 8s&
+pause 8s
+midinote 79 8s&
+pause 8s
+midinote 78 8s&
+pause 8s
+midinote 79 8s&
+pause 8s
+midinote 78 8s&
+pause 8s
+midinote 79 16s&
+pause 16s
+midinote 82 16s&
+pause 16s
+midinote 81 16s&
+pause 16s
+midinote 79 16s&
+pause 16s
+midinote 77 8s&
+pause 8s
+midinote 82 8s&
+pause 8s
+midinote 74 8s&
+pause 8s
+midinote 77 8s&
+pause 8s
+midinote 77 8s&
+pause 8s
+midinote 75 8s&
+pause 8s
+midinote 74 8s&
+pause 8s
+midinote 72 8s&
+pause 8s
+midinote 77 8s&
+pause 8s
+pause 8s&
+pause 8s
+midinote 77 8s&
+pause 8s
+midinote 77 8s&
+pause 8s
+midinote 77 8s&
+pause 8s
+midinote 75 8s&
+pause 8s
+midinote 75 8s&
+pause 8s
+midinote 75 8s&
+pause 8s
+midinote 75 8s&
+pause 8s
+midinote 74 8s&
+pause 8s
+midinote 74 8s&
+pause 8s
+midinote 74 8s&
+pause 8s
+midinote 74 8s&
+pause 8s
+midinote 72 8s&
+pause 8s
+midinote 72 8s&
+pause 8s
+midinote 72 8s&
+pause 8s
+midinote 79 8s&
+pause 8s
+midinote 77 8s&
+pause 8s
+midinote 77 8s&
+pause 8s
+midinote 77 8s&
+pause 8s
+midinote 77 8s&
+pause 8s
+midinote 75 8s&
+pause 8s
+midinote 75 8s&
+pause 8s
+midinote 75 8s&
+pause 8s
+midinote 75 8s&
+pause 8s
+midinote 74 8s&
+pause 8s
+midinote 74 8s&
+pause 8s
+midinote 74 8s&
+pause 8s
+midinote 74 8s&
+pause 8s
+midinote 72 8s&
+pause 8s
+midinote 72 8s&
+pause 8s
+midinote 72 8s&
+pause 8s
+midinote 70 16s&
+pause 16s
+pause 16s&
+pause 16s
+midinote 70 16s&
+pause 16s
+midinote 70 12s&
+pause 12s
+midinote 72 4s&
+pause 4s
+midinote 74 32s&
+pause 32s
+midinote 75 5s&
+pause 5s
+midinote 74 5s&
+pause 5s
+midinote 72 5s&
+pause 5s
+midinote 70 5s&
+pause 5s
+midinote 69 5s&
+pause 5s
+midinote 67 5s&
+pause 5s
+midinote 65 16s&
+pause 16s
+midinote 77 16s&
+pause 16s
+midinote 77 5s&
+pause 5s
+midinote 82 5s&
+pause 5s
+midinote 81 5s&
+pause 5s
+midinote 82 5s&
+pause 5s
+midinote 77 5s&
+pause 5s
+midinote 74 5s&
+pause 5s
+midinote 77 8s&
+pause 8s
+midinote 75 8s&
+pause 8s
+midinote 79 12s&
+pause 12s
+midinote 77 4s&
+pause 4s
+midinote 77 8s&
+pause 8s
+midinote 75 8s&
+pause 8s
+midinote 72 8s&
+pause 8s
+midinote 74 8s&
+pause 8s
+midinote 70 32s&
+pause 32s
+midinote 65 16s&
+pause 16s
+midinote 70 12s&
+pause 12s
+midinote 72 4s&
+pause 4s
+midinote 74 32s&
+pause 32s
+midinote 74 16s&
+pause 16s
+midinote 74 16s&
+pause 16s
+midinote 82 24s&
+pause 24s
+midinote 81 8s&
+pause 8s
+midinote 79 16s&
+pause 16s
+midinote 79 8s&
+pause 8s
+midinote 81 8s&
+pause 8s
+midinote 82 16s&
+pause 16s
+midinote 81 8s&
+pause 8s
+midinote 79 8s&
+pause 8s
+midinote 77 8s&
+pause 8s
+midinote 75 8s&
+pause 8s
+midinote 74 8s&
+pause 8s
+midinote 73 8s&
+pause 8s
+midinote 74 4s&
+pause 4s
+midinote 62 4s&
+pause 4s
+midinote 66 4s&
+pause 4s
+midinote 69 4s&
+pause 4s
+midinote 74 4s&
+pause 4s
+midinote 78 4s&
+pause 4s
+midinote 81 4s&
+pause 4s
+midinote 85 4s&
+pause 4s
+midinote 86 4s&
+pause 4s
+midinote 87 4s&
+pause 4s
+midinote 86 4s&
+pause 4s
+midinote 84 4s&
+pause 4s
+midinote 82 4s&
+pause 4s
+midinote 81 4s&
+pause 4s
+midinote 79 4s&
+pause 4s
+midinote 78 4s&
+pause 4s
+midinote 79 4s&
+pause 4s
+midinote 82 4s&
+pause 4s
+midinote 85 4s&
+pause 4s
+midinote 86 4s&
+pause 4s
+midinote 79 4s&
+pause 4s
+midinote 82 4s&
+pause 4s
+midinote 85 4s&
+pause 4s
+midinote 86 4s&
+pause 4s
+midinote 79 4s&
+pause 4s
+midinote 82 4s&
+pause 4s
+midinote 85 4s&
+pause 4s
+midinote 86 4s&
+pause 4s
+midinote 87 4s&
+pause 4s
+midinote 86 4s&
+pause 4s
+midinote 82 4s&
+pause 4s
+midinote 79 4s&
+pause 4s
+midinote 74 28s&
+pause 28s
+midinote 62 4s&
+pause 4s
+midinote 62 28s&
+pause 28s
+midinote 62 4s&
+pause 4s
+midinote 62 32s&
+pause 32s
+pause 32s&
+pause 32s
+midinote 59 8s&
+pause 8s
+midinote 62 8s&
+pause 8s
+midinote 67 8s&
+pause 8s
+midinote 62 8s&
+pause 8s
+midinote 60 8s&
+pause 8s
+midinote 64 8s&
+pause 8s
+midinote 67 8s&
+pause 8s
+midinote 64 8s&
+pause 8s
+midinote 59 8s&
+pause 8s
+midinote 62 8s&
+pause 8s
+midinote 67 8s&
+pause 8s
+midinote 62 8s&
+pause 8s
+midinote 59 8s&
+pause 8s
+midinote 62 8s&
+pause 8s
+midinote 67 8s&
+pause 8s
+midinote 62 8s&
+pause 8s
+midinote 60 8s&
+pause 8s
+midinote 64 8s&
+pause 8s
+midinote 69 8s&
+pause 8s
+midinote 64 8s&
+pause 8s
+midinote 60 8s&
+pause 8s
+midinote 62 8s&
+pause 8s
+midinote 66 8s&
+pause 8s
+midinote 62 8s&
+pause 8s
+midinote 59 8s&
+pause 8s
+midinote 62 8s&
+pause 8s
+midinote 67 8s&
+pause 8s
+midinote 62 8s&
+pause 8s
+midinote 59 8s&
+pause 8s
+midinote 62 8s&
+pause 8s
+midinote 67 8s&
+pause 8s
+midinote 62 8s&
+pause 8s
+midinote 59 8s&
+pause 8s
+midinote 62 8s&
+pause 8s
+midinote 67 8s&
+pause 8s
+midinote 62 8s&
+pause 8s
+midinote 60 8s&
+pause 8s
+midinote 64 8s&
+pause 8s
+midinote 67 8s&
+pause 8s
+midinote 64 8s&
+pause 8s
+midinote 59 8s&
+pause 8s
+midinote 62 8s&
+pause 8s
+midinote 67 8s&
+pause 8s
+midinote 62 8s&
+pause 8s
+midinote 59 16s&
+pause 16s
+pause 16s&
+pause 16s
+midinote 62 8s&
+pause 8s
+midinote 66 8s&
+midinote 57 8s&
+pause 8s
+midinote 62 8s&
+pause 8s
+midinote 66 8s&
+midinote 57 8s&
+pause 8s
+midinote 61 8s&
+pause 8s
+midinote 64 8s&
+midinote 57 8s&
+pause 8s
+midinote 61 8s&
+pause 8s
+midinote 64 8s&
+midinote 57 8s&
+pause 8s
+midinote 62 8s&
+pause 8s
+midinote 74 8s&
+pause 8s
+midinote 74 8s&
+pause 8s
+midinote 74 8s&
+pause 8s
+midinote 74 5s&
+pause 5s
+midinote 74 5s&
+pause 5s
+midinote 76 5s&
+pause 5s
+midinote 78 5s&
+pause 5s
+midinote 79 5s&
+pause 5s
+midinote 81 5s&
+pause 5s
+midinote 83 32s&
+pause 32s
+midinote 83 4s&
+pause 4s
+midinote 81 4s&
+pause 4s
+midinote 84 4s&
+pause 4s
+midinote 83 4s&
+pause 4s
+midinote 81 4s&
+pause 4s
+midinote 79 4s&
+pause 4s
+midinote 78 4s&
+pause 4s
+midinote 76 4s&
+pause 4s
+midinote 76 32s&
+pause 32s
+midinote 74 16s&
+pause 16s
+midinote 79 8s&
+pause 8s
+midinote 78 8s&
+pause 8s
+midinote 76 16s&
+pause 16s
+midinote 84 8s&
+pause 8s
+midinote 83 8s&
+pause 8s
+midinote 81 4s&
+pause 4s
+midinote 84 4s&
+pause 4s
+midinote 90 4s&
+pause 4s
+midinote 88 4s&
+pause 4s
+midinote 86 4s&
+pause 4s
+midinote 84 4s&
+pause 4s
+midinote 83 4s&
+pause 4s
+midinote 81 4s&
+pause 4s
+midinote 81 32s&
+pause 32s
+midinote 79 16s&
+pause 16s
+midinote 74 12s&
+pause 12s
+midinote 74 4s&
+pause 4s
+midinote 83 24s&
+pause 24s
+midinote 81 8s&
+pause 8s
+midinote 81 4s&
+pause 4s
+midinote 79 4s&
+pause 4s
+midinote 84 4s&
+pause 4s
+midinote 83 4s&
+pause 4s
+midinote 81 4s&
+pause 4s
+midinote 79 4s&
+pause 4s
+midinote 78 4s&
+pause 4s
+midinote 76 4s&
+pause 4s
+midinote 74 24s&
+pause 24s
+midinote 78 4s&
+pause 4s
+midinote 76 4s&
+pause 4s
+midinote 74 8s&
+pause 8s
+midinote 79 8s&
+pause 8s
+midinote 83 8s&
+pause 8s
+midinote 86 8s&
+pause 8s
+midinote 86 4s&
+pause 4s
+midinote 88 4s&
+pause 4s
+midinote 90 4s&
+pause 4s
+midinote 88 4s&
+pause 4s
+midinote 86 4s&
+pause 4s
+midinote 84 4s&
+pause 4s
+midinote 81 4s&
+pause 4s
+midinote 83 4s&
+pause 4s
+midinote 79 16s&
+pause 16s
+midinote 81 16s&
+pause 16s
+midinote 79 16s&
+pause 16s
+midinote 79 8s&
+pause 8s
+midinote 79 8s&
+pause 8s
+midinote 79 8s&
+pause 8s
+midinote 81 4s&
+pause 4s
+midinote 79 4s&
+pause 4s
+midinote 79 8s&
+pause 8s
+midinote 79 8s&
+pause 8s
+midinote 80 8s&
+pause 8s
+midinote 81 8s&
+pause 8s
+midinote 81 8s&
+pause 8s
+midinote 81 8s&
+pause 8s
+midinote 81 8s&
+pause 8s
+midinote 83 4s&
+pause 4s
+midinote 81 4s&
+pause 4s
+midinote 80 8s&
+pause 8s
+midinote 81 8s&
+pause 8s
+midinote 82 8s&
+pause 8s
+midinote 83 8s&
+pause 8s
+midinote 83 8s&
+pause 8s
+midinote 83 8s&
+pause 8s
+midinote 88 8s&
+pause 8s
+midinote 86 8s&
+pause 8s
+midinote 84 8s&
+pause 8s
+midinote 83 8s&
+pause 8s
+midinote 84 8s&
+pause 8s
+midinote 83 8s&
+pause 8s
+midinote 81 8s&
+pause 8s
+midinote 81 8s&
+pause 8s
+midinote 81 8s&
+pause 8s
+midinote 83 4s&
+pause 4s
+midinote 81 4s&
+pause 4s
+midinote 83 8s&
+pause 8s
+midinote 81 8s&
+pause 8s
+midinote 79 8s&
+pause 8s
+pause 8s&
+pause 8s
+midinote 79 8s&
+pause 8s
+midinote 81 8s&
+pause 8s
+midinote 83 8s&
+pause 8s
+pause 8s&
+pause 8s
+midinote 79 8s&
+pause 8s
+midinote 81 8s&
+pause 8s
+midinote 83 8s&
+pause 8s
+pause 8s&
+pause 8s
+midinote 79 8s&
+pause 8s
+midinote 81 8s&
+pause 8s
+midinote 83 8s&
+pause 8s
+midinote 84 8s&
+pause 8s
+midinote 86 8s&
+pause 8s
+midinote 83 8s&
+pause 8s
+midinote 84 16s&
+pause 16s
+midinote 83 16s&
+pause 16s
+midinote 84 16s&
+pause 16s
+midinote 83 16s&
+pause 16s
+midinote 86 16s&
+pause 16s
+midinote 84 16s&
+pause 16s
+midinote 83 16s&
+pause 16s
+midinote 81 16s&
+pause 16s
+midinote 81 8s&
+pause 8s
+midinote 79 8s&
+pause 8s
+midinote 84 8s&
+pause 8s
+midinote 83 8s&
+pause 8s
+midinote 83 8s&
+pause 8s
+midinote 81 8s&
+pause 8s
+midinote 79 8s&
+pause 8s
+midinote 78 8s&
+pause 8s
+midinote 79 8s&
+pause 8s
+pause 8s&
+pause 8s
+midinote 83 8s&
+pause 8s
+midinote 83 8s&
+pause 8s
+midinote 83 8s&
+pause 8s
+midinote 81 8s&
+pause 8s
+midinote 81 8s&
+pause 8s
+midinote 81 8s&
+pause 8s
+midinote 81 8s&
+pause 8s
+midinote 79 8s&
+pause 8s
+midinote 79 8s&
+pause 8s
+midinote 79 8s&
+pause 8s
+midinote 79 8s&
+pause 8s
+midinote 78 8s&
+pause 8s
+midinote 78 8s&
+pause 8s
+midinote 78 8s&
+pause 8s
+midinote 84 8s&
+pause 8s
+midinote 83 8s&
+pause 8s
+midinote 83 8s&
+pause 8s
+midinote 83 8s&
+pause 8s
+midinote 83 8s&
+pause 8s
+midinote 81 8s&
+pause 8s
+midinote 81 8s&
+pause 8s
+midinote 81 8s&
+pause 8s
+midinote 81 8s&
+pause 8s
+midinote 79 8s&
+pause 8s
+midinote 79 8s&
+pause 8s
+midinote 79 8s&
+pause 8s
+midinote 79 8s&
+pause 8s
+midinote 78 8s&
+pause 8s
+midinote 78 8s&
+pause 8s
+midinote 78 8s&
+pause 8s
+midinote 83 8s&
+pause 8s
+midinote 72 8s&
+pause 8s
+midinote 74 8s&
+pause 8s
+midinote 76 8s&
+pause 8s
+midinote 78 8s&
+pause 8s
+midinote 79 8s&
+pause 8s
+midinote 81 8s&
+pause 8s
+midinote 83 8s&
+pause 8s
+midinote 84 16s&
+pause 16s
+midinote 83 16s&
+pause 16s
+midinote 84 16s&
+pause 16s
+midinote 86 16s&
+pause 16s
+midinote 83 16s&
+pause 16s
+pause 16s&
+pause 16s
+midinote 83 16s&
+pause 16s
+pause 16s&
+pause 16s
+midinote 71 32s&
+pause 32s
+midinote 79 32s&
+pause 32s&
