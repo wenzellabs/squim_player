@@ -66,20 +66,37 @@ class ChordProgression:
             self.t_start += n_beat64*self.beat64_us
         return packet
 
+    def generate_rawchord(self, n_beat64:int, notes:List[int], advance_beats:bool):
+        while len(notes) < 16:
+            notes.append(0x80)
+
+        packet = TLVPacketChord(self.t_start, self.t_start + n_beat64*self.beat64_us, notes)
+        if advance_beats:
+            self.t_start += n_beat64*self.beat64_us
+        return packet
+
     def play_chord(self, n_beat64:int, root:str, notes:List[int], advance_beats:bool):
         p = self.generate_chord(n_beat64, root, notes, advance_beats)
         send_tlv_packet(p)
         if advance_beats:
             time.sleep(n_beat64*self.beat64_us / 1e6)
 
-    def note_on_off(self, note_midi, n_beat64, advance_beats):
+    def play_rawchord(self, n_beat64:int, notes:List[int], advance_beats:bool):
+        p = self.generate_rawchord(n_beat64, notes, advance_beats)
+        send_tlv_packet(p)
+        if advance_beats:
+            time.sleep(n_beat64*self.beat64_us / 1e6)
+
+    def note_on_off(self, note_midi, n_beat64, advance_beats:bool):
         p = TLVPacketNoteOnOff(self.t_start, self.t_start + n_beat64*self.beat64_us, note_midi, 1, 255)
         send_tlv_packet(p)
         if advance_beats:
             self.t_start += n_beat64*self.beat64_us
             time.sleep(n_beat64*self.beat64_us / 1e6)
 
-    def pause(self, n_beat64:int):
+    def pause(self, n_beat64:int, advance_beats:bool):
+        if not advance_beats:
+            return
         self.t_start += n_beat64*self.beat64_us
         time.sleep(n_beat64*self.beat64_us / 1e6)
 
@@ -167,6 +184,23 @@ def parse_chord(line):
     else:
         print(f"error: invalid chord format in line '{line}'")
 
+def parse_rawchord(line):
+    match = re.match(r"rawchord\s+((?:\d+\s+){1,16})(\d+)\s*(s?)\s*(&?)$", line.strip())
+
+    if match:
+        midi_notes_str = match.group(1).strip().split()
+        midi_notes = [int(note) for note in midi_notes_str]
+
+        n_beat = int(match.group(2))
+        sixtyfourth = match.group(3)
+        if sixtyfourth == '':
+            n_beat *= 16
+        advance_beats = not bool(match.group(4))
+
+        print(f"playing rawchord with MIDI notes {midi_notes} for {n_beat / 16} beats")
+        cp.play_rawchord(n_beat, midi_notes, advance_beats)
+    else:
+        print(f"error: invalid rawchord format in line '{line}'")
 
 def note_to_midi(note:str, octave:int) -> int:
     base_midi_note = midi_notes[note]
@@ -223,15 +257,17 @@ def parse_midinote(line):
         print(f"error: invalid note format in line '{line}'")
 
 def parse_pause(line):
-    match = re.match(r"pause\s+(\d+)\s*(s?)\s*$", line)
+    match = re.match(r"pause\s+(\d+)\s*(s?)\s*(&?)$", line)
     if match:
         n_beat = int(match.group(1))
         sixtyfourth = match.group(2)
         if sixtyfourth == '':
             n_beat *= 16
+        advance_beats = not bool(match.group(3))
 
-        print(f'pause for {n_beat / 16} beats')
-        cp.pause(n_beat)
+        if advance_beats:
+            print(f'pause for {n_beat / 16} beats')
+        cp.pause(n_beat, advance_beats)
     else:
         print(f"error: invalid note format in line '{line}'")
 
@@ -254,6 +290,8 @@ def parse_line(line):
         parse_midinote(line)
     elif line.startswith("pause"):
         parse_pause(line)
+    elif line.startswith("rawchord"):
+        parse_rawchord(line)
     else:
         parse_chord(line)
 
