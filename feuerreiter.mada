@@ -1,5 +1,7 @@
 ; key A
 ; scale major
+artist Hugo Wolf
+title Der Feuerreiter
 pause 64s&
 midinote 38 5s&
 midinote 37 4s&

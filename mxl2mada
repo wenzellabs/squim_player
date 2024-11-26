@@ -98,6 +98,7 @@ class MXL2mada:
         self.root = self.tree.getroot()
         self._extract_key_signature()
         self._extract_divisions()
+        self._extract_meta()
         self.bpm = 120 # will be updated each measure
         self._collect_notes()
         self._process_measures()
@@ -134,6 +135,19 @@ class MXL2mada:
         # number of time steps that make up a quarter note
         self.divisions = int(self.root.find('.//attributes/divisions').text)
         print(f'{self.divisions=}')
+
+    def _extract_meta(self):
+        self.title = self.root.find('.//work/work-title')
+        self.artist = self.root.find('.//identification/creator')
+
+        if self.artist is not None:
+            self.artist = self.artist.text.replace('\n', ' ').replace('\r', ' ')
+            self.fout.write(f'artist {self.artist}\n')
+        if self.title is not None:
+            self.title = self.title.text.replace('\n', ' ').replace('\r', ' ')
+            self.fout.write(f'title {self.title}\n')
+
+        print(f'"{self.title}" from "{self.artist}"')
 
     def _collect_notes(self):
         all_measures = []
