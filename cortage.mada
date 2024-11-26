@@ -2,6 +2,7 @@
 ; scale major
 artist Lili BOULANGER
 title Cortège
+bpm 108
 midinote 71 32s&
 midinote 59 8s&
 pause 4s&

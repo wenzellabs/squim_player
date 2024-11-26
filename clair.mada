@@ -2,6 +2,7 @@
 ; scale major
 artist Lili Boulanger
 title D'un Vieux Jardin
+bpm 120
 pause 48s&
 pause 16s&
 midinote 64 48s&

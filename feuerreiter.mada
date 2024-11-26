@@ -2,6 +2,7 @@
 ; scale major
 artist Hugo Wolf
 title Der Feuerreiter
+bpm 120
 pause 64s&
 midinote 38 5s&
 midinote 37 4s&

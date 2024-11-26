@@ -99,7 +99,7 @@ class MXL2mada:
         self._extract_key_signature()
         self._extract_divisions()
         self._extract_meta()
-        self.bpm = 120 # will be updated each measure
+        self._extract_bpm()
         self._collect_notes()
         self._process_measures()
 
@@ -150,6 +150,14 @@ class MXL2mada:
         if self.rights is not None:
             self.rights = self.rights.text.replace('\n', ' ').replace('\r', ' ')
         print(f'"{self.title}" from "{self.artist}" under "{self.rights}"')
+
+    def _extract_bpm(self):
+        self.bpm = 120
+        sound = self.root.find('.//sound')
+        if sound is not None and 'tempo' in sound.attrib:
+            self.bpm = int(float(sound.attrib['tempo']))
+        self.fout.write(f'bpm {self.bpm}\n')
+        print(f'{self.bpm} bpm')
 
     def _collect_notes(self):
         all_measures = []

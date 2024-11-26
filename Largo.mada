@@ -1,5 +1,6 @@
 ; key Bb
 ; scale major
+bpm 70
 pause 4s&
 midinote 43 4s&
 midinote 62 64s&
