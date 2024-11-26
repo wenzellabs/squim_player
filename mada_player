@@ -304,6 +304,15 @@ def play_song(song_lines):
 def play_mada_file(filename):
     with open(filename, 'r') as file:
         song_lines = file.readlines()
+    if '.' in filename:
+        basename, extension = filename.rsplit('.', 1)
+    else:
+        basename, extension = filename, ""
+    basename = basename.ljust(234, '\0').encode('utf-8')
+    extension = extension.ljust(234, '\0').encode('utf-8')
+    send_tlv_packet(TLVPacketTitle(basename))
+    send_tlv_packet(TLVPacketArtist(extension))
+
     play_song(song_lines)
 
 def main():
