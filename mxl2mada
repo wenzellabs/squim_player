@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
 
-import zipfile
-import xml.etree.ElementTree as ET
 import sys
+import zipfile
+import argparse
+import xml.etree.ElementTree as ET
+from collections import defaultdict
 
 def name2midi(name: str) -> int:
     # note names to semitone offsets within an octave
@@ -79,10 +81,41 @@ class Note:
     def is_chord(self):
         return not self.chord == None
 
+class Chord:
+    def __init__(self):
+        self.notes = []
+
+    def add(self, n:Note):
+        if not isinstance(n, Note):
+            raise TypeError('only Note instances can be added to a Chord')
+        if len(self.notes) >= 16:
+            raise ValueError('a chord cannot contain more than 16 notes')
+        self.notes.append(n)
+
+    @staticmethod
+    def split(chord):
+        # splits chord into two
+        chunks = [Chord() for _ in range((len(chord.notes) + 7) // 8)]  # Create chunks of 8 notes
+        for i, note in enumerate(chord.notes):
+            chunks[i // 8].add(note)
+        return chunks
+
+    def mada(self, duration_factor:float) -> str:
+        if not self.notes:
+            return ''
+        midi_values = " ".join(str(n.midi) for n in self.notes)
+        duration = self.notes[0].duration if self.notes else 0
+        duration *= duration_factor
+        return f'rawchord {midi_values} {int(duration)}s'
+
+    def __repr__(self):
+        return f'Chord(notes={self.notes})'
+
 
 class MXL2mada:
-    def __init__(self, filename:str) -> None:
+    def __init__(self, filename:str, do_process_chords:bool=True) -> None:
         self.in_filename = filename
+        self.do_process_chords = do_process_chords
         self.fin = zipfile.ZipFile(self.in_filename, 'r')
         self.out_filename = self.in_filename.rsplit('.', 1)[0] + ".mada"
         self.fout = open(self.out_filename, 'w')
@@ -190,11 +223,11 @@ class MXL2mada:
                 for n in m:
                     if n.voice == v:
                         n.set_starttime(t_start)
-                        print(f'{n.name} v{v}', end='')
+                        #print(f'{n.name} v{v}', end='')
                         if not n.is_chord():
-                            print(f' advances {n.duration}', end='')
+                        #    print(f' advances {n.duration}', end='')
                             t_start += n.duration
-                        print()
+                        #print()
 
         # sort notes by starttime in t_sorted_notes
         t_sorted_notes = []
@@ -207,17 +240,56 @@ class MXL2mada:
         uniq_notes = list({(n.starttime, n.duration, n.midi): n for n in t_sorted_notes}.values())
         print(f'uniq reduced from {len(t_sorted_notes)} to {len(uniq_notes)} notes')
 
+        chords = []
+        if self.do_process_chords:
+            # gather chords (regardless of their .is_chord() flag)
+            note_groups = defaultdict(list)
+
+            # group by (starttime, duration)
+            for note in uniq_notes:
+                note_groups[(note.starttime, note.duration)].append(note)
+
+            # split into single notes and chords
+            remaining_notes = []
+            for (starttime, duration), notes in note_groups.items():
+                if len(notes) > 1:
+                    chord = Chord()
+                    for n in notes:
+                        if n.midi != -1: # drop concurrent rests
+                            chord.add(n)
+                        if len(chord.notes) == 16:
+                            chords.extend(Chord.split(chord))
+                            chord = Chord()
+                    chords.append(chord)
+                else:
+                    remaining_notes.append(notes[0])
+
+            uniq_notes = remaining_notes
+
         # basic strategy: play all notes (and rests) concurrently (by appending &)
         # play a (blocking) rest each time the starttime advances
         t_start = 0
         rest = Note(None, 0, 0, True, None, None, False, 0)
-        for n in uniq_notes:
 
-            if n.starttime != t_start:
-                rest.duration = n.starttime - t_start
+        # Combine uniq notes and chords, then sort by starttime
+        all_events = [(n.starttime, n) for n in uniq_notes] + \
+                     [(c.notes[0].starttime, c) for c in chords]
+        all_events.sort(key=lambda e: e[0])  # Sort by starttime
+
+        for event in all_events:
+            starttime, obj = event
+
+            # Handle rests for time gaps
+            if starttime != t_start:
+                rest.duration = starttime - t_start
                 self._emit_note(rest, False)
-            t_start = n.starttime
-            self._emit_note(n, True)
+            t_start = starttime
+
+            # Play the note or chord
+            if isinstance(obj, Note):
+                self._emit_note(obj, True)
+            elif isinstance(obj, Chord):
+                self._emit_chord(obj, True)
 
     def _emit_note(self, n:Note, concurrent:bool):
         suffix = ''
@@ -225,13 +297,27 @@ class MXL2mada:
             suffix = '&'
         the_factor = 16 # convert MXL duration in quarternotes to sixtyfourths
         if n.midi == -1:
-            self.fout.write(f'pause {n.duration * the_factor // self.divisions }s{suffix}\n')
+            self.fout.write(f'pause {n.duration * the_factor // self.divisions } s {suffix}\n')
         else:
-            self.fout.write(f'midinote {n.midi} {n.duration * the_factor // self.divisions }s{suffix}\n')
+            self.fout.write(f'midinote {n.midi} {n.duration * the_factor // self.divisions } s {suffix}\n')
 
+    def _emit_chord(self, c:Chord, concurrent:bool):
+        suffix = ''
+        if concurrent:
+            suffix = '&'
+        the_factor = 16
+
+        duration_factor = the_factor / self.divisions
+        mada = c.mada(duration_factor)
+        self.fout.write(f'{mada} {suffix}\n')
 
 if __name__ == "__main__":
-    if len(sys.argv) < 2:
-        print("Usage: python parse_mxl.py <path_to_mxl_file>")
-    else:
-        converter = MXL2mada(sys.argv[1])
+    parser = argparse.ArgumentParser(description='convert MXL files to .mada format')
+    parser.add_argument('mxl_file', metavar='path_to_mxl_file', type=str,
+                        help='path to the MXL file to convert')
+    parser.add_argument("--nochords", action="store_false", dest="chords",
+                        help="disable chord guessing and output")
+
+    args = parser.parse_args()
+
+    converter = MXL2mada(args.mxl_file, do_process_chords = args.chords)

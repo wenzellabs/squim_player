@@ -1,3214 +1,2896 @@
 ; key Bb
 ; scale major
 bpm 70
-pause 4s&
-midinote 43 4s&
-midinote 62 64s&
-midinote 46 64s&
-pause 4s
-midinote 43 32s&
-midinote 55 4s&
-pause 32s
-midinote 43 16s&
-midinote 55 32s&
-pause 16s
-pause 16s&
-midinote 55 16s&
-pause 12s&
-pause 12s
-midinote 41 4s&
-midinote 62 64s&
-midinote 53 32s&
-pause 4s
-midinote 43 32s&
-midinote 53 4s&
-pause 28s
-midinote 55 32s&
-pause 4s
-midinote 43 16s&
-midinote 55 32s&
-pause 16s
-pause 16s&
-midinote 55 16s&
-midinote 58 16s&
-pause 16s
-midinote 62 64s&
-midinote 62 16s&
-midinote 60 16s&
-pause 16s
-midinote 58 16s&
-pause 16s
-midinote 54 16s&
-pause 16s
-midinote 57 16s&
-midinote 55 16s&
-pause 16s
-midinote 62 8s&
-midinote 58 16s&
-pause 8s
-midinote 61 8s&
-pause 8s
-midinote 62 8s&
-pause 8s
-midinote 61 8s&
-pause 8s
-midinote 62 16s&
-pause 16s
-pause 16s&
-pause 16s
-midinote 60 48s&
-pause 48s
-midinote 58 16s&
-midinote 63 48s&
-pause 16s
-midinote 60 48s&
-midinote 62 16s&
-pause 48s
-midinote 58 16s&
-midinote 63 48s&
-pause 16s
-midinote 57 16s&
-midinote 62 16s&
-midinote 60 64s&
-pause 16s
-pause 16s&
-pause 16s
-pause 32s&
-pause 32s
-pause 32s&
-midinote 63 64s&
-midinote 50 32s&
-pause 32s
-pause 16s&
-midinote 58 32s&
-midinote 50 16s&
-pause 16s
-pause 12s&
-midinote 57 16s&
-pause 16s&
-pause 12s
-midinote 55 4s&
-pause 4s
-midinote 55 32s&
-pause 8s&
-pause 8s
-midinote 43 8s&
-pause 8s
-midinote 46 8s&
-pause 8s
-midinote 50 8s&
-pause 8s
-midinote 50 16s&
-midinote 55 16s&
-pause 16s
-midinote 51 12s&
-pause 16s&
-pause 12s
-midinote 58 4s&
-pause 4s
-midinote 58 32s&
-pause 8s&
-pause 8s
-midinote 43 8s&
-pause 8s
-midinote 46 8s&
-pause 8s
-midinote 50 8s&
-pause 8s
-midinote 55 16s&
-pause 16s
-midinote 62 16s&
-pause 16s&
-pause 16s
-midinote 54 16s&
-midinote 60 16s&
-pause 16s
-midinote 55 16s&
-midinote 58 16s&
-pause 16s
-midinote 60 16s&
-midinote 57 16s&
-pause 16s
-midinote 58 16s&
-midinote 55 16s&
-pause 16s
-midinote 58 32s&
-midinote 62 32s&
-pause 32s
-midinote 57 16s&
-midinote 50 16s&
-pause 16s
-pause 16s&
-pause 16s
-midinote 63 32s&
-midinote 48 64s&
-pause 32s
-midinote 60 16s&
-pause 16s
-midinote 57 16s&
-pause 16s
-midinote 62 32s&
-midinote 60 64s&
-midinote 46 32s&
-pause 32s
-midinote 55 24s&
-midinote 48 32s&
-pause 24s
-midinote 57 8s&
-pause 8s
-midinote 58 32s&
-midinote 50 8s&
-pause 8s
-midinote 51 8s&
-pause 8s
-midinote 50 8s&
-pause 8s
-midinote 49 8s&
-pause 8s
-midinote 57 16s&
-midinote 50 16s&
-pause 16s
-midinote 60 8s&
-midinote 38 16s&
-pause 8s
-midinote 58 8s&
-pause 8s
-midinote 55 16s&
-midinote 55 8s&
-pause 8s
-midinote 67 8s&
-pause 8s
-pause 16s&
-midinote 65 8s&
-pause 8s
-midinote 67 8s&
-pause 8s
-pause 32s&
-midinote 55 8s&
-pause 8s
-midinote 67 8s&
-pause 8s
-midinote 65 8s&
-pause 8s
-midinote 67 8s&
-pause 8s
-pause 64s&
-midinote 55 8s&
-pause 8s
-midinote 63 8s&
-midinote 66 8s&
-pause 8s
-midinote 55 8s&
-pause 8s
-midinote 63 8s&
-midinote 66 8s&
-pause 8s
-midinote 55 8s&
-pause 8s
-midinote 58 8s&
-midinote 67 8s&
-pause 8s
-midinote 55 8s&
-pause 8s
-midinote 60 8s&
-midinote 66 8s&
-pause 8s
-pause 32s&
-midinote 55 8s&
-pause 8s
-midinote 58 8s&
-midinote 67 8s&
-pause 8s
-midinote 62 8s&
-pause 8s
-midinote 67 8s&
-pause 8s
-pause 16s&
-midinote 55 8s&
-pause 8s
-midinote 58 8s&
-midinote 67 8s&
-pause 8s
-midinote 62 8s&
-pause 8s
-midinote 62 8s&
-midinote 67 8s&
-pause 8s
-midinote 62 8s&
-midinote 50 8s&
-pause 8s
-midinote 60 8s&
-pause 8s&
-pause 8s
-midinote 60 8s&
-midinote 62 8s&
-pause 8s
-midinote 60 8s&
-pause 8s&
-pause 8s
-midinote 60 8s&
-midinote 50 8s&
-pause 8s
-midinote 58 8s&
-pause 8s&
-pause 8s
-midinote 58 8s&
-midinote 62 8s&
-pause 8s
-midinote 58 8s&
-pause 8s&
-pause 8s
-midinote 57 16s&
-midinote 54 8s&
-pause 8s
-midinote 62 8s&
-pause 8s
-pause 16s&
-midinote 57 8s&
-pause 8s
-midinote 62 8s&
-pause 8s
-pause 32s&
-midinote 54 8s&
-pause 8s
-midinote 62 8s&
-pause 8s
-midinote 57 8s&
-pause 8s
-midinote 62 8s&
-pause 8s
-pause 64s&
-midinote 55 8s&
-pause 8s
-midinote 63 8s&
-pause 8s
-midinote 58 8s&
-pause 8s
-midinote 63 8s&
-pause 8s
-midinote 57 8s&
-pause 8s
-midinote 65 8s&
-pause 8s
-midinote 60 8s&
-pause 8s
-midinote 65 8s&
-pause 8s
-pause 32s&
-midinote 58 8s&
-pause 8s
-midinote 65 8s&
-pause 8s
-midinote 62 8s&
-pause 8s
-midinote 65 8s&
-pause 8s
-pause 8s&
-midinote 58 8s&
-pause 8s
-midinote 65 8s&
-pause 8s
-midinote 63 8s&
-midinote 62 8s&
-pause 8s
-midinote 62 8s&
-midinote 65 8s&
-pause 8s
-midinote 60 16s&
-midinote 51 8s&
-pause 8s
-midinote 60 8s&
-pause 8s
-midinote 60 16s&
-midinote 55 8s&
-pause 8s
-midinote 60 8s&
-pause 8s
-midinote 61 8s&
-midinote 52 32s&
-pause 8s
-midinote 63 4s&
-pause 4s
-midinote 61 4s&
-pause 4s
-midinote 60 8s&
-pause 8s
-midinote 58 8s&
-pause 8s
-midinote 53 64s&
-midinote 53 8s&
-pause 8s
-midinote 57 8s&
-midinote 65 8s&
-pause 8s
-midinote 60 8s&
-pause 8s
-midinote 65 8s&
-pause 8s
-midinote 53 8s&
-pause 8s
-midinote 57 8s&
-midinote 65 8s&
-pause 8s
-midinote 60 8s&
-pause 8s
-midinote 65 8s&
-pause 8s
-midinote 53 8s&
-pause 8s
-pause 8s&
-midinote 58 8s&
-midinote 65 8s&
-pause 8s
-pause 16s&
-midinote 62 8s&
-pause 8s
-midinote 65 8s&
-pause 8s
-midinote 61 24s&
-midinote 53 8s&
-pause 8s
-midinote 58 8s&
-midinote 61 8s&
-midinote 64 8s&
-pause 8s
-midinote 53 8s&
-pause 8s
-midinote 58 8s&
-midinote 61 8s&
-midinote 64 8s&
-pause 8s
-midinote 57 16s&
-midinote 53 8s&
-pause 8s
-midinote 57 8s&
-midinote 65 8s&
-pause 8s
-pause 16s&
-midinote 60 8s&
-pause 8s
-midinote 65 8s&
-pause 8s
-midinote 53 32s&
-midinote 53 8s&
-pause 8s
-midinote 57 8s&
-midinote 65 8s&
-pause 8s
-midinote 60 8s&
-pause 8s
-midinote 65 8s&
-pause 8s
-midinote 53 8s&
-pause 8s
-pause 8s&
-midinote 58 8s&
-midinote 65 8s&
-pause 8s
-pause 16s&
-midinote 62 8s&
-pause 8s
-midinote 65 8s&
-pause 8s
-midinote 61 24s&
-midinote 53 8s&
-pause 8s
-midinote 58 8s&
-midinote 61 8s&
-midinote 64 8s&
-pause 8s
-midinote 53 8s&
-pause 8s
-midinote 58 8s&
-midinote 61 8s&
-midinote 64 8s&
-pause 8s
-midinote 57 8s&
-midinote 53 16s&
-pause 8s
-pause 8s&
-pause 8s
-midinote 65 16s&
-pause 16s&
-pause 16s
-midinote 63 16s&
-pause 32s&
-pause 16s
-midinote 60 16s&
-pause 16s
-midinote 62 32s&
-midinote 46 64s&
-pause 32s
-midinote 60 8s&
-pause 8s
-midinote 58 8s&
-pause 8s
-midinote 57 8s&
-pause 8s
-midinote 55 8s&
-pause 8s
-midinote 55 32s&
-midinote 53 64s&
-midinote 58 64s&
-midinote 46 64s&
-pause 32s
-midinote 53 16s&
-pause 16s
-midinote 62 16s&
-pause 16s
-midinote 60 24s&
-midinote 53 64s&
-midinote 58 64s&
-midinote 54 32s&
-pause 24s
-midinote 63 8s&
-pause 8s
-midinote 57 24s&
-midinote 53 32s&
-pause 24s
-midinote 60 8s&
-pause 8s
-midinote 58 32s&
-midinote 46 64s&
-pause 32s
-midinote 53 16s&
-pause 16s
-pause 16s&
-pause 16s
-midinote 62 32s&
-midinote 53 64s&
-midinote 58 64s&
-midinote 46 64s&
-pause 32s
-midinote 60 8s&
-pause 8s
-midinote 58 8s&
-pause 8s
-midinote 57 8s&
-pause 8s
-midinote 55 8s&
-pause 8s
-midinote 55 32s&
-midinote 58 64s&
-midinote 46 32s&
-pause 32s
-midinote 53 16s&
-midinote 53 32s&
-midinote 58 32s&
-midinote 46 16s&
-pause 16s
-midinote 62 16s&
-midinote 53 16s&
-midinote 58 16s&
-pause 16s&
-pause 16s
-midinote 62 8s&
-midinote 48 8s&
-pause 8s
-midinote 60 8s&
-midinote 53 8s&
-pause 8s
-midinote 57 8s&
-pause 8s
-midinote 60 8s&
-pause 8s
-midinote 60 8s&
-midinote 48 8s&
-pause 8s
-midinote 58 8s&
-midinote 52 8s&
-pause 8s
-midinote 57 8s&
-midinote 55 8s&
-pause 8s
-midinote 55 8s&
-midinote 60 8s&
-pause 8s
-midinote 53 16s&
-pause 16s
-pause 16s&
-pause 16s
-pause 32s&
-pause 32s
-midinote 46 16s&
-midinote 62 8s&
-pause 8s
-midinote 65 8s&
-pause 8s
-pause 16s&
-midinote 62 8s&
-pause 8s
-midinote 65 8s&
-pause 8s
-pause 32s&
-midinote 58 8s&
-pause 8s
-midinote 67 8s&
-pause 8s
-midinote 63 8s&
-pause 8s
-midinote 67 8s&
-pause 8s
-midinote 46 16s&
-midinote 58 8s&
-pause 8s
-midinote 65 8s&
-pause 8s
-pause 16s&
-midinote 62 8s&
-pause 8s
-midinote 65 8s&
-pause 8s
-pause 32s&
-midinote 58 8s&
-pause 8s
-midinote 65 8s&
-pause 8s
-midinote 62 8s&
-pause 8s
-midinote 65 8s&
-pause 8s
-midinote 46 64s&
-midinote 58 8s&
-pause 8s
-midinote 66 8s&
-pause 8s
-midinote 63 8s&
-pause 8s
-midinote 66 8s&
-pause 8s
-midinote 58 8s&
-pause 8s
-midinote 65 8s&
-pause 8s
-midinote 63 8s&
-pause 8s
-midinote 65 8s&
-pause 8s
-midinote 46 32s&
-midinote 58 8s&
-pause 8s
-midinote 65 8s&
-pause 8s
-midinote 62 8s&
-pause 8s
-midinote 65 8s&
-pause 8s
-pause 32s&
-midinote 58 8s&
-pause 8s
-midinote 65 8s&
-pause 8s
-midinote 62 8s&
-pause 8s
-midinote 65 8s&
-pause 8s
-midinote 46 16s&
-midinote 58 8s&
-pause 8s
-midinote 65 8s&
-pause 8s
-pause 16s&
-midinote 62 8s&
-pause 8s
-midinote 65 8s&
-pause 8s
-pause 32s&
-midinote 58 8s&
-pause 8s
-midinote 67 8s&
-pause 8s
-midinote 63 8s&
-pause 8s
-midinote 67 8s&
-pause 8s
-midinote 46 32s&
-midinote 58 8s&
-pause 8s
-midinote 65 8s&
-pause 8s
-midinote 62 8s&
-pause 8s
-midinote 65 8s&
-pause 8s
-pause 32s&
-midinote 58 8s&
-pause 8s
-midinote 65 8s&
-pause 8s
-midinote 62 8s&
-pause 8s
-midinote 65 8s&
-pause 8s
-midinote 51 32s&
-midinote 51 8s&
-pause 8s
-midinote 60 8s&
-pause 8s
-pause 8s&
-pause 8s
-midinote 60 8s&
-pause 8s
-midinote 53 32s&
-midinote 53 8s&
-pause 8s
-midinote 58 8s&
-midinote 62 8s&
-pause 8s
-midinote 53 8s&
-pause 8s
-midinote 57 8s&
-midinote 63 8s&
-pause 8s
-midinote 58 8s&
-pause 8s
-pause 8s&
-midinote 62 8s&
-midinote 53 8s&
-pause 8s
-midinote 58 8s&
-pause 8s
-midinote 58 8s&
-midinote 62 8s&
-midinote 53 8s&
-pause 8s
-midinote 58 8s&
-pause 8s
-midinote 60 4s&
-midinote 62 8s&
-midinote 53 8s&
-pause 4s
-midinote 58 4s&
-pause 4s
-midinote 57 8s&
-midinote 58 8s&
-pause 8s
-midinote 58 8s&
-midinote 62 8s&
-midinote 53 8s&
-pause 8s
-midinote 59 8s&
-midinote 60 8s&
-pause 8s
-midinote 60 8s&
-midinote 63 8s&
-midinote 53 8s&
-pause 8s
-midinote 60 8s&
-pause 8s
-midinote 60 8s&
-midinote 63 8s&
-midinote 53 8s&
-pause 8s
-midinote 60 8s&
-pause 8s
-midinote 62 4s&
-midinote 63 8s&
-midinote 53 8s&
-pause 4s
-midinote 60 4s&
-pause 4s
-midinote 59 8s&
-midinote 60 8s&
-pause 8s
-midinote 60 8s&
-midinote 63 8s&
-midinote 53 8s&
-pause 8s
-midinote 61 8s&
-midinote 58 8s&
-pause 8s
-midinote 62 8s&
-midinote 53 8s&
-pause 8s
-midinote 62 8s&
-midinote 58 8s&
-pause 8s
-midinote 62 8s&
-midinote 53 8s&
-pause 8s
-midinote 67 8s&
-midinote 58 8s&
-pause 8s
-midinote 65 8s&
-midinote 62 8s&
-midinote 53 8s&
-pause 8s
-midinote 63 8s&
-midinote 58 8s&
-pause 8s
-midinote 62 8s&
-midinote 53 8s&
-pause 8s
-midinote 62 8s&
-midinote 60 8s&
-pause 8s
-midinote 60 8s&
-midinote 63 8s&
-midinote 53 8s&
-pause 8s
-midinote 60 8s&
-pause 8s
-midinote 60 8s&
-midinote 63 8s&
-midinote 53 8s&
-pause 8s
-midinote 60 8s&
-pause 8s
-midinote 62 4s&
-midinote 63 8s&
-midinote 53 8s&
-pause 4s
-midinote 63 4s&
-pause 4s
-midinote 62 8s&
-midinote 60 8s&
-pause 8s
-midinote 60 8s&
-midinote 63 8s&
-midinote 53 8s&
-pause 8s
-midinote 58 8s&
-midinote 58 16s&
-pause 8s
-pause 8s&
-pause 8s
-midinote 58 8s&
-midinote 62 16s&
-pause 16s&
-pause 8s
-midinote 60 8s&
-pause 8s
-midinote 62 8s&
-midinote 58 16s&
-pause 8s
-pause 8s&
-pause 8s
-midinote 58 8s&
-pause 16s&
-pause 8s
-midinote 60 8s&
-pause 8s
-midinote 62 8s&
-midinote 58 16s&
-pause 8s
-pause 8s&
-pause 8s
-midinote 58 8s&
-pause 16s&
-pause 8s
-midinote 60 8s&
-pause 8s
-midinote 62 8s&
-midinote 58 16s&
-pause 8s
-midinote 63 8s&
-pause 8s
-midinote 65 8s&
-midinote 58 16s&
-pause 8s
-midinote 62 8s&
-pause 8s
-midinote 63 8s&
-midinote 51 16s&
-pause 8s
-midinote 62 8s&
-pause 8s
-midinote 63 8s&
-pause 16s&
-pause 8s
-midinote 62 8s&
-pause 8s
-midinote 63 8s&
-midinote 51 16s&
-pause 8s
-midinote 62 8s&
-pause 8s
-midinote 63 8s&
-pause 16s&
-pause 8s
-midinote 62 8s&
-pause 8s
-midinote 63 16s&
-midinote 51 16s&
-pause 16s
-midinote 67 16s&
-pause 16s&
-pause 16s
-midinote 65 16s&
-pause 32s&
-pause 16s
-midinote 63 16s&
-pause 16s
-midinote 62 16s&
-midinote 53 16s&
-pause 16s
-midinote 58 8s&
-pause 16s&
-pause 8s
-midinote 62 8s&
-pause 8s
-midinote 62 8s&
-midinote 53 16s&
-pause 8s
-midinote 60 8s&
-pause 8s
-midinote 58 8s&
-midinote 53 16s&
-pause 8s
-midinote 57 8s&
-pause 8s
-midinote 58 8s&
-midinote 58 16s&
-pause 8s
-pause 8s&
-pause 8s
-midinote 62 8s&
-pause 16s&
-pause 8s
-midinote 62 8s&
-pause 8s
-midinote 62 8s&
-midinote 51 8s&
-pause 8s
-midinote 60 8s&
-pause 8s&
-pause 8s
-midinote 60 8s&
-midinote 51 8s&
-pause 8s
-midinote 60 8s&
-pause 8s&
-pause 8s
-midinote 60 8s&
-midinote 53 8s&
-pause 8s
-midinote 58 8s&
-pause 8s&
-pause 8s
-midinote 58 8s&
-midinote 53 8s&
-pause 8s
-midinote 58 8s&
-pause 8s&
-pause 8s
-midinote 58 8s&
-midinote 41 8s&
-pause 8s
-midinote 57 8s&
-pause 8s&
-pause 8s
-midinote 57 8s&
-midinote 41 8s&
-pause 8s
-midinote 57 8s&
-pause 8s&
-pause 8s
-midinote 63 8s&
-midinote 46 8s&
-pause 8s
-midinote 62 8s&
-pause 8s&
-pause 8s
-midinote 62 8s&
-midinote 46 8s&
-pause 8s
-midinote 62 8s&
-pause 8s&
-pause 8s
-midinote 62 8s&
-midinote 51 8s&
-pause 8s
-midinote 60 8s&
-pause 8s&
-pause 8s
-midinote 60 8s&
-midinote 51 8s&
-pause 8s
-midinote 60 8s&
-pause 8s&
-pause 8s
-midinote 60 8s&
-midinote 53 8s&
-pause 8s
-midinote 58 8s&
-pause 8s&
-pause 8s
-midinote 58 8s&
-midinote 53 8s&
-pause 8s
-midinote 58 8s&
-pause 8s&
-pause 8s
-midinote 58 8s&
-midinote 41 8s&
-pause 8s
-midinote 57 8s&
-pause 8s&
-pause 8s
-midinote 57 8s&
-midinote 41 8s&
-pause 8s
-midinote 57 8s&
-pause 8s&
-pause 8s
-midinote 58 16s&
-midinote 58 8s&
-pause 8s
-midinote 62 8s&
-pause 8s
-pause 16s&
-midinote 65 8s&
-midinote 62 8s&
-pause 8s
-midinote 65 8s&
-midinote 62 8s&
-pause 8s
-pause 32s&
-midinote 65 8s&
-midinote 58 8s&
-pause 8s
-midinote 62 8s&
-pause 8s
-midinote 65 8s&
-midinote 62 8s&
-pause 8s
-midinote 65 8s&
-midinote 62 8s&
-pause 8s
-pause 64s&
-midinote 65 8s&
-midinote 58 8s&
-pause 8s
-midinote 62 8s&
-pause 8s
-midinote 65 8s&
-midinote 62 8s&
-pause 8s
-midinote 65 8s&
-midinote 62 8s&
-pause 8s
-midinote 65 8s&
-midinote 58 8s&
-pause 8s
-midinote 63 8s&
-pause 8s
-midinote 67 8s&
-midinote 63 8s&
-pause 8s
-midinote 67 8s&
-midinote 63 8s&
-pause 8s
-pause 64s&
-midinote 67 8s&
-midinote 58 8s&
-pause 8s
-midinote 62 8s&
-pause 8s
-midinote 65 8s&
-midinote 62 8s&
-pause 8s
-midinote 65 8s&
-midinote 62 8s&
-pause 8s
-midinote 65 8s&
-midinote 58 8s&
-pause 8s
-midinote 62 8s&
-pause 8s
-midinote 65 8s&
-midinote 62 8s&
-pause 8s
-midinote 65 8s&
-midinote 62 8s&
-pause 8s
-pause 64s&
-midinote 65 8s&
-midinote 53 8s&
-pause 8s
-midinote 63 8s&
-pause 8s
-midinote 63 8s&
-pause 8s
-midinote 63 8s&
-pause 8s
-midinote 53 8s&
-pause 8s
-midinote 63 8s&
-pause 8s
-midinote 63 8s&
-pause 8s
-midinote 63 8s&
-pause 8s
-pause 64s&
-midinote 58 8s&
-pause 8s
-midinote 62 8s&
-pause 8s
-midinote 65 8s&
-midinote 62 8s&
-pause 8s
-midinote 65 8s&
-midinote 62 8s&
-pause 8s
-midinote 65 8s&
-midinote 58 8s&
-pause 8s
-midinote 62 8s&
-pause 8s
-midinote 65 8s&
-midinote 62 8s&
-pause 8s
-midinote 65 8s&
-midinote 62 8s&
-pause 8s
-midinote 58 32s&
-midinote 65 8s&
-midinote 58 8s&
-pause 8s
-midinote 62 8s&
-pause 8s
-midinote 65 8s&
-midinote 62 8s&
-pause 8s
-midinote 65 8s&
-midinote 62 8s&
-pause 8s
-midinote 57 32s&
-midinote 65 8s&
-midinote 57 8s&
-pause 8s
-midinote 60 8s&
-pause 8s
-midinote 58 8s&
-pause 8s
-midinote 57 8s&
-pause 8s
-midinote 55 32s&
-midinote 55 8s&
-pause 8s
-midinote 58 8s&
-pause 8s
-midinote 62 8s&
-midinote 58 8s&
-pause 8s
-midinote 62 8s&
-midinote 58 8s&
-pause 8s
-pause 32s&
-midinote 62 8s&
-midinote 55 8s&
-pause 8s
-midinote 58 8s&
-pause 8s
-midinote 62 8s&
-midinote 58 8s&
-pause 8s
-midinote 62 8s&
-midinote 58 8s&
-pause 8s
-pause 64s&
-midinote 62 8s&
-midinote 51 64s&
-pause 64s
-pause 64s&
-midinote 55 64s&
-midinote 61 64s&
-midinote 50 8s&
-pause 8s
-midinote 54 8s&
-pause 8s
-midinote 57 8s&
-midinote 62 8s&
-midinote 54 8s&
-pause 8s
-midinote 57 8s&
-midinote 62 8s&
-midinote 54 8s&
-pause 8s
-midinote 57 8s&
-midinote 62 8s&
-midinote 50 8s&
-pause 8s
-midinote 57 8s&
-pause 8s
-midinote 60 8s&
-midinote 57 8s&
-pause 8s
-midinote 60 8s&
-midinote 57 8s&
-pause 8s
-pause 64s&
-midinote 60 8s&
-midinote 50 8s&
-pause 8s
-midinote 55 8s&
-pause 8s
-midinote 58 8s&
-midinote 55 8s&
-pause 8s
-midinote 58 8s&
-midinote 55 8s&
-pause 8s
-midinote 58 8s&
-midinote 50 8s&
-pause 8s
-midinote 55 8s&
-pause 8s
-midinote 58 8s&
-midinote 55 8s&
-pause 8s
-midinote 58 8s&
-midinote 55 8s&
-pause 8s
-pause 64s&
-midinote 58 8s&
-midinote 50 28s&
-pause 28s
-midinote 50 4s&
-pause 4s
-midinote 50 28s&
-pause 28s
-midinote 50 4s&
-pause 4s
-midinote 58 16s&
-midinote 50 32s&
-pause 16s
-midinote 62 16s&
-pause 16s
-midinote 65 16s&
-pause 32s&
-pause 16s
-midinote 69 16s&
-pause 16s
-midinote 71 32s&
-midinote 43 32s&
-pause 32s
-midinote 69 8s&
-midinote 55 32s&
-midinote 43 32s&
-pause 8s
-midinote 67 8s&
-pause 8s
-midinote 66 8s&
-pause 8s
-midinote 64 8s&
-pause 8s
-midinote 64 32s&
-midinote 55 32s&
-midinote 43 32s&
-pause 32s
-midinote 62 16s&
-midinote 55 32s&
-pause 32s&
-pause 16s
-midinote 67 8s&
-pause 8s
-midinote 66 8s&
-pause 8s
-midinote 64 16s&
-midinote 48 32s&
-pause 16s
-midinote 64 16s&
-pause 16s
-midinote 67 8s&
-midinote 52 32s&
-pause 8s
-midinote 66 8s&
-pause 8s
-midinote 64 8s&
-pause 8s
-midinote 66 8s&
-pause 8s
-midinote 67 32s&
-midinote 55 32s&
-pause 32s
-midinote 62 16s&
-pause 32s&
-pause 16s
-midinote 62 16s&
-pause 16s
-midinote 71 32s&
-midinote 43 32s&
-pause 32s
-midinote 69 8s&
-midinote 55 32s&
-midinote 43 32s&
-pause 8s
-midinote 67 8s&
-pause 8s
-midinote 66 8s&
-pause 8s
-midinote 64 8s&
-pause 8s
-midinote 64 32s&
-midinote 55 32s&
-midinote 43 32s&
-pause 32s
-midinote 62 16s&
-midinote 55 32s&
-pause 32s&
-pause 16s
-midinote 59 12s&
-pause 12s
-midinote 61 4s&
-pause 4s
-midinote 62 24s&
-midinote 57 32s&
-pause 24s
-midinote 64 8s&
-pause 8s
-midinote 66 12s&
-midinote 45 32s&
-pause 12s
-midinote 67 4s&
-pause 4s
-midinote 64 12s&
-pause 12s
-midinote 66 4s&
-pause 4s
-midinote 62 32s&
-midinote 50 16s&
-pause 16s
-pause 16s&
-pause 16s
-pause 32s&
-pause 32s
-midinote 43 32s&
-midinote 55 8s&
-pause 8s
-midinote 59 8s&
-midinote 67 8s&
-pause 8s
-midinote 62 8s&
-pause 8s
-midinote 67 8s&
-pause 8s
-pause 32s&
-midinote 55 8s&
-pause 8s
-midinote 60 8s&
-midinote 67 8s&
-pause 8s
-midinote 62 8s&
-pause 8s
-midinote 67 8s&
-pause 8s
-midinote 43 32s&
-midinote 55 8s&
-pause 8s
-midinote 59 8s&
-midinote 67 8s&
-pause 8s
-midinote 62 8s&
-pause 8s
-midinote 67 8s&
-pause 8s
-pause 32s&
-midinote 55 8s&
-pause 8s
-midinote 59 8s&
-midinote 67 8s&
-pause 8s
-midinote 62 8s&
-pause 8s
-midinote 67 8s&
-pause 8s
-midinote 43 32s&
-midinote 55 8s&
-pause 8s
-midinote 60 8s&
-midinote 67 8s&
-pause 8s
-midinote 64 8s&
-pause 8s
-midinote 67 8s&
-pause 8s
-midinote 43 32s&
-midinote 60 8s&
-pause 8s
-midinote 66 8s&
-pause 8s
-midinote 62 8s&
-pause 8s
-midinote 66 8s&
-pause 8s
-midinote 43 32s&
-midinote 55 8s&
-pause 8s
-midinote 59 8s&
-midinote 67 8s&
-pause 8s
-midinote 62 8s&
-pause 8s
-midinote 67 8s&
-pause 8s
-pause 32s&
-midinote 55 8s&
-pause 8s
-midinote 59 8s&
-midinote 67 8s&
-pause 8s
-midinote 62 8s&
-pause 8s
-midinote 67 8s&
-pause 8s
-midinote 43 16s&
-midinote 55 8s&
-pause 8s
-midinote 59 8s&
-midinote 67 8s&
-pause 8s
-pause 16s&
-midinote 62 8s&
-pause 8s
-midinote 67 8s&
-pause 8s
-pause 32s&
-midinote 55 8s&
-pause 8s
-midinote 60 8s&
-midinote 64 8s&
-pause 8s
-midinote 55 8s&
-pause 8s
-midinote 60 8s&
-midinote 64 8s&
-pause 8s
-midinote 43 16s&
-midinote 55 8s&
-pause 8s
-midinote 59 8s&
-midinote 67 8s&
-pause 8s
-pause 16s&
-midinote 62 8s&
-pause 8s
-midinote 67 8s&
-pause 8s
-pause 32s&
-midinote 55 8s&
-pause 8s
-midinote 60 8s&
-midinote 67 8s&
-pause 8s
-midinote 62 8s&
-pause 8s
-midinote 67 8s&
-pause 8s
-midinote 48 16s&
-midinote 48 8s&
-pause 8s
-midinote 52 8s&
-midinote 60 8s&
-pause 8s
-pause 16s&
-midinote 57 8s&
-pause 8s
-midinote 60 8s&
-pause 8s
-pause 32s&
-midinote 47 8s&
-pause 8s
-midinote 50 8s&
-midinote 55 8s&
-midinote 59 8s&
-pause 8s
-midinote 50 8s&
-pause 8s
-midinote 54 8s&
-midinote 57 8s&
-midinote 60 8s&
-pause 8s
-pause 16s&
-midinote 55 8s&
-pause 8s
-midinote 59 8s&
-midinote 50 8s&
-pause 8s
-midinote 59 8s&
-midinote 55 8s&
-pause 8s
-midinote 59 8s&
-midinote 50 8s&
-pause 8s
-midinote 59 8s&
-midinote 55 8s&
-pause 8s
-midinote 60 4s&
-midinote 59 8s&
-midinote 50 8s&
-pause 4s
-midinote 59 4s&
-pause 4s
-midinote 59 8s&
-midinote 55 8s&
-pause 8s
-midinote 60 8s&
-midinote 59 8s&
-midinote 50 8s&
-pause 8s
-midinote 60 8s&
-midinote 57 8s&
-pause 8s
-midinote 62 8s&
-midinote 60 8s&
-midinote 50 8s&
-pause 8s
-midinote 62 8s&
-midinote 57 8s&
-pause 8s
-midinote 62 8s&
-midinote 60 8s&
-midinote 50 8s&
-pause 8s
-midinote 62 8s&
-midinote 57 8s&
-pause 8s
-midinote 64 4s&
-midinote 60 8s&
-midinote 50 8s&
-pause 4s
-midinote 62 4s&
-pause 4s
-midinote 60 8s&
-midinote 57 8s&
-pause 8s
-midinote 62 8s&
-midinote 60 8s&
-midinote 50 8s&
-pause 8s
-midinote 63 8s&
-midinote 55 8s&
-pause 8s
-midinote 64 8s&
-midinote 59 8s&
-midinote 50 8s&
-pause 8s
-midinote 64 8s&
-midinote 55 8s&
-pause 8s
-midinote 64 8s&
-midinote 59 8s&
-midinote 50 8s&
-pause 8s
-midinote 67 8s&
-midinote 55 8s&
-pause 8s
-midinote 66 8s&
-midinote 59 8s&
-midinote 50 8s&
-pause 8s
-midinote 64 8s&
-midinote 55 8s&
-pause 8s
-midinote 62 8s&
-midinote 59 8s&
-midinote 50 8s&
-pause 8s
-midinote 62 8s&
-midinote 57 8s&
-pause 8s
-midinote 60 8s&
-midinote 50 8s&
-pause 8s
-midinote 60 8s&
-midinote 57 8s&
-pause 8s
-midinote 60 8s&
-midinote 50 8s&
-pause 8s
-midinote 60 8s&
-midinote 57 8s&
-pause 8s
-midinote 62 4s&
-midinote 60 8s&
-midinote 50 8s&
-pause 4s
-midinote 60 4s&
-pause 4s
-midinote 62 8s&
-midinote 57 8s&
-pause 8s
-midinote 60 8s&
-midinote 50 8s&
-pause 8s
-midinote 59 8s&
-midinote 55 16s&
-pause 8s
-pause 8s&
-pause 8s
-midinote 59 8s&
-pause 16s&
-pause 8s
-midinote 60 8s&
-pause 8s
-midinote 62 8s&
-midinote 55 16s&
-pause 8s
-pause 8s&
-pause 8s
-midinote 59 8s&
-pause 16s&
-pause 8s
-midinote 60 8s&
-pause 8s
-midinote 62 8s&
-midinote 55 16s&
-pause 8s
-pause 8s&
-pause 8s
-midinote 59 8s&
-pause 16s&
-pause 8s
-midinote 60 8s&
-pause 8s
-midinote 62 8s&
-midinote 55 8s&
-pause 8s
-midinote 64 8s&
-pause 8s&
-pause 8s
-midinote 65 8s&
-midinote 55 8s&
-pause 8s
-midinote 62 8s&
-pause 8s&
-pause 8s
-midinote 64 16s&
-midinote 48 16s&
-pause 16s
-midinote 63 16s&
-pause 16s&
-pause 16s
-midinote 64 16s&
-midinote 48 16s&
-pause 16s
-midinote 63 16s&
-pause 16s&
-pause 16s
-midinote 66 16s&
-midinote 48 16s&
-pause 16s
-midinote 64 16s&
-pause 16s&
-pause 16s
-midinote 62 16s&
-pause 32s&
-pause 16s
-midinote 60 16s&
-pause 16s
-midinote 60 8s&
-midinote 50 16s&
-pause 8s
-midinote 59 8s&
-pause 8s
-midinote 64 8s&
-pause 16s&
-pause 8s
-midinote 62 8s&
-pause 8s
-midinote 62 8s&
-midinote 50 16s&
-pause 8s
-midinote 60 8s&
-pause 8s
-midinote 59 8s&
-pause 16s&
-pause 8s
-midinote 57 8s&
-pause 8s
-midinote 59 8s&
-midinote 55 16s&
-pause 8s
-pause 8s&
-pause 8s
-midinote 62 8s&
-pause 16s&
-pause 8s
-midinote 62 8s&
-pause 8s
-midinote 62 8s&
-midinote 48 8s&
-pause 8s
-midinote 60 8s&
-pause 8s&
-pause 8s
-midinote 60 8s&
-midinote 48 8s&
-pause 8s
-midinote 60 8s&
-pause 8s&
-pause 8s
-midinote 60 8s&
-midinote 50 16s&
-pause 8s
-midinote 59 8s&
-pause 8s
-midinote 59 8s&
-pause 16s&
-pause 8s
-midinote 59 8s&
-pause 8s
-midinote 59 8s&
-midinote 50 8s&
-pause 8s
-midinote 57 8s&
-pause 8s&
-pause 8s
-midinote 57 8s&
-midinote 50 8s&
-pause 8s
-midinote 57 8s&
-pause 8s&
-pause 8s
-midinote 64 8s&
-midinote 55 16s&
-pause 8s
-midinote 62 8s&
-pause 8s
-midinote 62 8s&
-pause 16s&
-pause 8s
-midinote 62 8s&
-pause 8s
-midinote 62 8s&
-midinote 48 8s&
-pause 8s
-midinote 60 8s&
-pause 8s&
-pause 8s
-midinote 60 8s&
-midinote 48 8s&
-pause 8s
-midinote 60 8s&
-pause 8s&
-pause 8s
-midinote 60 8s&
-midinote 50 16s&
-pause 8s
-midinote 59 8s&
-pause 8s
-midinote 59 8s&
-pause 16s&
-pause 8s
-midinote 59 8s&
-pause 8s
-midinote 59 8s&
-midinote 50 8s&
-pause 8s
-midinote 57 8s&
-pause 8s&
-pause 8s
-midinote 57 8s&
-midinote 50 8s&
-pause 8s
-midinote 57 8s&
-pause 8s&
-pause 8s
-midinote 59 16s&
-midinote 55 16s&
-pause 16s
-pause 16s&
-pause 16s
-pause 32s&
-pause 32s
-midinote 57 16s&
-midinote 50 64s&
-pause 16s
-midinote 55 16s&
-pause 16s
-midinote 57 16s&
-pause 16s
-midinote 59 16s&
-pause 16s
-midinote 55 16s&
-pause 16s
-pause 16s&
-pause 16s
-midinote 50 16s&
-midinote 43 16s&
-pause 16s
-midinote 59 16s&
-pause 16s&
-midinote 55 16s&
-pause 16s
-midinote 43 32s&
-pause 32s
-midinote 55 32s&
-pause 32s&
-pause 32s
-midinote 58 4s&
-pause 4s
-midinote 67 4s&
-midinote 58 32s&
-pause 32s
-midinote 67 32s&
-midinote 58 16s&
-pause 16s
-midinote 62 16s&
-pause 12s&
-pause 12s
-midinote 62 4s&
-pause 4s
-midinote 70 4s&
-midinote 62 32s&
-pause 32s
-midinote 70 32s&
-midinote 62 16s&
-pause 16s
-midinote 67 16s&
-midinote 74 8s&
-pause 8s
-midinote 70 4s&
-pause 4s
-midinote 67 4s&
-pause 4s
-midinote 66 16s&
-pause 16s
-midinote 67 16s&
-pause 16s
-midinote 72 16s&
-pause 16s
-midinote 70 16s&
-pause 16s
-midinote 67 32s&
-pause 32s
-midinote 70 32s&
-midinote 66 16s&
-pause 16s
-midinote 69 16s&
-pause 16s&
-pause 16s
-midinote 66 24s&
-pause 24s
-midinote 75 24s&
-midinote 72 4s&
-pause 4s
-midinote 69 4s&
-pause 4s
-midinote 66 16s&
-pause 16s
-midinote 67 16s&
-pause 16s
-midinote 66 24s&
-pause 24s
-midinote 75 24s&
-midinote 72 4s&
-pause 4s
-midinote 69 4s&
-pause 4s
-midinote 66 16s&
-pause 16s
-midinote 67 16s&
-pause 16s
-midinote 69 8s&
-pause 8s
-midinote 70 8s&
-pause 8s
-midinote 72 8s&
-pause 8s
-midinote 74 8s&
-pause 8s
-midinote 75 8s&
-pause 8s
-midinote 71 8s&
-pause 8s
-midinote 72 8s&
-pause 8s
-midinote 69 8s&
-pause 8s
-midinote 67 32s&
-pause 32s
-midinote 66 16s&
-pause 16s
-pause 16s&
-pause 16s
-midinote 58 32s&
-pause 32s
-midinote 67 32s&
-midinote 58 16s&
-pause 16s
-midinote 62 16s&
-pause 16s&
-pause 16s
-midinote 58 32s&
-pause 32s
-midinote 67 32s&
-midinote 58 16s&
-pause 16s
-midinote 62 16s&
-pause 16s&
-pause 16s
-midinote 66 16s&
-pause 16s
-midinote 67 16s&
-pause 16s
-midinote 69 16s&
-pause 16s
-midinote 70 16s&
-pause 16s
-midinote 67 32s&
-pause 32s
-midinote 70 32s&
-midinote 66 16s&
-pause 16s
-midinote 69 16s&
-pause 16s&
-pause 16s
-midinote 63 64s&
-pause 64s
-midinote 64 64s&
-midinote 62 32s&
-pause 32s
-midinote 67 32s&
-midinote 63 32s&
-pause 32s
-midinote 67 32s&
-midinote 58 32s&
-pause 32s
-midinote 67 32s&
-midinote 57 32s&
-pause 32s
-midinote 66 32s&
-midinote 58 16s&
-pause 16s
-midinote 67 16s&
-pause 16s&
-pause 16s
-pause 8s&
-pause 8s
-midinote 74 8s&
-pause 8s
-midinote 86 8s&
-midinote 74 8s&
-pause 8s
-midinote 86 8s&
-midinote 74 8s&
-pause 8s
-midinote 86 8s&
-midinote 75 8s&
-pause 8s
-midinote 87 8s&
-midinote 66 8s&
-pause 8s
-midinote 78 8s&
-midinote 66 8s&
-pause 8s
-midinote 78 8s&
-midinote 66 8s&
-pause 8s
-midinote 78 8s&
-midinote 67 8s&
-pause 8s
-midinote 79 8s&
-midinote 69 8s&
-pause 8s
-midinote 81 8s&
-midinote 69 8s&
-pause 8s
-midinote 81 8s&
-midinote 69 8s&
-pause 8s
-midinote 81 8s&
-midinote 70 16s&
-pause 16s
-midinote 82 16s&
-midinote 67 8s&
-pause 8s
-midinote 79 8s&
-pause 8s&
-pause 8s
-pause 16s&
-pause 16s
-midinote 82 8s&
-pause 8s
-midinote 82 8s&
-pause 8s
-midinote 82 8s&
-pause 8s
-midinote 81 8s&
-pause 8s
-midinote 81 8s&
-pause 8s
-midinote 81 8s&
-pause 8s
-midinote 81 8s&
-pause 8s
-midinote 79 8s&
-pause 8s
-midinote 79 8s&
-pause 8s
-midinote 79 8s&
-pause 8s
-midinote 66 16s&
-pause 16s
-midinote 78 16s&
-pause 16s&
-pause 16s
-pause 8s&
-pause 8s
-midinote 74 8s&
-pause 8s
-midinote 86 8s&
-midinote 74 8s&
-pause 8s
-midinote 86 8s&
-midinote 74 8s&
-pause 8s
-midinote 86 8s&
-midinote 87 16s&
-pause 16s
-midinote 87 16s&
-pause 16s
-midinote 87 4s&
-pause 4s
-midinote 84 4s&
-pause 4s
-midinote 81 4s&
-pause 4s
-midinote 77 4s&
-pause 4s
-midinote 78 4s&
-pause 4s
-midinote 79 4s&
-pause 4s
-midinote 77 4s&
-pause 4s
-midinote 75 4s&
-pause 4s
-midinote 74 8s&
-pause 8s
-midinote 77 4s&
-pause 4s
-midinote 75 4s&
-pause 4s
-midinote 74 16s&
-pause 16s
-pause 32s&
-pause 32s
-midinote 72 8s&
-pause 8s
-pause 8s&
-pause 8s
-midinote 72 8s&
-pause 8s
-pause 8s&
-pause 8s
-midinote 67 32s&
-pause 32s
-midinote 70 32s&
-midinote 65 4s&
-pause 4s
-midinote 69 4s&
-midinote 65 4s&
-pause 4s
-midinote 69 4s&
-pause 4s
-midinote 72 4s&
-pause 4s
-midinote 75 4s&
-pause 4s
-midinote 77 4s&
-pause 4s
-midinote 81 4s&
-pause 4s
-midinote 84 4s&
-pause 4s
-midinote 87 4s&
-pause 4s
-midinote 84 4s&
-pause 4s
-midinote 81 4s&
-pause 4s
-midinote 77 4s&
-pause 4s
-midinote 75 4s&
-pause 4s
-midinote 72 4s&
-pause 4s
-midinote 69 4s&
-pause 4s
-midinote 72 4s&
-pause 4s
-midinote 70 8s&
-pause 8s
-midinote 86 4s&
-pause 4s
-midinote 84 4s&
-pause 4s
-midinote 82 4s&
-pause 4s
-midinote 81 4s&
-pause 4s
-midinote 79 4s&
-pause 4s
-midinote 77 4s&
-pause 4s
-midinote 76 4s&
-pause 4s
-midinote 79 4s&
-pause 4s
-midinote 82 4s&
-pause 4s
-midinote 84 4s&
-pause 4s
-midinote 85 4s&
-pause 4s
-midinote 82 4s&
-pause 4s
-midinote 79 4s&
-pause 4s
-midinote 76 4s&
-pause 4s
-midinote 77 4s&
-pause 4s
-midinote 65 4s&
-pause 4s
-midinote 69 4s&
-pause 4s
-midinote 72 4s&
-pause 4s
-midinote 75 4s&
-pause 4s
-midinote 77 4s&
-pause 4s
-midinote 81 4s&
-pause 4s
-midinote 84 4s&
-pause 4s
-midinote 87 4s&
-pause 4s
-midinote 84 4s&
-pause 4s
-midinote 81 4s&
-pause 4s
-midinote 77 4s&
-pause 4s
-midinote 75 4s&
-pause 4s
-midinote 72 4s&
-pause 4s
-midinote 69 4s&
-pause 4s
-midinote 72 4s&
-pause 4s
-midinote 70 8s&
-pause 8s
-midinote 86 4s&
-pause 4s
-midinote 84 4s&
-pause 4s
-midinote 82 4s&
-pause 4s
-midinote 81 4s&
-pause 4s
-midinote 79 4s&
-pause 4s
-midinote 77 4s&
-pause 4s
-midinote 76 4s&
-pause 4s
-midinote 79 4s&
-pause 4s
-midinote 82 4s&
-pause 4s
-midinote 84 4s&
-pause 4s
-midinote 85 4s&
-pause 4s
-midinote 82 4s&
-pause 4s
-midinote 79 4s&
-pause 4s
-midinote 76 4s&
-pause 4s
-midinote 77 16s&
-pause 16s
-pause 16s&
-pause 16s
-pause 32s&
-pause 32s
-midinote 62 8s&
-pause 8s
-midinote 65 8s&
-pause 8s
-midinote 70 8s&
-pause 8s
-midinote 65 8s&
-pause 8s
-midinote 62 8s&
-pause 8s
-midinote 65 8s&
-pause 8s
-midinote 70 8s&
-pause 8s
-midinote 65 8s&
-pause 8s
-midinote 62 8s&
-pause 8s
-midinote 65 8s&
-pause 8s
-midinote 70 8s&
-pause 8s
-midinote 65 8s&
-pause 8s
-midinote 62 8s&
-pause 8s
-midinote 65 8s&
-pause 8s
-midinote 70 8s&
-pause 8s
-midinote 65 8s&
-pause 8s
-midinote 63 8s&
-pause 8s
-midinote 66 8s&
-pause 8s
-midinote 69 8s&
-pause 8s
-midinote 66 8s&
-pause 8s
-midinote 62 8s&
-pause 8s
-midinote 65 8s&
-pause 8s
-midinote 69 8s&
-pause 8s
-midinote 65 8s&
-pause 8s
-midinote 62 8s&
-pause 8s
-midinote 65 8s&
-pause 8s
-midinote 70 8s&
-pause 8s
-midinote 65 8s&
-pause 8s
-midinote 62 8s&
-pause 8s
-midinote 65 8s&
-pause 8s
-midinote 70 8s&
-pause 8s
-midinote 65 8s&
-pause 8s
-midinote 62 8s&
-pause 8s
-midinote 65 8s&
-pause 8s
-midinote 70 8s&
-pause 8s
-midinote 65 8s&
-pause 8s
-midinote 62 8s&
-pause 8s
-midinote 65 8s&
-pause 8s
-midinote 70 8s&
-pause 8s
-midinote 65 8s&
-pause 8s
-midinote 62 8s&
-pause 8s
-midinote 65 8s&
-pause 8s
-midinote 70 8s&
-pause 8s
-midinote 65 8s&
-pause 8s
-midinote 62 16s&
-pause 16s
-midinote 82 16s&
-pause 16s
-midinote 82 8s&
-pause 8s
-midinote 81 8s&
-pause 8s
-midinote 77 8s&
-pause 8s
-midinote 81 8s&
-pause 8s
-midinote 81 8s&
-pause 8s
-midinote 79 8s&
-pause 8s
-midinote 77 8s&
-pause 8s
-midinote 76 8s&
-pause 8s
-midinote 77 8s&
-pause 8s
-midinote 76 8s&
-pause 8s
-midinote 77 8s&
-pause 8s
-midinote 76 8s&
-pause 8s
-midinote 77 8s&
-pause 8s
-midinote 76 8s&
-pause 8s
-midinote 74 8s&
-pause 8s
-midinote 77 8s&
-midinote 76 8s&
-pause 8s
-midinote 86 32s&
-pause 32s
-midinote 86 4s&
-pause 4s
-midinote 84 4s&
-pause 4s
-midinote 87 4s&
-pause 4s
-midinote 86 4s&
-pause 4s
-midinote 84 4s&
-pause 4s
-midinote 82 4s&
-pause 4s
-midinote 81 4s&
-pause 4s
-midinote 79 4s&
-pause 4s
-midinote 79 24s&
-pause 24s
-midinote 78 8s&
-pause 8s
-midinote 77 16s&
-pause 16s
-midinote 81 4s&
-pause 4s
-midinote 82 4s&
-pause 4s
-midinote 81 4s&
-pause 4s
-midinote 82 4s&
-pause 4s
-midinote 84 16s&
-pause 16s
-midinote 87 16s&
-pause 16s
-midinote 81 16s&
-pause 16s
-midinote 82 8s&
-pause 8s
-midinote 84 8s&
-pause 8s
-midinote 82 24s&
-pause 24s
-midinote 86 8s&
-pause 8s
-midinote 75 5s&
-pause 5s
-midinote 77 5s&
-pause 5s
-midinote 79 5s&
-pause 5s
-midinote 81 5s&
-pause 5s
-midinote 82 5s&
-pause 5s
-midinote 84 5s&
-pause 5s
-midinote 86 32s&
-pause 32s
-midinote 84 4s&
-pause 4s
-midinote 82 4s&
-pause 4s
-midinote 87 4s&
-pause 4s
-midinote 86 4s&
-pause 4s
-midinote 84 4s&
-pause 4s
-midinote 82 4s&
-pause 4s
-midinote 81 4s&
-pause 4s
-midinote 79 4s&
-pause 4s
-midinote 77 24s&
-pause 24s
-midinote 81 4s&
-pause 4s
-midinote 79 4s&
-pause 4s
-midinote 77 16s&
-pause 16s
-midinote 82 8s&
-pause 8s
-midinote 81 8s&
-pause 8s
-midinote 78 4s&
-pause 4s
-midinote 79 4s&
-pause 4s
-midinote 93 4s&
-pause 4s
-midinote 91 4s&
-pause 4s
-midinote 89 4s&
-pause 4s
-midinote 87 4s&
-pause 4s
-midinote 86 4s&
-pause 4s
-midinote 84 4s&
-pause 4s
-midinote 82 16s&
-pause 16s
-midinote 84 16s&
-pause 16s
-midinote 82 8s&
-pause 8s
-pause 8s&
-pause 8s
-midinote 74 8s&
-pause 8s
-midinote 74 8s&
-pause 8s
-midinote 74 8s&
-pause 8s
-midinote 75 4s&
-pause 4s
-midinote 74 4s&
-pause 4s
-midinote 72 8s&
-pause 8s
-midinote 74 8s&
-pause 8s
-midinote 74 8s&
-pause 8s
-midinote 75 8s&
-pause 8s
-midinote 75 8s&
-pause 8s
-midinote 75 8s&
-pause 8s
-midinote 75 8s&
-pause 8s
-midinote 77 4s&
-pause 4s
-midinote 75 4s&
-pause 4s
-midinote 74 8s&
-pause 8s
-midinote 75 8s&
-pause 8s
-midinote 76 8s&
-pause 8s
-midinote 77 8s&
-pause 8s
-midinote 77 8s&
-pause 8s
-midinote 77 8s&
-pause 8s
-midinote 82 8s&
-pause 8s
-midinote 81 8s&
-pause 8s
-midinote 79 8s&
-pause 8s
-midinote 77 8s&
-pause 8s
-midinote 77 8s&
-pause 8s
-midinote 75 8s&
-pause 8s
-midinote 75 8s&
-pause 8s
-midinote 75 8s&
-pause 8s
-midinote 75 8s&
-pause 8s
-midinote 77 4s&
-pause 4s
-midinote 79 4s&
-pause 4s
-midinote 77 8s&
-pause 8s
-midinote 75 8s&
-pause 8s
-midinote 74 8s&
-pause 8s
-pause 8s&
-pause 8s
-midinote 74 8s&
-pause 8s
-midinote 75 8s&
-pause 8s
-midinote 77 8s&
-pause 8s
-pause 8s&
-pause 8s
-midinote 74 8s&
-pause 8s
-midinote 75 8s&
-pause 8s
-midinote 77 8s&
-pause 8s
-pause 8s&
-pause 8s
-midinote 74 8s&
-pause 8s
-midinote 75 8s&
-pause 8s
-midinote 77 8s&
-pause 8s
-midinote 79 8s&
-pause 8s
-midinote 80 8s&
-pause 8s
-midinote 77 8s&
-pause 8s
-midinote 79 8s&
-pause 8s
-midinote 78 8s&
-pause 8s
-midinote 79 8s&
-pause 8s
-midinote 78 8s&
-pause 8s
-midinote 79 8s&
-pause 8s
-midinote 78 8s&
-pause 8s
-midinote 79 8s&
-pause 8s
-midinote 78 8s&
-pause 8s
-midinote 79 16s&
-pause 16s
-midinote 82 16s&
-pause 16s
-midinote 81 16s&
-pause 16s
-midinote 79 16s&
-pause 16s
-midinote 77 8s&
-pause 8s
-midinote 82 8s&
-pause 8s
-midinote 74 8s&
-pause 8s
-midinote 77 8s&
-pause 8s
-midinote 77 8s&
-pause 8s
-midinote 75 8s&
-pause 8s
-midinote 74 8s&
-pause 8s
-midinote 72 8s&
-pause 8s
-midinote 77 8s&
-pause 8s
-pause 8s&
-pause 8s
-midinote 77 8s&
-pause 8s
-midinote 77 8s&
-pause 8s
-midinote 77 8s&
-pause 8s
-midinote 75 8s&
-pause 8s
-midinote 75 8s&
-pause 8s
-midinote 75 8s&
-pause 8s
-midinote 75 8s&
-pause 8s
-midinote 74 8s&
-pause 8s
-midinote 74 8s&
-pause 8s
-midinote 74 8s&
-pause 8s
-midinote 74 8s&
-pause 8s
-midinote 72 8s&
-pause 8s
-midinote 72 8s&
-pause 8s
-midinote 72 8s&
-pause 8s
-midinote 79 8s&
-pause 8s
-midinote 77 8s&
-pause 8s
-midinote 77 8s&
-pause 8s
-midinote 77 8s&
-pause 8s
-midinote 77 8s&
-pause 8s
-midinote 75 8s&
-pause 8s
-midinote 75 8s&
-pause 8s
-midinote 75 8s&
-pause 8s
-midinote 75 8s&
-pause 8s
-midinote 74 8s&
-pause 8s
-midinote 74 8s&
-pause 8s
-midinote 74 8s&
-pause 8s
-midinote 74 8s&
-pause 8s
-midinote 72 8s&
-pause 8s
-midinote 72 8s&
-pause 8s
-midinote 72 8s&
-pause 8s
-midinote 70 16s&
-pause 16s
-pause 16s&
-pause 16s
-midinote 70 16s&
-pause 16s
-midinote 70 12s&
-pause 12s
-midinote 72 4s&
-pause 4s
-midinote 74 32s&
-pause 32s
-midinote 75 5s&
-pause 5s
-midinote 74 5s&
-pause 5s
-midinote 72 5s&
-pause 5s
-midinote 70 5s&
-pause 5s
-midinote 69 5s&
-pause 5s
-midinote 67 5s&
-pause 5s
-midinote 65 16s&
-pause 16s
-midinote 77 16s&
-pause 16s
-midinote 77 5s&
-pause 5s
-midinote 82 5s&
-pause 5s
-midinote 81 5s&
-pause 5s
-midinote 82 5s&
-pause 5s
-midinote 77 5s&
-pause 5s
-midinote 74 5s&
-pause 5s
-midinote 77 8s&
-pause 8s
-midinote 75 8s&
-pause 8s
-midinote 79 12s&
-pause 12s
-midinote 77 4s&
-pause 4s
-midinote 77 8s&
-pause 8s
-midinote 75 8s&
-pause 8s
-midinote 72 8s&
-pause 8s
-midinote 74 8s&
-pause 8s
-midinote 70 32s&
-pause 32s
-midinote 65 16s&
-pause 16s
-midinote 70 12s&
-pause 12s
-midinote 72 4s&
-pause 4s
-midinote 74 32s&
-pause 32s
-midinote 74 16s&
-pause 16s
-midinote 74 16s&
-pause 16s
-midinote 82 24s&
-pause 24s
-midinote 81 8s&
-pause 8s
-midinote 79 16s&
-pause 16s
-midinote 79 8s&
-pause 8s
-midinote 81 8s&
-pause 8s
-midinote 82 16s&
-pause 16s
-midinote 81 8s&
-pause 8s
-midinote 79 8s&
-pause 8s
-midinote 77 8s&
-pause 8s
-midinote 75 8s&
-pause 8s
-midinote 74 8s&
-pause 8s
-midinote 73 8s&
-pause 8s
-midinote 74 4s&
-pause 4s
-midinote 62 4s&
-pause 4s
-midinote 66 4s&
-pause 4s
-midinote 69 4s&
-pause 4s
-midinote 74 4s&
-pause 4s
-midinote 78 4s&
-pause 4s
-midinote 81 4s&
-pause 4s
-midinote 85 4s&
-pause 4s
-midinote 86 4s&
-pause 4s
-midinote 87 4s&
-pause 4s
-midinote 86 4s&
-pause 4s
-midinote 84 4s&
-pause 4s
-midinote 82 4s&
-pause 4s
-midinote 81 4s&
-pause 4s
-midinote 79 4s&
-pause 4s
-midinote 78 4s&
-pause 4s
-midinote 79 4s&
-pause 4s
-midinote 82 4s&
-pause 4s
-midinote 85 4s&
-pause 4s
-midinote 86 4s&
-pause 4s
-midinote 79 4s&
-pause 4s
-midinote 82 4s&
-pause 4s
-midinote 85 4s&
-pause 4s
-midinote 86 4s&
-pause 4s
-midinote 79 4s&
-pause 4s
-midinote 82 4s&
-pause 4s
-midinote 85 4s&
-pause 4s
-midinote 86 4s&
-pause 4s
-midinote 87 4s&
-pause 4s
-midinote 86 4s&
-pause 4s
-midinote 82 4s&
-pause 4s
-midinote 79 4s&
-pause 4s
-midinote 74 28s&
-pause 28s
-midinote 62 4s&
-pause 4s
-midinote 62 28s&
-pause 28s
-midinote 62 4s&
-pause 4s
-midinote 62 32s&
-pause 32s
-pause 32s&
-pause 32s
-midinote 59 8s&
-pause 8s
-midinote 62 8s&
-pause 8s
-midinote 67 8s&
-pause 8s
-midinote 62 8s&
-pause 8s
-midinote 60 8s&
-pause 8s
-midinote 64 8s&
-pause 8s
-midinote 67 8s&
-pause 8s
-midinote 64 8s&
-pause 8s
-midinote 59 8s&
-pause 8s
-midinote 62 8s&
-pause 8s
-midinote 67 8s&
-pause 8s
-midinote 62 8s&
-pause 8s
-midinote 59 8s&
-pause 8s
-midinote 62 8s&
-pause 8s
-midinote 67 8s&
-pause 8s
-midinote 62 8s&
-pause 8s
-midinote 60 8s&
-pause 8s
-midinote 64 8s&
-pause 8s
-midinote 69 8s&
-pause 8s
-midinote 64 8s&
-pause 8s
-midinote 60 8s&
-pause 8s
-midinote 62 8s&
-pause 8s
-midinote 66 8s&
-pause 8s
-midinote 62 8s&
-pause 8s
-midinote 59 8s&
-pause 8s
-midinote 62 8s&
-pause 8s
-midinote 67 8s&
-pause 8s
-midinote 62 8s&
-pause 8s
-midinote 59 8s&
-pause 8s
-midinote 62 8s&
-pause 8s
-midinote 67 8s&
-pause 8s
-midinote 62 8s&
-pause 8s
-midinote 59 8s&
-pause 8s
-midinote 62 8s&
-pause 8s
-midinote 67 8s&
-pause 8s
-midinote 62 8s&
-pause 8s
-midinote 60 8s&
-pause 8s
-midinote 64 8s&
-pause 8s
-midinote 67 8s&
-pause 8s
-midinote 64 8s&
-pause 8s
-midinote 59 8s&
-pause 8s
-midinote 62 8s&
-pause 8s
-midinote 67 8s&
-pause 8s
-midinote 62 8s&
-pause 8s
-midinote 59 16s&
-pause 16s
-pause 16s&
-pause 16s
-midinote 62 8s&
-pause 8s
-midinote 66 8s&
-midinote 57 8s&
-pause 8s
-midinote 62 8s&
-pause 8s
-midinote 66 8s&
-midinote 57 8s&
-pause 8s
-midinote 61 8s&
-pause 8s
-midinote 64 8s&
-midinote 57 8s&
-pause 8s
-midinote 61 8s&
-pause 8s
-midinote 64 8s&
-midinote 57 8s&
-pause 8s
-midinote 62 8s&
-pause 8s
-midinote 74 8s&
-pause 8s
-midinote 74 8s&
-pause 8s
-midinote 74 8s&
-pause 8s
-midinote 74 5s&
-pause 5s
-midinote 74 5s&
-pause 5s
-midinote 76 5s&
-pause 5s
-midinote 78 5s&
-pause 5s
-midinote 79 5s&
-pause 5s
-midinote 81 5s&
-pause 5s
-midinote 83 32s&
-pause 32s
-midinote 83 4s&
-pause 4s
-midinote 81 4s&
-pause 4s
-midinote 84 4s&
-pause 4s
-midinote 83 4s&
-pause 4s
-midinote 81 4s&
-pause 4s
-midinote 79 4s&
-pause 4s
-midinote 78 4s&
-pause 4s
-midinote 76 4s&
-pause 4s
-midinote 76 32s&
-pause 32s
-midinote 74 16s&
-pause 16s
-midinote 79 8s&
-pause 8s
-midinote 78 8s&
-pause 8s
-midinote 76 16s&
-pause 16s
-midinote 84 8s&
-pause 8s
-midinote 83 8s&
-pause 8s
-midinote 81 4s&
-pause 4s
-midinote 84 4s&
-pause 4s
-midinote 90 4s&
-pause 4s
-midinote 88 4s&
-pause 4s
-midinote 86 4s&
-pause 4s
-midinote 84 4s&
-pause 4s
-midinote 83 4s&
-pause 4s
-midinote 81 4s&
-pause 4s
-midinote 81 32s&
-pause 32s
-midinote 79 16s&
-pause 16s
-midinote 74 12s&
-pause 12s
-midinote 74 4s&
-pause 4s
-midinote 83 24s&
-pause 24s
-midinote 81 8s&
-pause 8s
-midinote 81 4s&
-pause 4s
-midinote 79 4s&
-pause 4s
-midinote 84 4s&
-pause 4s
-midinote 83 4s&
-pause 4s
-midinote 81 4s&
-pause 4s
-midinote 79 4s&
-pause 4s
-midinote 78 4s&
-pause 4s
-midinote 76 4s&
-pause 4s
-midinote 74 24s&
-pause 24s
-midinote 78 4s&
-pause 4s
-midinote 76 4s&
-pause 4s
-midinote 74 8s&
-pause 8s
-midinote 79 8s&
-pause 8s
-midinote 83 8s&
-pause 8s
-midinote 86 8s&
-pause 8s
-midinote 86 4s&
-pause 4s
-midinote 88 4s&
-pause 4s
-midinote 90 4s&
-pause 4s
-midinote 88 4s&
-pause 4s
-midinote 86 4s&
-pause 4s
-midinote 84 4s&
-pause 4s
-midinote 81 4s&
-pause 4s
-midinote 83 4s&
-pause 4s
-midinote 79 16s&
-pause 16s
-midinote 81 16s&
-pause 16s
-midinote 79 16s&
-pause 16s
-midinote 79 8s&
-pause 8s
-midinote 79 8s&
-pause 8s
-midinote 79 8s&
-pause 8s
-midinote 81 4s&
-pause 4s
-midinote 79 4s&
-pause 4s
-midinote 79 8s&
-pause 8s
-midinote 79 8s&
-pause 8s
-midinote 80 8s&
-pause 8s
-midinote 81 8s&
-pause 8s
-midinote 81 8s&
-pause 8s
-midinote 81 8s&
-pause 8s
-midinote 81 8s&
-pause 8s
-midinote 83 4s&
-pause 4s
-midinote 81 4s&
-pause 4s
-midinote 80 8s&
-pause 8s
-midinote 81 8s&
-pause 8s
-midinote 82 8s&
-pause 8s
-midinote 83 8s&
-pause 8s
-midinote 83 8s&
-pause 8s
-midinote 83 8s&
-pause 8s
-midinote 88 8s&
-pause 8s
-midinote 86 8s&
-pause 8s
-midinote 84 8s&
-pause 8s
-midinote 83 8s&
-pause 8s
-midinote 84 8s&
-pause 8s
-midinote 83 8s&
-pause 8s
-midinote 81 8s&
-pause 8s
-midinote 81 8s&
-pause 8s
-midinote 81 8s&
-pause 8s
-midinote 83 4s&
-pause 4s
-midinote 81 4s&
-pause 4s
-midinote 83 8s&
-pause 8s
-midinote 81 8s&
-pause 8s
-midinote 79 8s&
-pause 8s
-pause 8s&
-pause 8s
-midinote 79 8s&
-pause 8s
-midinote 81 8s&
-pause 8s
-midinote 83 8s&
-pause 8s
-pause 8s&
-pause 8s
-midinote 79 8s&
-pause 8s
-midinote 81 8s&
-pause 8s
-midinote 83 8s&
-pause 8s
-pause 8s&
-pause 8s
-midinote 79 8s&
-pause 8s
-midinote 81 8s&
-pause 8s
-midinote 83 8s&
-pause 8s
-midinote 84 8s&
-pause 8s
-midinote 86 8s&
-pause 8s
-midinote 83 8s&
-pause 8s
-midinote 84 16s&
-pause 16s
-midinote 83 16s&
-pause 16s
-midinote 84 16s&
-pause 16s
-midinote 83 16s&
-pause 16s
-midinote 86 16s&
-pause 16s
-midinote 84 16s&
-pause 16s
-midinote 83 16s&
-pause 16s
-midinote 81 16s&
-pause 16s
-midinote 81 8s&
-pause 8s
-midinote 79 8s&
-pause 8s
-midinote 84 8s&
-pause 8s
-midinote 83 8s&
-pause 8s
-midinote 83 8s&
-pause 8s
-midinote 81 8s&
-pause 8s
-midinote 79 8s&
-pause 8s
-midinote 78 8s&
-pause 8s
-midinote 79 8s&
-pause 8s
-pause 8s&
-pause 8s
-midinote 83 8s&
-pause 8s
-midinote 83 8s&
-pause 8s
-midinote 83 8s&
-pause 8s
-midinote 81 8s&
-pause 8s
-midinote 81 8s&
-pause 8s
-midinote 81 8s&
-pause 8s
-midinote 81 8s&
-pause 8s
-midinote 79 8s&
-pause 8s
-midinote 79 8s&
-pause 8s
-midinote 79 8s&
-pause 8s
-midinote 79 8s&
-pause 8s
-midinote 78 8s&
-pause 8s
-midinote 78 8s&
-pause 8s
-midinote 78 8s&
-pause 8s
-midinote 84 8s&
-pause 8s
-midinote 83 8s&
-pause 8s
-midinote 83 8s&
-pause 8s
-midinote 83 8s&
-pause 8s
-midinote 83 8s&
-pause 8s
-midinote 81 8s&
-pause 8s
-midinote 81 8s&
-pause 8s
-midinote 81 8s&
-pause 8s
-midinote 81 8s&
-pause 8s
-midinote 79 8s&
-pause 8s
-midinote 79 8s&
-pause 8s
-midinote 79 8s&
-pause 8s
-midinote 79 8s&
-pause 8s
-midinote 78 8s&
-pause 8s
-midinote 78 8s&
-pause 8s
-midinote 78 8s&
-pause 8s
-midinote 83 8s&
-pause 8s
-midinote 72 8s&
-pause 8s
-midinote 74 8s&
-pause 8s
-midinote 76 8s&
-pause 8s
-midinote 78 8s&
-pause 8s
-midinote 79 8s&
-pause 8s
-midinote 81 8s&
-pause 8s
-midinote 83 8s&
-pause 8s
-midinote 84 16s&
-pause 16s
-midinote 83 16s&
-pause 16s
-midinote 84 16s&
-pause 16s
-midinote 86 16s&
-pause 16s
-midinote 83 16s&
-pause 16s
-pause 16s&
-pause 16s
-midinote 83 16s&
-pause 16s
-pause 16s&
-pause 16s
-midinote 71 32s&
-pause 32s
-midinote 79 32s&
-pause 32s&
+rawchord 43 4s &
+rawchord 62 46 64s &
+pause 4 s 
+midinote 43 32 s &
+midinote 55 4 s &
+pause 32 s 
+midinote 43 16 s &
+midinote 55 32 s &
+pause 16 s 
+pause 12 s &
+rawchord 55 16s &
+pause 12 s 
+midinote 41 4 s &
+midinote 62 64 s &
+midinote 53 32 s &
+pause 4 s 
+midinote 43 32 s &
+midinote 53 4 s &
+pause 28 s 
+midinote 55 32 s &
+pause 4 s 
+midinote 43 16 s &
+midinote 55 32 s &
+pause 16 s 
+rawchord 55 58 16s &
+pause 16 s 
+midinote 62 64 s &
+rawchord 62 60 16s &
+pause 16 s 
+midinote 58 16 s &
+pause 16 s 
+midinote 54 16 s &
+pause 16 s 
+rawchord 57 55 16s &
+pause 16 s 
+midinote 62 8 s &
+midinote 58 16 s &
+pause 8 s 
+midinote 61 8 s &
+pause 8 s 
+midinote 62 8 s &
+pause 8 s 
+midinote 61 8 s &
+pause 8 s 
+midinote 62 16 s &
+pause 16 s 
+pause 16 s &
+pause 16 s 
+midinote 60 48 s &
+pause 48 s 
+midinote 58 16 s &
+midinote 63 48 s &
+pause 16 s 
+midinote 60 48 s &
+midinote 62 16 s &
+pause 48 s 
+midinote 58 16 s &
+midinote 63 48 s &
+pause 16 s 
+midinote 60 64 s &
+rawchord 57 62 16s &
+pause 16 s 
+pause 16 s &
+pause 16 s 
+pause 32 s &
+pause 32 s 
+midinote 63 64 s &
+rawchord 50 32s &
+pause 32 s 
+midinote 58 32 s &
+rawchord 50 16s &
+pause 16 s 
+pause 12 s &
+rawchord 57 16s &
+pause 12 s 
+midinote 55 4 s &
+pause 4 s 
+midinote 55 32 s &
+pause 8 s &
+pause 8 s 
+midinote 43 8 s &
+pause 8 s 
+midinote 46 8 s &
+pause 8 s 
+midinote 50 8 s &
+pause 8 s 
+rawchord 50 55 16s &
+pause 16 s 
+midinote 51 12 s &
+pause 16 s &
+pause 12 s 
+midinote 58 4 s &
+pause 4 s 
+midinote 58 32 s &
+pause 8 s &
+pause 8 s 
+midinote 43 8 s &
+pause 8 s 
+midinote 46 8 s &
+pause 8 s 
+midinote 50 8 s &
+pause 8 s 
+midinote 55 16 s &
+pause 16 s 
+rawchord 62 16s &
+pause 16 s 
+rawchord 54 60 16s &
+pause 16 s 
+rawchord 55 58 16s &
+pause 16 s 
+rawchord 60 57 16s &
+pause 16 s 
+rawchord 58 55 16s &
+pause 16 s 
+rawchord 58 62 32s &
+pause 32 s 
+rawchord 57 50 16s &
+pause 16 s 
+pause 16 s &
+pause 16 s 
+midinote 63 32 s &
+midinote 48 64 s &
+pause 32 s 
+midinote 60 16 s &
+pause 16 s 
+midinote 57 16 s &
+pause 16 s 
+midinote 60 64 s &
+rawchord 62 46 32s &
+pause 32 s 
+midinote 55 24 s &
+midinote 48 32 s &
+pause 24 s 
+midinote 57 8 s &
+pause 8 s 
+midinote 58 32 s &
+midinote 50 8 s &
+pause 8 s 
+midinote 51 8 s &
+pause 8 s 
+midinote 50 8 s &
+pause 8 s 
+midinote 49 8 s &
+pause 8 s 
+rawchord 57 50 16s &
+pause 16 s 
+midinote 60 8 s &
+midinote 38 16 s &
+pause 8 s 
+midinote 58 8 s &
+pause 8 s 
+midinote 55 16 s &
+midinote 55 8 s &
+pause 8 s 
+midinote 67 8 s &
+pause 8 s 
+pause 16 s &
+midinote 65 8 s &
+pause 8 s 
+midinote 67 8 s &
+pause 8 s 
+pause 32 s &
+midinote 55 8 s &
+pause 8 s 
+midinote 67 8 s &
+pause 8 s 
+midinote 65 8 s &
+pause 8 s 
+midinote 67 8 s &
+pause 8 s 
+pause 64 s &
+midinote 55 8 s &
+pause 8 s 
+rawchord 63 66 8s &
+pause 8 s 
+midinote 55 8 s &
+pause 8 s 
+rawchord 63 66 8s &
+pause 8 s 
+midinote 55 8 s &
+pause 8 s 
+rawchord 58 67 8s &
+pause 8 s 
+midinote 55 8 s &
+pause 8 s 
+rawchord 60 66 8s &
+pause 8 s 
+pause 32 s &
+midinote 55 8 s &
+pause 8 s 
+rawchord 58 67 8s &
+pause 8 s 
+midinote 62 8 s &
+pause 8 s 
+midinote 67 8 s &
+pause 8 s 
+pause 16 s &
+midinote 55 8 s &
+pause 8 s 
+rawchord 58 67 8s &
+pause 8 s 
+midinote 62 8 s &
+pause 8 s 
+rawchord 62 67 8s &
+pause 8 s 
+rawchord 62 50 8s &
+pause 8 s 
+rawchord 60 8s &
+pause 8 s 
+rawchord 60 62 8s &
+pause 8 s 
+rawchord 60 8s &
+pause 8 s 
+rawchord 60 50 8s &
+pause 8 s 
+rawchord 58 8s &
+pause 8 s 
+rawchord 58 62 8s &
+pause 8 s 
+rawchord 58 8s &
+pause 8 s 
+midinote 57 16 s &
+midinote 54 8 s &
+pause 8 s 
+midinote 62 8 s &
+pause 8 s 
+pause 16 s &
+midinote 57 8 s &
+pause 8 s 
+midinote 62 8 s &
+pause 8 s 
+pause 32 s &
+midinote 54 8 s &
+pause 8 s 
+midinote 62 8 s &
+pause 8 s 
+midinote 57 8 s &
+pause 8 s 
+midinote 62 8 s &
+pause 8 s 
+pause 64 s &
+midinote 55 8 s &
+pause 8 s 
+midinote 63 8 s &
+pause 8 s 
+midinote 58 8 s &
+pause 8 s 
+midinote 63 8 s &
+pause 8 s 
+midinote 57 8 s &
+pause 8 s 
+midinote 65 8 s &
+pause 8 s 
+midinote 60 8 s &
+pause 8 s 
+midinote 65 8 s &
+pause 8 s 
+pause 32 s &
+midinote 58 8 s &
+pause 8 s 
+midinote 65 8 s &
+pause 8 s 
+midinote 62 8 s &
+pause 8 s 
+midinote 65 8 s &
+pause 8 s 
+rawchord 58 8s &
+pause 8 s 
+midinote 65 8 s &
+pause 8 s 
+rawchord 63 62 8s &
+pause 8 s 
+rawchord 62 65 8s &
+pause 8 s 
+midinote 60 16 s &
+midinote 51 8 s &
+pause 8 s 
+midinote 60 8 s &
+pause 8 s 
+midinote 60 16 s &
+midinote 55 8 s &
+pause 8 s 
+midinote 60 8 s &
+pause 8 s 
+midinote 61 8 s &
+midinote 52 32 s &
+pause 8 s 
+midinote 63 4 s &
+pause 4 s 
+midinote 61 4 s &
+pause 4 s 
+midinote 60 8 s &
+pause 8 s 
+midinote 58 8 s &
+pause 8 s 
+midinote 53 64 s &
+midinote 53 8 s &
+pause 8 s 
+rawchord 57 65 8s &
+pause 8 s 
+midinote 60 8 s &
+pause 8 s 
+midinote 65 8 s &
+pause 8 s 
+midinote 53 8 s &
+pause 8 s 
+rawchord 57 65 8s &
+pause 8 s 
+midinote 60 8 s &
+pause 8 s 
+midinote 65 8 s &
+pause 8 s 
+midinote 53 8 s &
+pause 8 s 
+rawchord 58 65 8s &
+pause 8 s 
+pause 16 s &
+midinote 62 8 s &
+pause 8 s 
+midinote 65 8 s &
+pause 8 s 
+midinote 61 24 s &
+midinote 53 8 s &
+pause 8 s 
+rawchord 58 61 64 8s &
+pause 8 s 
+midinote 53 8 s &
+pause 8 s 
+rawchord 58 61 64 8s &
+pause 8 s 
+midinote 57 16 s &
+midinote 53 8 s &
+pause 8 s 
+rawchord 57 65 8s &
+pause 8 s 
+pause 16 s &
+midinote 60 8 s &
+pause 8 s 
+midinote 65 8 s &
+pause 8 s 
+midinote 53 32 s &
+midinote 53 8 s &
+pause 8 s 
+rawchord 57 65 8s &
+pause 8 s 
+midinote 60 8 s &
+pause 8 s 
+midinote 65 8 s &
+pause 8 s 
+midinote 53 8 s &
+pause 8 s 
+rawchord 58 65 8s &
+pause 8 s 
+pause 16 s &
+midinote 62 8 s &
+pause 8 s 
+midinote 65 8 s &
+pause 8 s 
+midinote 61 24 s &
+midinote 53 8 s &
+pause 8 s 
+rawchord 58 61 64 8s &
+pause 8 s 
+midinote 53 8 s &
+pause 8 s 
+rawchord 58 61 64 8s &
+pause 8 s 
+midinote 57 8 s &
+midinote 53 16 s &
+pause 8 s 
+pause 8 s &
+pause 8 s 
+rawchord 65 16s &
+pause 16 s 
+midinote 63 16 s &
+pause 32 s &
+pause 16 s 
+midinote 60 16 s &
+pause 16 s 
+midinote 62 32 s &
+midinote 46 64 s &
+pause 32 s 
+midinote 60 8 s &
+pause 8 s 
+midinote 58 8 s &
+pause 8 s 
+midinote 57 8 s &
+pause 8 s 
+midinote 55 8 s &
+pause 8 s 
+midinote 55 32 s &
+rawchord 53 58 46 64s &
+pause 32 s 
+midinote 53 16 s &
+pause 16 s 
+midinote 62 16 s &
+pause 16 s 
+midinote 60 24 s &
+midinote 54 32 s &
+rawchord 53 58 64s &
+pause 24 s 
+midinote 63 8 s &
+pause 8 s 
+midinote 57 24 s &
+midinote 53 32 s &
+pause 24 s 
+midinote 60 8 s &
+pause 8 s 
+midinote 58 32 s &
+midinote 46 64 s &
+pause 32 s 
+midinote 53 16 s &
+pause 16 s 
+pause 16 s &
+pause 16 s 
+midinote 62 32 s &
+rawchord 53 58 46 64s &
+pause 32 s 
+midinote 60 8 s &
+pause 8 s 
+midinote 58 8 s &
+pause 8 s 
+midinote 57 8 s &
+pause 8 s 
+midinote 55 8 s &
+pause 8 s 
+midinote 58 64 s &
+rawchord 55 46 32s &
+pause 32 s 
+rawchord 53 46 16s &
+rawchord 53 58 32s &
+pause 16 s 
+rawchord 62 53 58 16s &
+pause 16 s 
+rawchord 62 48 8s &
+pause 8 s 
+rawchord 60 53 8s &
+pause 8 s 
+midinote 57 8 s &
+pause 8 s 
+midinote 60 8 s &
+pause 8 s 
+rawchord 60 48 8s &
+pause 8 s 
+rawchord 58 52 8s &
+pause 8 s 
+rawchord 57 55 8s &
+pause 8 s 
+rawchord 55 60 8s &
+pause 8 s 
+midinote 53 16 s &
+pause 16 s 
+pause 16 s &
+pause 16 s 
+pause 32 s &
+pause 32 s 
+midinote 46 16 s &
+midinote 62 8 s &
+pause 8 s 
+midinote 65 8 s &
+pause 8 s 
+pause 16 s &
+midinote 62 8 s &
+pause 8 s 
+midinote 65 8 s &
+pause 8 s 
+pause 32 s &
+midinote 58 8 s &
+pause 8 s 
+midinote 67 8 s &
+pause 8 s 
+midinote 63 8 s &
+pause 8 s 
+midinote 67 8 s &
+pause 8 s 
+midinote 46 16 s &
+midinote 58 8 s &
+pause 8 s 
+midinote 65 8 s &
+pause 8 s 
+pause 16 s &
+midinote 62 8 s &
+pause 8 s 
+midinote 65 8 s &
+pause 8 s 
+pause 32 s &
+midinote 58 8 s &
+pause 8 s 
+midinote 65 8 s &
+pause 8 s 
+midinote 62 8 s &
+pause 8 s 
+midinote 65 8 s &
+pause 8 s 
+midinote 46 64 s &
+midinote 58 8 s &
+pause 8 s 
+midinote 66 8 s &
+pause 8 s 
+midinote 63 8 s &
+pause 8 s 
+midinote 66 8 s &
+pause 8 s 
+midinote 58 8 s &
+pause 8 s 
+midinote 65 8 s &
+pause 8 s 
+midinote 63 8 s &
+pause 8 s 
+midinote 65 8 s &
+pause 8 s 
+midinote 46 32 s &
+midinote 58 8 s &
+pause 8 s 
+midinote 65 8 s &
+pause 8 s 
+midinote 62 8 s &
+pause 8 s 
+midinote 65 8 s &
+pause 8 s 
+pause 32 s &
+midinote 58 8 s &
+pause 8 s 
+midinote 65 8 s &
+pause 8 s 
+midinote 62 8 s &
+pause 8 s 
+midinote 65 8 s &
+pause 8 s 
+midinote 46 16 s &
+midinote 58 8 s &
+pause 8 s 
+midinote 65 8 s &
+pause 8 s 
+pause 16 s &
+midinote 62 8 s &
+pause 8 s 
+midinote 65 8 s &
+pause 8 s 
+pause 32 s &
+midinote 58 8 s &
+pause 8 s 
+midinote 67 8 s &
+pause 8 s 
+midinote 63 8 s &
+pause 8 s 
+midinote 67 8 s &
+pause 8 s 
+midinote 46 32 s &
+midinote 58 8 s &
+pause 8 s 
+midinote 65 8 s &
+pause 8 s 
+midinote 62 8 s &
+pause 8 s 
+midinote 65 8 s &
+pause 8 s 
+pause 32 s &
+midinote 58 8 s &
+pause 8 s 
+midinote 65 8 s &
+pause 8 s 
+midinote 62 8 s &
+pause 8 s 
+midinote 65 8 s &
+pause 8 s 
+midinote 51 32 s &
+midinote 51 8 s &
+pause 8 s 
+midinote 60 8 s &
+pause 8 s 
+pause 8 s &
+pause 8 s 
+midinote 60 8 s &
+pause 8 s 
+midinote 53 32 s &
+midinote 53 8 s &
+pause 8 s 
+rawchord 58 62 8s &
+pause 8 s 
+midinote 53 8 s &
+pause 8 s 
+rawchord 57 63 8s &
+pause 8 s 
+midinote 58 8 s &
+pause 8 s 
+rawchord 62 53 8s &
+pause 8 s 
+midinote 58 8 s &
+pause 8 s 
+rawchord 58 62 53 8s &
+pause 8 s 
+midinote 58 8 s &
+pause 8 s 
+midinote 60 4 s &
+rawchord 62 53 8s &
+pause 4 s 
+midinote 58 4 s &
+pause 4 s 
+rawchord 57 58 8s &
+pause 8 s 
+rawchord 58 62 53 8s &
+pause 8 s 
+rawchord 59 60 8s &
+pause 8 s 
+rawchord 60 63 53 8s &
+pause 8 s 
+midinote 60 8 s &
+pause 8 s 
+rawchord 60 63 53 8s &
+pause 8 s 
+midinote 60 8 s &
+pause 8 s 
+midinote 62 4 s &
+rawchord 63 53 8s &
+pause 4 s 
+midinote 60 4 s &
+pause 4 s 
+rawchord 59 60 8s &
+pause 8 s 
+rawchord 60 63 53 8s &
+pause 8 s 
+rawchord 61 58 8s &
+pause 8 s 
+rawchord 62 53 8s &
+pause 8 s 
+rawchord 62 58 8s &
+pause 8 s 
+rawchord 62 53 8s &
+pause 8 s 
+rawchord 67 58 8s &
+pause 8 s 
+rawchord 65 62 53 8s &
+pause 8 s 
+rawchord 63 58 8s &
+pause 8 s 
+rawchord 62 53 8s &
+pause 8 s 
+rawchord 62 60 8s &
+pause 8 s 
+rawchord 60 63 53 8s &
+pause 8 s 
+midinote 60 8 s &
+pause 8 s 
+rawchord 60 63 53 8s &
+pause 8 s 
+midinote 60 8 s &
+pause 8 s 
+midinote 62 4 s &
+rawchord 63 53 8s &
+pause 4 s 
+midinote 63 4 s &
+pause 4 s 
+rawchord 62 60 8s &
+pause 8 s 
+rawchord 60 63 53 8s &
+pause 8 s 
+midinote 58 8 s &
+midinote 58 16 s &
+pause 8 s 
+pause 8 s &
+pause 8 s 
+midinote 58 8 s &
+rawchord 62 16s &
+pause 8 s 
+midinote 60 8 s &
+pause 8 s 
+midinote 62 8 s &
+midinote 58 16 s &
+pause 8 s 
+pause 8 s &
+pause 8 s 
+midinote 58 8 s &
+pause 16 s &
+pause 8 s 
+midinote 60 8 s &
+pause 8 s 
+midinote 62 8 s &
+midinote 58 16 s &
+pause 8 s 
+pause 8 s &
+pause 8 s 
+midinote 58 8 s &
+pause 16 s &
+pause 8 s 
+midinote 60 8 s &
+pause 8 s 
+midinote 62 8 s &
+midinote 58 16 s &
+pause 8 s 
+midinote 63 8 s &
+pause 8 s 
+midinote 65 8 s &
+midinote 58 16 s &
+pause 8 s 
+midinote 62 8 s &
+pause 8 s 
+midinote 63 8 s &
+midinote 51 16 s &
+pause 8 s 
+midinote 62 8 s &
+pause 8 s 
+midinote 63 8 s &
+pause 16 s &
+pause 8 s 
+midinote 62 8 s &
+pause 8 s 
+midinote 63 8 s &
+midinote 51 16 s &
+pause 8 s 
+midinote 62 8 s &
+pause 8 s 
+midinote 63 8 s &
+pause 16 s &
+pause 8 s 
+midinote 62 8 s &
+pause 8 s 
+rawchord 63 51 16s &
+pause 16 s 
+rawchord 67 16s &
+pause 16 s 
+midinote 65 16 s &
+pause 32 s &
+pause 16 s 
+midinote 63 16 s &
+pause 16 s 
+rawchord 62 53 16s &
+pause 16 s 
+midinote 58 8 s &
+pause 16 s &
+pause 8 s 
+midinote 62 8 s &
+pause 8 s 
+midinote 62 8 s &
+midinote 53 16 s &
+pause 8 s 
+midinote 60 8 s &
+pause 8 s 
+midinote 58 8 s &
+midinote 53 16 s &
+pause 8 s 
+midinote 57 8 s &
+pause 8 s 
+midinote 58 8 s &
+midinote 58 16 s &
+pause 8 s 
+pause 8 s &
+pause 8 s 
+midinote 62 8 s &
+pause 16 s &
+pause 8 s 
+midinote 62 8 s &
+pause 8 s 
+rawchord 62 51 8s &
+pause 8 s 
+rawchord 60 8s &
+pause 8 s 
+rawchord 60 51 8s &
+pause 8 s 
+rawchord 60 8s &
+pause 8 s 
+rawchord 60 53 8s &
+pause 8 s 
+rawchord 58 8s &
+pause 8 s 
+rawchord 58 53 8s &
+pause 8 s 
+rawchord 58 8s &
+pause 8 s 
+rawchord 58 41 8s &
+pause 8 s 
+rawchord 57 8s &
+pause 8 s 
+rawchord 57 41 8s &
+pause 8 s 
+rawchord 57 8s &
+pause 8 s 
+rawchord 63 46 8s &
+pause 8 s 
+rawchord 62 8s &
+pause 8 s 
+rawchord 62 46 8s &
+pause 8 s 
+rawchord 62 8s &
+pause 8 s 
+rawchord 62 51 8s &
+pause 8 s 
+rawchord 60 8s &
+pause 8 s 
+rawchord 60 51 8s &
+pause 8 s 
+rawchord 60 8s &
+pause 8 s 
+rawchord 60 53 8s &
+pause 8 s 
+rawchord 58 8s &
+pause 8 s 
+rawchord 58 53 8s &
+pause 8 s 
+rawchord 58 8s &
+pause 8 s 
+rawchord 58 41 8s &
+pause 8 s 
+rawchord 57 8s &
+pause 8 s 
+rawchord 57 41 8s &
+pause 8 s 
+rawchord 57 8s &
+pause 8 s 
+midinote 58 16 s &
+midinote 58 8 s &
+pause 8 s 
+midinote 62 8 s &
+pause 8 s 
+pause 16 s &
+rawchord 65 62 8s &
+pause 8 s 
+rawchord 65 62 8s &
+pause 8 s 
+pause 32 s &
+rawchord 65 58 8s &
+pause 8 s 
+midinote 62 8 s &
+pause 8 s 
+rawchord 65 62 8s &
+pause 8 s 
+rawchord 65 62 8s &
+pause 8 s 
+pause 64 s &
+rawchord 65 58 8s &
+pause 8 s 
+midinote 62 8 s &
+pause 8 s 
+rawchord 65 62 8s &
+pause 8 s 
+rawchord 65 62 8s &
+pause 8 s 
+rawchord 65 58 8s &
+pause 8 s 
+midinote 63 8 s &
+pause 8 s 
+rawchord 67 63 8s &
+pause 8 s 
+rawchord 67 63 8s &
+pause 8 s 
+pause 64 s &
+rawchord 67 58 8s &
+pause 8 s 
+midinote 62 8 s &
+pause 8 s 
+rawchord 65 62 8s &
+pause 8 s 
+rawchord 65 62 8s &
+pause 8 s 
+rawchord 65 58 8s &
+pause 8 s 
+midinote 62 8 s &
+pause 8 s 
+rawchord 65 62 8s &
+pause 8 s 
+rawchord 65 62 8s &
+pause 8 s 
+pause 64 s &
+rawchord 65 53 8s &
+pause 8 s 
+midinote 63 8 s &
+pause 8 s 
+midinote 63 8 s &
+pause 8 s 
+midinote 63 8 s &
+pause 8 s 
+midinote 53 8 s &
+pause 8 s 
+midinote 63 8 s &
+pause 8 s 
+midinote 63 8 s &
+pause 8 s 
+midinote 63 8 s &
+pause 8 s 
+pause 64 s &
+midinote 58 8 s &
+pause 8 s 
+midinote 62 8 s &
+pause 8 s 
+rawchord 65 62 8s &
+pause 8 s 
+rawchord 65 62 8s &
+pause 8 s 
+rawchord 65 58 8s &
+pause 8 s 
+midinote 62 8 s &
+pause 8 s 
+rawchord 65 62 8s &
+pause 8 s 
+rawchord 65 62 8s &
+pause 8 s 
+midinote 58 32 s &
+rawchord 65 58 8s &
+pause 8 s 
+midinote 62 8 s &
+pause 8 s 
+rawchord 65 62 8s &
+pause 8 s 
+rawchord 65 62 8s &
+pause 8 s 
+midinote 57 32 s &
+rawchord 65 57 8s &
+pause 8 s 
+midinote 60 8 s &
+pause 8 s 
+midinote 58 8 s &
+pause 8 s 
+midinote 57 8 s &
+pause 8 s 
+midinote 55 32 s &
+midinote 55 8 s &
+pause 8 s 
+midinote 58 8 s &
+pause 8 s 
+rawchord 62 58 8s &
+pause 8 s 
+rawchord 62 58 8s &
+pause 8 s 
+pause 32 s &
+rawchord 62 55 8s &
+pause 8 s 
+midinote 58 8 s &
+pause 8 s 
+rawchord 62 58 8s &
+pause 8 s 
+rawchord 62 58 8s &
+pause 8 s 
+midinote 62 8 s &
+rawchord 51 64s &
+pause 64 s 
+midinote 50 8 s &
+rawchord 55 61 64s &
+pause 8 s 
+midinote 54 8 s &
+pause 8 s 
+rawchord 57 62 54 8s &
+pause 8 s 
+rawchord 57 62 54 8s &
+pause 8 s 
+rawchord 57 62 50 8s &
+pause 8 s 
+midinote 57 8 s &
+pause 8 s 
+rawchord 60 57 8s &
+pause 8 s 
+rawchord 60 57 8s &
+pause 8 s 
+pause 64 s &
+rawchord 60 50 8s &
+pause 8 s 
+midinote 55 8 s &
+pause 8 s 
+rawchord 58 55 8s &
+pause 8 s 
+rawchord 58 55 8s &
+pause 8 s 
+rawchord 58 50 8s &
+pause 8 s 
+midinote 55 8 s &
+pause 8 s 
+rawchord 58 55 8s &
+pause 8 s 
+rawchord 58 55 8s &
+pause 8 s 
+pause 64 s &
+midinote 58 8 s &
+midinote 50 28 s &
+pause 28 s 
+midinote 50 4 s &
+pause 4 s 
+midinote 50 28 s &
+pause 28 s 
+midinote 50 4 s &
+pause 4 s 
+midinote 58 16 s &
+midinote 50 32 s &
+pause 16 s 
+midinote 62 16 s &
+pause 16 s 
+midinote 65 16 s &
+pause 32 s &
+pause 16 s 
+midinote 69 16 s &
+pause 16 s 
+rawchord 71 43 32s &
+pause 32 s 
+midinote 69 8 s &
+rawchord 55 43 32s &
+pause 8 s 
+midinote 67 8 s &
+pause 8 s 
+midinote 66 8 s &
+pause 8 s 
+midinote 64 8 s &
+pause 8 s 
+rawchord 64 55 43 32s &
+pause 32 s 
+midinote 62 16 s &
+rawchord 55 32s &
+pause 16 s 
+midinote 67 8 s &
+pause 8 s 
+midinote 66 8 s &
+pause 8 s 
+midinote 64 16 s &
+midinote 48 32 s &
+pause 16 s 
+midinote 64 16 s &
+pause 16 s 
+midinote 67 8 s &
+midinote 52 32 s &
+pause 8 s 
+midinote 66 8 s &
+pause 8 s 
+midinote 64 8 s &
+pause 8 s 
+midinote 66 8 s &
+pause 8 s 
+rawchord 67 55 32s &
+pause 32 s 
+midinote 62 16 s &
+pause 32 s &
+pause 16 s 
+midinote 62 16 s &
+pause 16 s 
+rawchord 71 43 32s &
+pause 32 s 
+midinote 69 8 s &
+rawchord 55 43 32s &
+pause 8 s 
+midinote 67 8 s &
+pause 8 s 
+midinote 66 8 s &
+pause 8 s 
+midinote 64 8 s &
+pause 8 s 
+rawchord 64 55 43 32s &
+pause 32 s 
+midinote 62 16 s &
+rawchord 55 32s &
+pause 16 s 
+midinote 59 12 s &
+pause 12 s 
+midinote 61 4 s &
+pause 4 s 
+midinote 62 24 s &
+midinote 57 32 s &
+pause 24 s 
+midinote 64 8 s &
+pause 8 s 
+midinote 66 12 s &
+midinote 45 32 s &
+pause 12 s 
+midinote 67 4 s &
+pause 4 s 
+midinote 64 12 s &
+pause 12 s 
+midinote 66 4 s &
+pause 4 s 
+midinote 62 32 s &
+midinote 50 16 s &
+pause 16 s 
+pause 16 s &
+pause 16 s 
+pause 32 s &
+pause 32 s 
+midinote 43 32 s &
+midinote 55 8 s &
+pause 8 s 
+rawchord 59 67 8s &
+pause 8 s 
+midinote 62 8 s &
+pause 8 s 
+midinote 67 8 s &
+pause 8 s 
+pause 32 s &
+midinote 55 8 s &
+pause 8 s 
+rawchord 60 67 8s &
+pause 8 s 
+midinote 62 8 s &
+pause 8 s 
+midinote 67 8 s &
+pause 8 s 
+midinote 43 32 s &
+midinote 55 8 s &
+pause 8 s 
+rawchord 59 67 8s &
+pause 8 s 
+midinote 62 8 s &
+pause 8 s 
+midinote 67 8 s &
+pause 8 s 
+pause 32 s &
+midinote 55 8 s &
+pause 8 s 
+rawchord 59 67 8s &
+pause 8 s 
+midinote 62 8 s &
+pause 8 s 
+midinote 67 8 s &
+pause 8 s 
+midinote 43 32 s &
+midinote 55 8 s &
+pause 8 s 
+rawchord 60 67 8s &
+pause 8 s 
+midinote 64 8 s &
+pause 8 s 
+midinote 67 8 s &
+pause 8 s 
+midinote 43 32 s &
+midinote 60 8 s &
+pause 8 s 
+midinote 66 8 s &
+pause 8 s 
+midinote 62 8 s &
+pause 8 s 
+midinote 66 8 s &
+pause 8 s 
+midinote 43 32 s &
+midinote 55 8 s &
+pause 8 s 
+rawchord 59 67 8s &
+pause 8 s 
+midinote 62 8 s &
+pause 8 s 
+midinote 67 8 s &
+pause 8 s 
+pause 32 s &
+midinote 55 8 s &
+pause 8 s 
+rawchord 59 67 8s &
+pause 8 s 
+midinote 62 8 s &
+pause 8 s 
+midinote 67 8 s &
+pause 8 s 
+midinote 43 16 s &
+midinote 55 8 s &
+pause 8 s 
+rawchord 59 67 8s &
+pause 8 s 
+pause 16 s &
+midinote 62 8 s &
+pause 8 s 
+midinote 67 8 s &
+pause 8 s 
+pause 32 s &
+midinote 55 8 s &
+pause 8 s 
+rawchord 60 64 8s &
+pause 8 s 
+midinote 55 8 s &
+pause 8 s 
+rawchord 60 64 8s &
+pause 8 s 
+midinote 43 16 s &
+midinote 55 8 s &
+pause 8 s 
+rawchord 59 67 8s &
+pause 8 s 
+pause 16 s &
+midinote 62 8 s &
+pause 8 s 
+midinote 67 8 s &
+pause 8 s 
+pause 32 s &
+midinote 55 8 s &
+pause 8 s 
+rawchord 60 67 8s &
+pause 8 s 
+midinote 62 8 s &
+pause 8 s 
+midinote 67 8 s &
+pause 8 s 
+midinote 48 16 s &
+midinote 48 8 s &
+pause 8 s 
+rawchord 52 60 8s &
+pause 8 s 
+pause 16 s &
+midinote 57 8 s &
+pause 8 s 
+midinote 60 8 s &
+pause 8 s 
+pause 32 s &
+midinote 47 8 s &
+pause 8 s 
+rawchord 50 55 59 8s &
+pause 8 s 
+midinote 50 8 s &
+pause 8 s 
+rawchord 54 57 60 8s &
+pause 8 s 
+pause 16 s &
+midinote 55 8 s &
+pause 8 s 
+rawchord 59 50 8s &
+pause 8 s 
+rawchord 59 55 8s &
+pause 8 s 
+rawchord 59 50 8s &
+pause 8 s 
+rawchord 59 55 8s &
+pause 8 s 
+midinote 60 4 s &
+rawchord 59 50 8s &
+pause 4 s 
+midinote 59 4 s &
+pause 4 s 
+rawchord 59 55 8s &
+pause 8 s 
+rawchord 60 59 50 8s &
+pause 8 s 
+rawchord 60 57 8s &
+pause 8 s 
+rawchord 62 60 50 8s &
+pause 8 s 
+rawchord 62 57 8s &
+pause 8 s 
+rawchord 62 60 50 8s &
+pause 8 s 
+rawchord 62 57 8s &
+pause 8 s 
+midinote 64 4 s &
+rawchord 60 50 8s &
+pause 4 s 
+midinote 62 4 s &
+pause 4 s 
+rawchord 60 57 8s &
+pause 8 s 
+rawchord 62 60 50 8s &
+pause 8 s 
+rawchord 63 55 8s &
+pause 8 s 
+rawchord 64 59 50 8s &
+pause 8 s 
+rawchord 64 55 8s &
+pause 8 s 
+rawchord 64 59 50 8s &
+pause 8 s 
+rawchord 67 55 8s &
+pause 8 s 
+rawchord 66 59 50 8s &
+pause 8 s 
+rawchord 64 55 8s &
+pause 8 s 
+rawchord 62 59 50 8s &
+pause 8 s 
+rawchord 62 57 8s &
+pause 8 s 
+rawchord 60 50 8s &
+pause 8 s 
+rawchord 60 57 8s &
+pause 8 s 
+rawchord 60 50 8s &
+pause 8 s 
+rawchord 60 57 8s &
+pause 8 s 
+midinote 62 4 s &
+rawchord 60 50 8s &
+pause 4 s 
+midinote 60 4 s &
+pause 4 s 
+rawchord 62 57 8s &
+pause 8 s 
+rawchord 60 50 8s &
+pause 8 s 
+midinote 59 8 s &
+midinote 55 16 s &
+pause 8 s 
+pause 8 s &
+pause 8 s 
+midinote 59 8 s &
+pause 16 s &
+pause 8 s 
+midinote 60 8 s &
+pause 8 s 
+midinote 62 8 s &
+midinote 55 16 s &
+pause 8 s 
+pause 8 s &
+pause 8 s 
+midinote 59 8 s &
+pause 16 s &
+pause 8 s 
+midinote 60 8 s &
+pause 8 s 
+midinote 62 8 s &
+midinote 55 16 s &
+pause 8 s 
+pause 8 s &
+pause 8 s 
+midinote 59 8 s &
+pause 16 s &
+pause 8 s 
+midinote 60 8 s &
+pause 8 s 
+rawchord 62 55 8s &
+pause 8 s 
+rawchord 64 8s &
+pause 8 s 
+rawchord 65 55 8s &
+pause 8 s 
+rawchord 62 8s &
+pause 8 s 
+rawchord 64 48 16s &
+pause 16 s 
+rawchord 63 16s &
+pause 16 s 
+rawchord 64 48 16s &
+pause 16 s 
+rawchord 63 16s &
+pause 16 s 
+rawchord 66 48 16s &
+pause 16 s 
+rawchord 64 16s &
+pause 16 s 
+midinote 62 16 s &
+pause 32 s &
+pause 16 s 
+midinote 60 16 s &
+pause 16 s 
+midinote 60 8 s &
+midinote 50 16 s &
+pause 8 s 
+midinote 59 8 s &
+pause 8 s 
+midinote 64 8 s &
+pause 16 s &
+pause 8 s 
+midinote 62 8 s &
+pause 8 s 
+midinote 62 8 s &
+midinote 50 16 s &
+pause 8 s 
+midinote 60 8 s &
+pause 8 s 
+midinote 59 8 s &
+pause 16 s &
+pause 8 s 
+midinote 57 8 s &
+pause 8 s 
+midinote 59 8 s &
+midinote 55 16 s &
+pause 8 s 
+pause 8 s &
+pause 8 s 
+midinote 62 8 s &
+pause 16 s &
+pause 8 s 
+midinote 62 8 s &
+pause 8 s 
+rawchord 62 48 8s &
+pause 8 s 
+rawchord 60 8s &
+pause 8 s 
+rawchord 60 48 8s &
+pause 8 s 
+rawchord 60 8s &
+pause 8 s 
+midinote 60 8 s &
+midinote 50 16 s &
+pause 8 s 
+midinote 59 8 s &
+pause 8 s 
+midinote 59 8 s &
+pause 16 s &
+pause 8 s 
+midinote 59 8 s &
+pause 8 s 
+rawchord 59 50 8s &
+pause 8 s 
+rawchord 57 8s &
+pause 8 s 
+rawchord 57 50 8s &
+pause 8 s 
+rawchord 57 8s &
+pause 8 s 
+midinote 64 8 s &
+midinote 55 16 s &
+pause 8 s 
+midinote 62 8 s &
+pause 8 s 
+midinote 62 8 s &
+pause 16 s &
+pause 8 s 
+midinote 62 8 s &
+pause 8 s 
+rawchord 62 48 8s &
+pause 8 s 
+rawchord 60 8s &
+pause 8 s 
+rawchord 60 48 8s &
+pause 8 s 
+rawchord 60 8s &
+pause 8 s 
+midinote 60 8 s &
+midinote 50 16 s &
+pause 8 s 
+midinote 59 8 s &
+pause 8 s 
+midinote 59 8 s &
+pause 16 s &
+pause 8 s 
+midinote 59 8 s &
+pause 8 s 
+rawchord 59 50 8s &
+pause 8 s 
+rawchord 57 8s &
+pause 8 s 
+rawchord 57 50 8s &
+pause 8 s 
+rawchord 57 8s &
+pause 8 s 
+rawchord 59 55 16s &
+pause 16 s 
+pause 16 s &
+pause 16 s 
+pause 32 s &
+pause 32 s 
+midinote 57 16 s &
+midinote 50 64 s &
+pause 16 s 
+midinote 55 16 s &
+pause 16 s 
+midinote 57 16 s &
+pause 16 s 
+midinote 59 16 s &
+pause 16 s 
+midinote 55 16 s &
+pause 16 s 
+pause 16 s &
+pause 16 s 
+rawchord 50 43 16s &
+pause 16 s 
+rawchord 59 55 16s &
+pause 16 s 
+midinote 43 32 s &
+pause 32 s 
+rawchord 55 32s &
+pause 32 s 
+midinote 58 4 s &
+pause 4 s 
+midinote 67 4 s &
+midinote 58 32 s &
+pause 32 s 
+midinote 67 32 s &
+midinote 58 16 s &
+pause 16 s 
+midinote 62 16 s &
+pause 12 s &
+pause 12 s 
+midinote 62 4 s &
+pause 4 s 
+midinote 70 4 s &
+midinote 62 32 s &
+pause 32 s 
+midinote 70 32 s &
+midinote 62 16 s &
+pause 16 s 
+midinote 67 16 s &
+midinote 74 8 s &
+pause 8 s 
+midinote 70 4 s &
+pause 4 s 
+midinote 67 4 s &
+pause 4 s 
+midinote 66 16 s &
+pause 16 s 
+midinote 67 16 s &
+pause 16 s 
+midinote 72 16 s &
+pause 16 s 
+midinote 70 16 s &
+pause 16 s 
+midinote 67 32 s &
+pause 32 s 
+midinote 70 32 s &
+midinote 66 16 s &
+pause 16 s 
+rawchord 69 16s &
+pause 16 s 
+midinote 66 24 s &
+pause 24 s 
+midinote 75 24 s &
+midinote 72 4 s &
+pause 4 s 
+midinote 69 4 s &
+pause 4 s 
+midinote 66 16 s &
+pause 16 s 
+midinote 67 16 s &
+pause 16 s 
+midinote 66 24 s &
+pause 24 s 
+midinote 75 24 s &
+midinote 72 4 s &
+pause 4 s 
+midinote 69 4 s &
+pause 4 s 
+midinote 66 16 s &
+pause 16 s 
+midinote 67 16 s &
+pause 16 s 
+midinote 69 8 s &
+pause 8 s 
+midinote 70 8 s &
+pause 8 s 
+midinote 72 8 s &
+pause 8 s 
+midinote 74 8 s &
+pause 8 s 
+midinote 75 8 s &
+pause 8 s 
+midinote 71 8 s &
+pause 8 s 
+midinote 72 8 s &
+pause 8 s 
+midinote 69 8 s &
+pause 8 s 
+midinote 67 32 s &
+pause 32 s 
+midinote 66 16 s &
+pause 16 s 
+pause 16 s &
+pause 16 s 
+midinote 58 32 s &
+pause 32 s 
+midinote 67 32 s &
+midinote 58 16 s &
+pause 16 s 
+rawchord 62 16s &
+pause 16 s 
+midinote 58 32 s &
+pause 32 s 
+midinote 67 32 s &
+midinote 58 16 s &
+pause 16 s 
+rawchord 62 16s &
+pause 16 s 
+midinote 66 16 s &
+pause 16 s 
+midinote 67 16 s &
+pause 16 s 
+midinote 69 16 s &
+pause 16 s 
+midinote 70 16 s &
+pause 16 s 
+midinote 67 32 s &
+pause 32 s 
+midinote 70 32 s &
+midinote 66 16 s &
+pause 16 s 
+rawchord 69 16s &
+pause 16 s 
+midinote 63 64 s &
+pause 64 s 
+midinote 64 64 s &
+midinote 62 32 s &
+pause 32 s 
+rawchord 67 63 32s &
+pause 32 s 
+rawchord 67 58 32s &
+pause 32 s 
+rawchord 67 57 32s &
+pause 32 s 
+midinote 66 32 s &
+midinote 58 16 s &
+pause 16 s 
+rawchord 67 16s &
+pause 16 s 
+pause 8 s &
+pause 8 s 
+midinote 74 8 s &
+pause 8 s 
+rawchord 86 74 8s &
+pause 8 s 
+rawchord 86 74 8s &
+pause 8 s 
+rawchord 86 75 8s &
+pause 8 s 
+rawchord 87 66 8s &
+pause 8 s 
+rawchord 78 66 8s &
+pause 8 s 
+rawchord 78 66 8s &
+pause 8 s 
+rawchord 78 67 8s &
+pause 8 s 
+rawchord 79 69 8s &
+pause 8 s 
+rawchord 81 69 8s &
+pause 8 s 
+rawchord 81 69 8s &
+pause 8 s 
+midinote 81 8 s &
+midinote 70 16 s &
+pause 16 s 
+midinote 82 16 s &
+midinote 67 8 s &
+pause 8 s 
+rawchord 79 8s &
+pause 8 s 
+pause 16 s &
+pause 16 s 
+midinote 82 8 s &
+pause 8 s 
+midinote 82 8 s &
+pause 8 s 
+midinote 82 8 s &
+pause 8 s 
+midinote 81 8 s &
+pause 8 s 
+midinote 81 8 s &
+pause 8 s 
+midinote 81 8 s &
+pause 8 s 
+midinote 81 8 s &
+pause 8 s 
+midinote 79 8 s &
+pause 8 s 
+midinote 79 8 s &
+pause 8 s 
+midinote 79 8 s &
+pause 8 s 
+midinote 66 16 s &
+pause 16 s 
+rawchord 78 16s &
+pause 16 s 
+pause 8 s &
+pause 8 s 
+midinote 74 8 s &
+pause 8 s 
+rawchord 86 74 8s &
+pause 8 s 
+rawchord 86 74 8s &
+pause 8 s 
+midinote 86 8 s &
+midinote 87 16 s &
+pause 16 s 
+midinote 87 16 s &
+pause 16 s 
+midinote 87 4 s &
+pause 4 s 
+midinote 84 4 s &
+pause 4 s 
+midinote 81 4 s &
+pause 4 s 
+midinote 77 4 s &
+pause 4 s 
+midinote 78 4 s &
+pause 4 s 
+midinote 79 4 s &
+pause 4 s 
+midinote 77 4 s &
+pause 4 s 
+midinote 75 4 s &
+pause 4 s 
+midinote 74 8 s &
+pause 8 s 
+midinote 77 4 s &
+pause 4 s 
+midinote 75 4 s &
+pause 4 s 
+midinote 74 16 s &
+pause 16 s 
+pause 32 s &
+pause 32 s 
+midinote 72 8 s &
+pause 8 s 
+pause 8 s &
+pause 8 s 
+midinote 72 8 s &
+pause 8 s 
+pause 8 s &
+pause 8 s 
+midinote 67 32 s &
+pause 32 s 
+midinote 70 32 s &
+midinote 65 4 s &
+pause 4 s 
+rawchord 69 65 4s &
+pause 4 s 
+midinote 69 4 s &
+pause 4 s 
+midinote 72 4 s &
+pause 4 s 
+midinote 75 4 s &
+pause 4 s 
+midinote 77 4 s &
+pause 4 s 
+midinote 81 4 s &
+pause 4 s 
+midinote 84 4 s &
+pause 4 s 
+midinote 87 4 s &
+pause 4 s 
+midinote 84 4 s &
+pause 4 s 
+midinote 81 4 s &
+pause 4 s 
+midinote 77 4 s &
+pause 4 s 
+midinote 75 4 s &
+pause 4 s 
+midinote 72 4 s &
+pause 4 s 
+midinote 69 4 s &
+pause 4 s 
+midinote 72 4 s &
+pause 4 s 
+midinote 70 8 s &
+pause 8 s 
+midinote 86 4 s &
+pause 4 s 
+midinote 84 4 s &
+pause 4 s 
+midinote 82 4 s &
+pause 4 s 
+midinote 81 4 s &
+pause 4 s 
+midinote 79 4 s &
+pause 4 s 
+midinote 77 4 s &
+pause 4 s 
+midinote 76 4 s &
+pause 4 s 
+midinote 79 4 s &
+pause 4 s 
+midinote 82 4 s &
+pause 4 s 
+midinote 84 4 s &
+pause 4 s 
+midinote 85 4 s &
+pause 4 s 
+midinote 82 4 s &
+pause 4 s 
+midinote 79 4 s &
+pause 4 s 
+midinote 76 4 s &
+pause 4 s 
+midinote 77 4 s &
+pause 4 s 
+midinote 65 4 s &
+pause 4 s 
+midinote 69 4 s &
+pause 4 s 
+midinote 72 4 s &
+pause 4 s 
+midinote 75 4 s &
+pause 4 s 
+midinote 77 4 s &
+pause 4 s 
+midinote 81 4 s &
+pause 4 s 
+midinote 84 4 s &
+pause 4 s 
+midinote 87 4 s &
+pause 4 s 
+midinote 84 4 s &
+pause 4 s 
+midinote 81 4 s &
+pause 4 s 
+midinote 77 4 s &
+pause 4 s 
+midinote 75 4 s &
+pause 4 s 
+midinote 72 4 s &
+pause 4 s 
+midinote 69 4 s &
+pause 4 s 
+midinote 72 4 s &
+pause 4 s 
+midinote 70 8 s &
+pause 8 s 
+midinote 86 4 s &
+pause 4 s 
+midinote 84 4 s &
+pause 4 s 
+midinote 82 4 s &
+pause 4 s 
+midinote 81 4 s &
+pause 4 s 
+midinote 79 4 s &
+pause 4 s 
+midinote 77 4 s &
+pause 4 s 
+midinote 76 4 s &
+pause 4 s 
+midinote 79 4 s &
+pause 4 s 
+midinote 82 4 s &
+pause 4 s 
+midinote 84 4 s &
+pause 4 s 
+midinote 85 4 s &
+pause 4 s 
+midinote 82 4 s &
+pause 4 s 
+midinote 79 4 s &
+pause 4 s 
+midinote 76 4 s &
+pause 4 s 
+midinote 77 16 s &
+pause 16 s 
+pause 16 s &
+pause 16 s 
+pause 32 s &
+pause 32 s 
+midinote 62 8 s &
+pause 8 s 
+midinote 65 8 s &
+pause 8 s 
+midinote 70 8 s &
+pause 8 s 
+midinote 65 8 s &
+pause 8 s 
+midinote 62 8 s &
+pause 8 s 
+midinote 65 8 s &
+pause 8 s 
+midinote 70 8 s &
+pause 8 s 
+midinote 65 8 s &
+pause 8 s 
+midinote 62 8 s &
+pause 8 s 
+midinote 65 8 s &
+pause 8 s 
+midinote 70 8 s &
+pause 8 s 
+midinote 65 8 s &
+pause 8 s 
+midinote 62 8 s &
+pause 8 s 
+midinote 65 8 s &
+pause 8 s 
+midinote 70 8 s &
+pause 8 s 
+midinote 65 8 s &
+pause 8 s 
+midinote 63 8 s &
+pause 8 s 
+midinote 66 8 s &
+pause 8 s 
+midinote 69 8 s &
+pause 8 s 
+midinote 66 8 s &
+pause 8 s 
+midinote 62 8 s &
+pause 8 s 
+midinote 65 8 s &
+pause 8 s 
+midinote 69 8 s &
+pause 8 s 
+midinote 65 8 s &
+pause 8 s 
+midinote 62 8 s &
+pause 8 s 
+midinote 65 8 s &
+pause 8 s 
+midinote 70 8 s &
+pause 8 s 
+midinote 65 8 s &
+pause 8 s 
+midinote 62 8 s &
+pause 8 s 
+midinote 65 8 s &
+pause 8 s 
+midinote 70 8 s &
+pause 8 s 
+midinote 65 8 s &
+pause 8 s 
+midinote 62 8 s &
+pause 8 s 
+midinote 65 8 s &
+pause 8 s 
+midinote 70 8 s &
+pause 8 s 
+midinote 65 8 s &
+pause 8 s 
+midinote 62 8 s &
+pause 8 s 
+midinote 65 8 s &
+pause 8 s 
+midinote 70 8 s &
+pause 8 s 
+midinote 65 8 s &
+pause 8 s 
+midinote 62 8 s &
+pause 8 s 
+midinote 65 8 s &
+pause 8 s 
+midinote 70 8 s &
+pause 8 s 
+midinote 65 8 s &
+pause 8 s 
+midinote 62 16 s &
+pause 16 s 
+midinote 82 16 s &
+pause 16 s 
+midinote 82 8 s &
+pause 8 s 
+midinote 81 8 s &
+pause 8 s 
+midinote 77 8 s &
+pause 8 s 
+midinote 81 8 s &
+pause 8 s 
+midinote 81 8 s &
+pause 8 s 
+midinote 79 8 s &
+pause 8 s 
+midinote 77 8 s &
+pause 8 s 
+midinote 76 8 s &
+pause 8 s 
+midinote 77 8 s &
+pause 8 s 
+midinote 76 8 s &
+pause 8 s 
+midinote 77 8 s &
+pause 8 s 
+midinote 76 8 s &
+pause 8 s 
+midinote 77 8 s &
+pause 8 s 
+midinote 76 8 s &
+pause 8 s 
+midinote 74 8 s &
+pause 8 s 
+rawchord 77 76 8s &
+pause 8 s 
+midinote 86 32 s &
+pause 32 s 
+midinote 86 4 s &
+pause 4 s 
+midinote 84 4 s &
+pause 4 s 
+midinote 87 4 s &
+pause 4 s 
+midinote 86 4 s &
+pause 4 s 
+midinote 84 4 s &
+pause 4 s 
+midinote 82 4 s &
+pause 4 s 
+midinote 81 4 s &
+pause 4 s 
+midinote 79 4 s &
+pause 4 s 
+midinote 79 24 s &
+pause 24 s 
+midinote 78 8 s &
+pause 8 s 
+midinote 77 16 s &
+pause 16 s 
+midinote 81 4 s &
+pause 4 s 
+midinote 82 4 s &
+pause 4 s 
+midinote 81 4 s &
+pause 4 s 
+midinote 82 4 s &
+pause 4 s 
+midinote 84 16 s &
+pause 16 s 
+midinote 87 16 s &
+pause 16 s 
+midinote 81 16 s &
+pause 16 s 
+midinote 82 8 s &
+pause 8 s 
+midinote 84 8 s &
+pause 8 s 
+midinote 82 24 s &
+pause 24 s 
+midinote 86 8 s &
+pause 8 s 
+midinote 75 5 s &
+pause 5 s 
+midinote 77 5 s &
+pause 5 s 
+midinote 79 5 s &
+pause 5 s 
+midinote 81 5 s &
+pause 5 s 
+midinote 82 5 s &
+pause 5 s 
+midinote 84 5 s &
+pause 5 s 
+midinote 86 32 s &
+pause 32 s 
+midinote 84 4 s &
+pause 4 s 
+midinote 82 4 s &
+pause 4 s 
+midinote 87 4 s &
+pause 4 s 
+midinote 86 4 s &
+pause 4 s 
+midinote 84 4 s &
+pause 4 s 
+midinote 82 4 s &
+pause 4 s 
+midinote 81 4 s &
+pause 4 s 
+midinote 79 4 s &
+pause 4 s 
+midinote 77 24 s &
+pause 24 s 
+midinote 81 4 s &
+pause 4 s 
+midinote 79 4 s &
+pause 4 s 
+midinote 77 16 s &
+pause 16 s 
+midinote 82 8 s &
+pause 8 s 
+midinote 81 8 s &
+pause 8 s 
+midinote 78 4 s &
+pause 4 s 
+midinote 79 4 s &
+pause 4 s 
+midinote 93 4 s &
+pause 4 s 
+midinote 91 4 s &
+pause 4 s 
+midinote 89 4 s &
+pause 4 s 
+midinote 87 4 s &
+pause 4 s 
+midinote 86 4 s &
+pause 4 s 
+midinote 84 4 s &
+pause 4 s 
+midinote 82 16 s &
+pause 16 s 
+midinote 84 16 s &
+pause 16 s 
+midinote 82 8 s &
+pause 8 s 
+pause 8 s &
+pause 8 s 
+midinote 74 8 s &
+pause 8 s 
+midinote 74 8 s &
+pause 8 s 
+midinote 74 8 s &
+pause 8 s 
+midinote 75 4 s &
+pause 4 s 
+midinote 74 4 s &
+pause 4 s 
+midinote 72 8 s &
+pause 8 s 
+midinote 74 8 s &
+pause 8 s 
+midinote 74 8 s &
+pause 8 s 
+midinote 75 8 s &
+pause 8 s 
+midinote 75 8 s &
+pause 8 s 
+midinote 75 8 s &
+pause 8 s 
+midinote 75 8 s &
+pause 8 s 
+midinote 77 4 s &
+pause 4 s 
+midinote 75 4 s &
+pause 4 s 
+midinote 74 8 s &
+pause 8 s 
+midinote 75 8 s &
+pause 8 s 
+midinote 76 8 s &
+pause 8 s 
+midinote 77 8 s &
+pause 8 s 
+midinote 77 8 s &
+pause 8 s 
+midinote 77 8 s &
+pause 8 s 
+midinote 82 8 s &
+pause 8 s 
+midinote 81 8 s &
+pause 8 s 
+midinote 79 8 s &
+pause 8 s 
+midinote 77 8 s &
+pause 8 s 
+midinote 77 8 s &
+pause 8 s 
+midinote 75 8 s &
+pause 8 s 
+midinote 75 8 s &
+pause 8 s 
+midinote 75 8 s &
+pause 8 s 
+midinote 75 8 s &
+pause 8 s 
+midinote 77 4 s &
+pause 4 s 
+midinote 79 4 s &
+pause 4 s 
+midinote 77 8 s &
+pause 8 s 
+midinote 75 8 s &
+pause 8 s 
+midinote 74 8 s &
+pause 8 s 
+pause 8 s &
+pause 8 s 
+midinote 74 8 s &
+pause 8 s 
+midinote 75 8 s &
+pause 8 s 
+midinote 77 8 s &
+pause 8 s 
+pause 8 s &
+pause 8 s 
+midinote 74 8 s &
+pause 8 s 
+midinote 75 8 s &
+pause 8 s 
+midinote 77 8 s &
+pause 8 s 
+pause 8 s &
+pause 8 s 
+midinote 74 8 s &
+pause 8 s 
+midinote 75 8 s &
+pause 8 s 
+midinote 77 8 s &
+pause 8 s 
+midinote 79 8 s &
+pause 8 s 
+midinote 80 8 s &
+pause 8 s 
+midinote 77 8 s &
+pause 8 s 
+midinote 79 8 s &
+pause 8 s 
+midinote 78 8 s &
+pause 8 s 
+midinote 79 8 s &
+pause 8 s 
+midinote 78 8 s &
+pause 8 s 
+midinote 79 8 s &
+pause 8 s 
+midinote 78 8 s &
+pause 8 s 
+midinote 79 8 s &
+pause 8 s 
+midinote 78 8 s &
+pause 8 s 
+midinote 79 16 s &
+pause 16 s 
+midinote 82 16 s &
+pause 16 s 
+midinote 81 16 s &
+pause 16 s 
+midinote 79 16 s &
+pause 16 s 
+midinote 77 8 s &
+pause 8 s 
+midinote 82 8 s &
+pause 8 s 
+midinote 74 8 s &
+pause 8 s 
+midinote 77 8 s &
+pause 8 s 
+midinote 77 8 s &
+pause 8 s 
+midinote 75 8 s &
+pause 8 s 
+midinote 74 8 s &
+pause 8 s 
+midinote 72 8 s &
+pause 8 s 
+midinote 77 8 s &
+pause 8 s 
+pause 8 s &
+pause 8 s 
+midinote 77 8 s &
+pause 8 s 
+midinote 77 8 s &
+pause 8 s 
+midinote 77 8 s &
+pause 8 s 
+midinote 75 8 s &
+pause 8 s 
+midinote 75 8 s &
+pause 8 s 
+midinote 75 8 s &
+pause 8 s 
+midinote 75 8 s &
+pause 8 s 
+midinote 74 8 s &
+pause 8 s 
+midinote 74 8 s &
+pause 8 s 
+midinote 74 8 s &
+pause 8 s 
+midinote 74 8 s &
+pause 8 s 
+midinote 72 8 s &
+pause 8 s 
+midinote 72 8 s &
+pause 8 s 
+midinote 72 8 s &
+pause 8 s 
+midinote 79 8 s &
+pause 8 s 
+midinote 77 8 s &
+pause 8 s 
+midinote 77 8 s &
+pause 8 s 
+midinote 77 8 s &
+pause 8 s 
+midinote 77 8 s &
+pause 8 s 
+midinote 75 8 s &
+pause 8 s 
+midinote 75 8 s &
+pause 8 s 
+midinote 75 8 s &
+pause 8 s 
+midinote 75 8 s &
+pause 8 s 
+midinote 74 8 s &
+pause 8 s 
+midinote 74 8 s &
+pause 8 s 
+midinote 74 8 s &
+pause 8 s 
+midinote 74 8 s &
+pause 8 s 
+midinote 72 8 s &
+pause 8 s 
+midinote 72 8 s &
+pause 8 s 
+midinote 72 8 s &
+pause 8 s 
+midinote 70 16 s &
+pause 16 s 
+pause 16 s &
+pause 16 s 
+midinote 70 16 s &
+pause 16 s 
+midinote 70 12 s &
+pause 12 s 
+midinote 72 4 s &
+pause 4 s 
+midinote 74 32 s &
+pause 32 s 
+midinote 75 5 s &
+pause 5 s 
+midinote 74 5 s &
+pause 5 s 
+midinote 72 5 s &
+pause 5 s 
+midinote 70 5 s &
+pause 5 s 
+midinote 69 5 s &
+pause 5 s 
+midinote 67 5 s &
+pause 5 s 
+midinote 65 16 s &
+pause 16 s 
+midinote 77 16 s &
+pause 16 s 
+midinote 77 5 s &
+pause 5 s 
+midinote 82 5 s &
+pause 5 s 
+midinote 81 5 s &
+pause 5 s 
+midinote 82 5 s &
+pause 5 s 
+midinote 77 5 s &
+pause 5 s 
+midinote 74 5 s &
+pause 5 s 
+midinote 77 8 s &
+pause 8 s 
+midinote 75 8 s &
+pause 8 s 
+midinote 79 12 s &
+pause 12 s 
+midinote 77 4 s &
+pause 4 s 
+midinote 77 8 s &
+pause 8 s 
+midinote 75 8 s &
+pause 8 s 
+midinote 72 8 s &
+pause 8 s 
+midinote 74 8 s &
+pause 8 s 
+midinote 70 32 s &
+pause 32 s 
+midinote 65 16 s &
+pause 16 s 
+midinote 70 12 s &
+pause 12 s 
+midinote 72 4 s &
+pause 4 s 
+midinote 74 32 s &
+pause 32 s 
+midinote 74 16 s &
+pause 16 s 
+midinote 74 16 s &
+pause 16 s 
+midinote 82 24 s &
+pause 24 s 
+midinote 81 8 s &
+pause 8 s 
+midinote 79 16 s &
+pause 16 s 
+midinote 79 8 s &
+pause 8 s 
+midinote 81 8 s &
+pause 8 s 
+midinote 82 16 s &
+pause 16 s 
+midinote 81 8 s &
+pause 8 s 
+midinote 79 8 s &
+pause 8 s 
+midinote 77 8 s &
+pause 8 s 
+midinote 75 8 s &
+pause 8 s 
+midinote 74 8 s &
+pause 8 s 
+midinote 73 8 s &
+pause 8 s 
+midinote 74 4 s &
+pause 4 s 
+midinote 62 4 s &
+pause 4 s 
+midinote 66 4 s &
+pause 4 s 
+midinote 69 4 s &
+pause 4 s 
+midinote 74 4 s &
+pause 4 s 
+midinote 78 4 s &
+pause 4 s 
+midinote 81 4 s &
+pause 4 s 
+midinote 85 4 s &
+pause 4 s 
+midinote 86 4 s &
+pause 4 s 
+midinote 87 4 s &
+pause 4 s 
+midinote 86 4 s &
+pause 4 s 
+midinote 84 4 s &
+pause 4 s 
+midinote 82 4 s &
+pause 4 s 
+midinote 81 4 s &
+pause 4 s 
+midinote 79 4 s &
+pause 4 s 
+midinote 78 4 s &
+pause 4 s 
+midinote 79 4 s &
+pause 4 s 
+midinote 82 4 s &
+pause 4 s 
+midinote 85 4 s &
+pause 4 s 
+midinote 86 4 s &
+pause 4 s 
+midinote 79 4 s &
+pause 4 s 
+midinote 82 4 s &
+pause 4 s 
+midinote 85 4 s &
+pause 4 s 
+midinote 86 4 s &
+pause 4 s 
+midinote 79 4 s &
+pause 4 s 
+midinote 82 4 s &
+pause 4 s 
+midinote 85 4 s &
+pause 4 s 
+midinote 86 4 s &
+pause 4 s 
+midinote 87 4 s &
+pause 4 s 
+midinote 86 4 s &
+pause 4 s 
+midinote 82 4 s &
+pause 4 s 
+midinote 79 4 s &
+pause 4 s 
+midinote 74 28 s &
+pause 28 s 
+midinote 62 4 s &
+pause 4 s 
+midinote 62 28 s &
+pause 28 s 
+midinote 62 4 s &
+pause 4 s 
+midinote 62 32 s &
+pause 32 s 
+pause 32 s &
+pause 32 s 
+midinote 59 8 s &
+pause 8 s 
+midinote 62 8 s &
+pause 8 s 
+midinote 67 8 s &
+pause 8 s 
+midinote 62 8 s &
+pause 8 s 
+midinote 60 8 s &
+pause 8 s 
+midinote 64 8 s &
+pause 8 s 
+midinote 67 8 s &
+pause 8 s 
+midinote 64 8 s &
+pause 8 s 
+midinote 59 8 s &
+pause 8 s 
+midinote 62 8 s &
+pause 8 s 
+midinote 67 8 s &
+pause 8 s 
+midinote 62 8 s &
+pause 8 s 
+midinote 59 8 s &
+pause 8 s 
+midinote 62 8 s &
+pause 8 s 
+midinote 67 8 s &
+pause 8 s 
+midinote 62 8 s &
+pause 8 s 
+midinote 60 8 s &
+pause 8 s 
+midinote 64 8 s &
+pause 8 s 
+midinote 69 8 s &
+pause 8 s 
+midinote 64 8 s &
+pause 8 s 
+midinote 60 8 s &
+pause 8 s 
+midinote 62 8 s &
+pause 8 s 
+midinote 66 8 s &
+pause 8 s 
+midinote 62 8 s &
+pause 8 s 
+midinote 59 8 s &
+pause 8 s 
+midinote 62 8 s &
+pause 8 s 
+midinote 67 8 s &
+pause 8 s 
+midinote 62 8 s &
+pause 8 s 
+midinote 59 8 s &
+pause 8 s 
+midinote 62 8 s &
+pause 8 s 
+midinote 67 8 s &
+pause 8 s 
+midinote 62 8 s &
+pause 8 s 
+midinote 59 8 s &
+pause 8 s 
+midinote 62 8 s &
+pause 8 s 
+midinote 67 8 s &
+pause 8 s 
+midinote 62 8 s &
+pause 8 s 
+midinote 60 8 s &
+pause 8 s 
+midinote 64 8 s &
+pause 8 s 
+midinote 67 8 s &
+pause 8 s 
+midinote 64 8 s &
+pause 8 s 
+midinote 59 8 s &
+pause 8 s 
+midinote 62 8 s &
+pause 8 s 
+midinote 67 8 s &
+pause 8 s 
+midinote 62 8 s &
+pause 8 s 
+midinote 59 16 s &
+pause 16 s 
+pause 16 s &
+pause 16 s 
+midinote 62 8 s &
+pause 8 s 
+rawchord 66 57 8s &
+pause 8 s 
+midinote 62 8 s &
+pause 8 s 
+rawchord 66 57 8s &
+pause 8 s 
+midinote 61 8 s &
+pause 8 s 
+rawchord 64 57 8s &
+pause 8 s 
+midinote 61 8 s &
+pause 8 s 
+rawchord 64 57 8s &
+pause 8 s 
+midinote 62 8 s &
+pause 8 s 
+midinote 74 8 s &
+pause 8 s 
+midinote 74 8 s &
+pause 8 s 
+midinote 74 8 s &
+pause 8 s 
+midinote 74 5 s &
+pause 5 s 
+midinote 74 5 s &
+pause 5 s 
+midinote 76 5 s &
+pause 5 s 
+midinote 78 5 s &
+pause 5 s 
+midinote 79 5 s &
+pause 5 s 
+midinote 81 5 s &
+pause 5 s 
+midinote 83 32 s &
+pause 32 s 
+midinote 83 4 s &
+pause 4 s 
+midinote 81 4 s &
+pause 4 s 
+midinote 84 4 s &
+pause 4 s 
+midinote 83 4 s &
+pause 4 s 
+midinote 81 4 s &
+pause 4 s 
+midinote 79 4 s &
+pause 4 s 
+midinote 78 4 s &
+pause 4 s 
+midinote 76 4 s &
+pause 4 s 
+midinote 76 32 s &
+pause 32 s 
+midinote 74 16 s &
+pause 16 s 
+midinote 79 8 s &
+pause 8 s 
+midinote 78 8 s &
+pause 8 s 
+midinote 76 16 s &
+pause 16 s 
+midinote 84 8 s &
+pause 8 s 
+midinote 83 8 s &
+pause 8 s 
+midinote 81 4 s &
+pause 4 s 
+midinote 84 4 s &
+pause 4 s 
+midinote 90 4 s &
+pause 4 s 
+midinote 88 4 s &
+pause 4 s 
+midinote 86 4 s &
+pause 4 s 
+midinote 84 4 s &
+pause 4 s 
+midinote 83 4 s &
+pause 4 s 
+midinote 81 4 s &
+pause 4 s 
+midinote 81 32 s &
+pause 32 s 
+midinote 79 16 s &
+pause 16 s 
+midinote 74 12 s &
+pause 12 s 
+midinote 74 4 s &
+pause 4 s 
+midinote 83 24 s &
+pause 24 s 
+midinote 81 8 s &
+pause 8 s 
+midinote 81 4 s &
+pause 4 s 
+midinote 79 4 s &
+pause 4 s 
+midinote 84 4 s &
+pause 4 s 
+midinote 83 4 s &
+pause 4 s 
+midinote 81 4 s &
+pause 4 s 
+midinote 79 4 s &
+pause 4 s 
+midinote 78 4 s &
+pause 4 s 
+midinote 76 4 s &
+pause 4 s 
+midinote 74 24 s &
+pause 24 s 
+midinote 78 4 s &
+pause 4 s 
+midinote 76 4 s &
+pause 4 s 
+midinote 74 8 s &
+pause 8 s 
+midinote 79 8 s &
+pause 8 s 
+midinote 83 8 s &
+pause 8 s 
+midinote 86 8 s &
+pause 8 s 
+midinote 86 4 s &
+pause 4 s 
+midinote 88 4 s &
+pause 4 s 
+midinote 90 4 s &
+pause 4 s 
+midinote 88 4 s &
+pause 4 s 
+midinote 86 4 s &
+pause 4 s 
+midinote 84 4 s &
+pause 4 s 
+midinote 81 4 s &
+pause 4 s 
+midinote 83 4 s &
+pause 4 s 
+midinote 79 16 s &
+pause 16 s 
+midinote 81 16 s &
+pause 16 s 
+midinote 79 16 s &
+pause 16 s 
+midinote 79 8 s &
+pause 8 s 
+midinote 79 8 s &
+pause 8 s 
+midinote 79 8 s &
+pause 8 s 
+midinote 81 4 s &
+pause 4 s 
+midinote 79 4 s &
+pause 4 s 
+midinote 79 8 s &
+pause 8 s 
+midinote 79 8 s &
+pause 8 s 
+midinote 80 8 s &
+pause 8 s 
+midinote 81 8 s &
+pause 8 s 
+midinote 81 8 s &
+pause 8 s 
+midinote 81 8 s &
+pause 8 s 
+midinote 81 8 s &
+pause 8 s 
+midinote 83 4 s &
+pause 4 s 
+midinote 81 4 s &
+pause 4 s 
+midinote 80 8 s &
+pause 8 s 
+midinote 81 8 s &
+pause 8 s 
+midinote 82 8 s &
+pause 8 s 
+midinote 83 8 s &
+pause 8 s 
+midinote 83 8 s &
+pause 8 s 
+midinote 83 8 s &
+pause 8 s 
+midinote 88 8 s &
+pause 8 s 
+midinote 86 8 s &
+pause 8 s 
+midinote 84 8 s &
+pause 8 s 
+midinote 83 8 s &
+pause 8 s 
+midinote 84 8 s &
+pause 8 s 
+midinote 83 8 s &
+pause 8 s 
+midinote 81 8 s &
+pause 8 s 
+midinote 81 8 s &
+pause 8 s 
+midinote 81 8 s &
+pause 8 s 
+midinote 83 4 s &
+pause 4 s 
+midinote 81 4 s &
+pause 4 s 
+midinote 83 8 s &
+pause 8 s 
+midinote 81 8 s &
+pause 8 s 
+midinote 79 8 s &
+pause 8 s 
+pause 8 s &
+pause 8 s 
+midinote 79 8 s &
+pause 8 s 
+midinote 81 8 s &
+pause 8 s 
+midinote 83 8 s &
+pause 8 s 
+pause 8 s &
+pause 8 s 
+midinote 79 8 s &
+pause 8 s 
+midinote 81 8 s &
+pause 8 s 
+midinote 83 8 s &
+pause 8 s 
+pause 8 s &
+pause 8 s 
+midinote 79 8 s &
+pause 8 s 
+midinote 81 8 s &
+pause 8 s 
+midinote 83 8 s &
+pause 8 s 
+midinote 84 8 s &
+pause 8 s 
+midinote 86 8 s &
+pause 8 s 
+midinote 83 8 s &
+pause 8 s 
+midinote 84 16 s &
+pause 16 s 
+midinote 83 16 s &
+pause 16 s 
+midinote 84 16 s &
+pause 16 s 
+midinote 83 16 s &
+pause 16 s 
+midinote 86 16 s &
+pause 16 s 
+midinote 84 16 s &
+pause 16 s 
+midinote 83 16 s &
+pause 16 s 
+midinote 81 16 s &
+pause 16 s 
+midinote 81 8 s &
+pause 8 s 
+midinote 79 8 s &
+pause 8 s 
+midinote 84 8 s &
+pause 8 s 
+midinote 83 8 s &
+pause 8 s 
+midinote 83 8 s &
+pause 8 s 
+midinote 81 8 s &
+pause 8 s 
+midinote 79 8 s &
+pause 8 s 
+midinote 78 8 s &
+pause 8 s 
+midinote 79 8 s &
+pause 8 s 
+pause 8 s &
+pause 8 s 
+midinote 83 8 s &
+pause 8 s 
+midinote 83 8 s &
+pause 8 s 
+midinote 83 8 s &
+pause 8 s 
+midinote 81 8 s &
+pause 8 s 
+midinote 81 8 s &
+pause 8 s 
+midinote 81 8 s &
+pause 8 s 
+midinote 81 8 s &
+pause 8 s 
+midinote 79 8 s &
+pause 8 s 
+midinote 79 8 s &
+pause 8 s 
+midinote 79 8 s &
+pause 8 s 
+midinote 79 8 s &
+pause 8 s 
+midinote 78 8 s &
+pause 8 s 
+midinote 78 8 s &
+pause 8 s 
+midinote 78 8 s &
+pause 8 s 
+midinote 84 8 s &
+pause 8 s 
+midinote 83 8 s &
+pause 8 s 
+midinote 83 8 s &
+pause 8 s 
+midinote 83 8 s &
+pause 8 s 
+midinote 83 8 s &
+pause 8 s 
+midinote 81 8 s &
+pause 8 s 
+midinote 81 8 s &
+pause 8 s 
+midinote 81 8 s &
+pause 8 s 
+midinote 81 8 s &
+pause 8 s 
+midinote 79 8 s &
+pause 8 s 
+midinote 79 8 s &
+pause 8 s 
+midinote 79 8 s &
+pause 8 s 
+midinote 79 8 s &
+pause 8 s 
+midinote 78 8 s &
+pause 8 s 
+midinote 78 8 s &
+pause 8 s 
+midinote 78 8 s &
+pause 8 s 
+midinote 83 8 s &
+pause 8 s 
+midinote 72 8 s &
+pause 8 s 
+midinote 74 8 s &
+pause 8 s 
+midinote 76 8 s &
+pause 8 s 
+midinote 78 8 s &
+pause 8 s 
+midinote 79 8 s &
+pause 8 s 
+midinote 81 8 s &
+pause 8 s 
+midinote 83 8 s &
+pause 8 s 
+midinote 84 16 s &
+pause 16 s 
+midinote 83 16 s &
+pause 16 s 
+midinote 84 16 s &
+pause 16 s 
+midinote 86 16 s &
+pause 16 s 
+midinote 83 16 s &
+pause 16 s 
+pause 16 s &
+pause 16 s 
+midinote 83 16 s &
+pause 16 s 
+pause 16 s &
+pause 16 s 
+midinote 71 32 s &
+pause 32 s 
+rawchord 79 32s &
