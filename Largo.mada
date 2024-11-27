@@ -8,11 +8,9 @@ midinote 46 64s&
 pause 4s
 midinote 43 32s&
 midinote 55 4s&
-midinote 43 32s&
 pause 32s
 midinote 43 16s&
 midinote 55 32s&
-midinote 43 16s&
 pause 16s
 pause 16s&
 midinote 55 16s&
@@ -24,13 +22,11 @@ midinote 53 32s&
 pause 4s
 midinote 43 32s&
 midinote 53 4s&
-midinote 43 32s&
 pause 28s
 midinote 55 32s&
 pause 4s
 midinote 43 16s&
 midinote 55 32s&
-midinote 43 16s&
 pause 16s
 pause 16s&
 midinote 55 16s&
@@ -49,37 +45,27 @@ midinote 55 16s&
 pause 16s
 midinote 62 8s&
 midinote 58 16s&
-midinote 62 8s&
 pause 8s
-midinote 61 8s&
 midinote 61 8s&
 pause 8s
 midinote 62 8s&
-midinote 62 8s&
 pause 8s
-midinote 61 8s&
 midinote 61 8s&
 pause 8s
 midinote 62 16s&
-midinote 62 16s&
 pause 16s
 pause 16s&
-pause 16s&
 pause 16s
-midinote 60 48s&
 midinote 60 48s&
 pause 48s
 midinote 58 16s&
 midinote 63 48s&
-midinote 58 16s&
 pause 16s
 midinote 60 48s&
 midinote 62 16s&
-midinote 60 48s&
 pause 48s
 midinote 58 16s&
 midinote 63 48s&
-midinote 58 16s&
 pause 16s
 midinote 57 16s&
 midinote 62 16s&
@@ -130,7 +116,6 @@ pause 8s
 midinote 50 8s&
 pause 8s
 midinote 55 16s&
-midinote 55 16s&
 pause 16s
 midinote 62 16s&
 pause 16s&
@@ -153,7 +138,6 @@ pause 32s
 midinote 57 16s&
 midinote 50 16s&
 pause 16s
-pause 16s&
 pause 16s&
 pause 16s
 midinote 63 32s&
@@ -246,7 +230,6 @@ midinote 58 8s&
 midinote 67 8s&
 pause 8s
 midinote 62 8s&
-midinote 62 8s&
 pause 8s
 midinote 62 8s&
 midinote 67 8s&
@@ -324,7 +307,6 @@ pause 8s&
 midinote 58 8s&
 pause 8s
 midinote 65 8s&
-midinote 65 8s&
 pause 8s
 midinote 63 8s&
 midinote 62 8s&
@@ -373,7 +355,6 @@ pause 8s
 midinote 65 8s&
 pause 8s
 midinote 53 8s&
-midinote 53 8s&
 pause 8s
 pause 8s&
 midinote 58 8s&
@@ -393,7 +374,6 @@ midinote 64 8s&
 pause 8s
 midinote 53 8s&
 pause 8s
-midinote 58 8s&
 midinote 58 8s&
 midinote 61 8s&
 midinote 64 8s&
@@ -420,7 +400,6 @@ pause 8s
 midinote 65 8s&
 pause 8s
 midinote 53 8s&
-midinote 53 8s&
 pause 8s
 pause 8s&
 midinote 58 8s&
@@ -441,7 +420,6 @@ pause 8s
 midinote 53 8s&
 pause 8s
 midinote 58 8s&
-midinote 58 8s&
 midinote 61 8s&
 midinote 64 8s&
 pause 8s
@@ -450,7 +428,6 @@ midinote 53 16s&
 pause 8s
 pause 8s&
 pause 8s
-midinote 65 16s&
 midinote 65 16s&
 pause 16s&
 pause 16s
@@ -532,9 +509,7 @@ midinote 60 8s&
 midinote 53 8s&
 pause 8s
 midinote 57 8s&
-midinote 57 8s&
 pause 8s
-midinote 60 8s&
 midinote 60 8s&
 pause 8s
 midinote 60 8s&
@@ -550,12 +525,9 @@ midinote 55 8s&
 midinote 60 8s&
 pause 8s
 midinote 53 16s&
-midinote 53 16s&
 pause 16s
 pause 16s&
-pause 16s&
 pause 16s
-pause 32s&
 pause 32s&
 pause 32s
 midinote 46 16s&
@@ -689,20 +661,17 @@ midinote 57 8s&
 midinote 63 8s&
 pause 8s
 midinote 58 8s&
-midinote 58 8s&
 pause 8s
 pause 8s&
 midinote 62 8s&
 midinote 53 8s&
 pause 8s
 midinote 58 8s&
-midinote 58 8s&
 pause 8s
 midinote 58 8s&
 midinote 62 8s&
 midinote 53 8s&
 pause 8s
-midinote 58 8s&
 midinote 58 8s&
 pause 8s
 midinote 60 4s&
@@ -726,13 +695,11 @@ midinote 63 8s&
 midinote 53 8s&
 pause 8s
 midinote 60 8s&
-midinote 60 8s&
 pause 8s
 midinote 60 8s&
 midinote 63 8s&
 midinote 53 8s&
 pause 8s
-midinote 60 8s&
 midinote 60 8s&
 pause 8s
 midinote 62 4s&
@@ -752,13 +719,11 @@ midinote 61 8s&
 midinote 58 8s&
 pause 8s
 midinote 62 8s&
-midinote 62 8s&
 midinote 53 8s&
 pause 8s
 midinote 62 8s&
 midinote 58 8s&
 pause 8s
-midinote 62 8s&
 midinote 62 8s&
 midinote 53 8s&
 pause 8s
@@ -773,7 +738,6 @@ midinote 63 8s&
 midinote 58 8s&
 pause 8s
 midinote 62 8s&
-midinote 62 8s&
 midinote 53 8s&
 pause 8s
 midinote 62 8s&
@@ -784,13 +748,11 @@ midinote 63 8s&
 midinote 53 8s&
 pause 8s
 midinote 60 8s&
-midinote 60 8s&
 pause 8s
 midinote 60 8s&
 midinote 63 8s&
 midinote 53 8s&
 pause 8s
-midinote 60 8s&
 midinote 60 8s&
 pause 8s
 midinote 62 4s&
@@ -1311,7 +1273,6 @@ pause 16s
 pause 16s&
 pause 16s
 pause 32s&
-pause 32s&
 pause 32s
 midinote 43 32s&
 midinote 55 8s&
@@ -1469,7 +1430,6 @@ midinote 59 8s&
 midinote 55 8s&
 pause 8s
 midinote 59 8s&
-midinote 59 8s&
 midinote 50 8s&
 pause 8s
 midinote 59 8s&
@@ -1550,13 +1510,11 @@ midinote 62 8s&
 midinote 57 8s&
 pause 8s
 midinote 60 8s&
-midinote 60 8s&
 midinote 50 8s&
 pause 8s
 midinote 60 8s&
 midinote 57 8s&
 pause 8s
-midinote 60 8s&
 midinote 60 8s&
 midinote 50 8s&
 pause 8s
@@ -1572,7 +1530,6 @@ pause 4s
 midinote 62 8s&
 midinote 57 8s&
 pause 8s
-midinote 60 8s&
 midinote 60 8s&
 midinote 50 8s&
 pause 8s
@@ -1753,9 +1710,7 @@ midinote 59 16s&
 midinote 55 16s&
 pause 16s
 pause 16s&
-pause 16s&
 pause 16s
-pause 32s&
 pause 32s&
 pause 32s
 midinote 57 16s&
@@ -1768,9 +1723,7 @@ pause 16s
 midinote 59 16s&
 pause 16s
 midinote 55 16s&
-midinote 55 16s&
 pause 16s
-pause 16s&
 pause 16s&
 pause 16s
 midinote 50 16s&
@@ -1779,13 +1732,9 @@ pause 16s
 midinote 59 16s&
 pause 16s&
 midinote 55 16s&
-pause 16s&
 pause 16s
 midinote 43 32s&
-midinote 43 32s&
 pause 32s
-midinote 55 32s&
-pause 32s&
 midinote 55 32s&
 pause 32s&
 pause 32s

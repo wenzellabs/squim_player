@@ -535,7 +535,6 @@ midinote 48 8s&
 pause 8s
 pause 4s&
 midinote 53 16s&
-midinote 53 16s&
 pause 4s
 midinote 72 4s&
 pause 4s
@@ -656,7 +655,6 @@ pause 2s
 midinote 69 8s&
 midinote 64 16s&
 midinote 57 16s&
-midinote 57 16s&
 pause 8s
 midinote 65 8s&
 pause 8s
@@ -673,7 +671,6 @@ midinote 67 2s&
 pause 2s
 midinote 67 8s&
 midinote 64 16s&
-midinote 60 16s&
 midinote 60 16s&
 pause 8s
 midinote 64 8s&
@@ -746,7 +743,6 @@ midinote 65 8s&
 pause 8s
 pause 4s&
 midinote 65 16s&
-midinote 65 16s&
 midinote 58 16s&
 pause 4s
 midinote 65 4s&
@@ -791,7 +787,6 @@ midinote 72 2s&
 pause 2s
 midinote 72 12s&
 midinote 65 16s&
-midinote 65 16s&
 midinote 55 32s&
 pause 12s
 midinote 74 4s&
@@ -822,7 +817,6 @@ pause 2s
 midinote 79 4s&
 midinote 65 32s&
 pause 32s&
-pause 32s&
 pause 4s
 midinote 77 4s&
 pause 4s
@@ -843,7 +837,6 @@ pause 2s
 midinote 77 2s&
 pause 2s
 midinote 76 6s&
-midinote 60 16s&
 midinote 60 16s&
 pause 6s
 midinote 76 2s&
@@ -942,7 +935,6 @@ midinote 65 8s&
 pause 8s
 midinote 77 16s&
 midinote 65 16s&
-midinote 65 16s&
 midinote 45 16s&
 pause 16s
 pause 4s&
@@ -976,7 +968,6 @@ pause 8s
 midinote 77 8s&
 pause 8s
 midinote 77 12s&
-midinote 65 16s&
 midinote 65 16s&
 midinote 48 32s&
 pause 12s
@@ -1089,7 +1080,6 @@ midinote 67 16s&
 midinote 62 32s&
 midinote 41 16s&
 pause 16s
-pause 16s&
 pause 16s&
 pause 16s
 midinote 72 12s&
@@ -1279,7 +1269,6 @@ midinote 72 8s&
 midinote 65 8s&
 pause 8s
 midinote 67 8s&
-midinote 67 8s&
 pause 8s
 midinote 65 8s&
 midinote 60 16s&
@@ -1334,7 +1323,6 @@ pause 6s
 midinote 64 2s&
 pause 2s
 midinote 62 8s&
-midinote 65 16s&
 midinote 65 16s&
 pause 8s
 midinote 62 8s&
@@ -2866,9 +2854,7 @@ midinote 67 16s&
 midinote 64 16s&
 pause 16s
 midinote 67 16s&
-midinote 67 16s&
 pause 16s
-midinote 72 16s&
 midinote 72 16s&
 pause 16s
 midinote 71 16s&
@@ -2930,7 +2916,6 @@ pause 16s
 midinote 58 16s&
 pause 16s
 midinote 67 16s&
-midinote 67 16s&
 pause 16s
 midinote 66 16s&
 pause 16s
@@ -2946,7 +2931,6 @@ midinote 69 16s&
 pause 16s
 midinote 60 16s&
 pause 16s
-midinote 65 16s&
 midinote 65 16s&
 pause 16s
 midinote 70 16s&
@@ -2993,7 +2977,6 @@ midinote 64 8s&
 pause 8s
 midinote 62 8s&
 pause 8s
-midinote 65 8s&
 midinote 65 8s&
 pause 8s
 midinote 64 8s&

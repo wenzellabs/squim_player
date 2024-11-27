@@ -73,9 +73,6 @@ class Note:
     def dump(self):
         print(f'{self.name} - midi{self.midi} - voice{self.voice} - dur{self.duration} - meas{self.measure} - chord{self.chord}')
 
-    def match_duration(self, other_note):
-        return self.duration == other_note.duration
-    
     def set_starttime(self, starttime):
         self.starttime = starttime
 
@@ -206,11 +203,15 @@ class MXL2mada:
                 t_sorted_notes.append(n)
         t_sorted_notes = sorted(t_sorted_notes, key=lambda n: n.starttime)
 
+        # remove duplicates
+        uniq_notes = list({(n.starttime, n.duration, n.midi): n for n in t_sorted_notes}.values())
+        print(f'uniq reduced from {len(t_sorted_notes)} to {len(uniq_notes)} notes')
+
         # basic strategy: play all notes (and rests) concurrently (by appending &)
         # play a (blocking) rest each time the starttime advances
         t_start = 0
         rest = Note(None, 0, 0, True, None, None, False, 0)
-        for n in t_sorted_notes:
+        for n in uniq_notes:
 
             if n.starttime != t_start:
                 rest.duration = n.starttime - t_start
