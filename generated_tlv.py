@@ -38,6 +38,7 @@ class TLVPacket:
 class TLVPacketTime(TLVPacket):
     def __init__(self, us_since_1900):
         tlv_nonce = 0x01
+        self.us_since_1900 = us_since_1900
         payload = struct.pack('<Q', us_since_1900)
         super().__init__(tlv_nonce, payload)
 
@@ -50,6 +51,10 @@ class TLVPacketTime(TLVPacket):
 class TLVPacketNoteOn(TLVPacket):
     def __init__(self, us_since_1900, note, channel, velocity):
         tlv_nonce = 0x11
+        self.us_since_1900 = us_since_1900
+        self.note = note
+        self.channel = channel
+        self.velocity = velocity
         payload = struct.pack('<QBBB', us_since_1900, note, channel, velocity)
         super().__init__(tlv_nonce, payload)
 
@@ -62,6 +67,10 @@ class TLVPacketNoteOn(TLVPacket):
 class TLVPacketNoteOff(TLVPacket):
     def __init__(self, us_since_1900, note, channel, velocity):
         tlv_nonce = 0x12
+        self.us_since_1900 = us_since_1900
+        self.note = note
+        self.channel = channel
+        self.velocity = velocity
         payload = struct.pack('<QBBB', us_since_1900, note, channel, velocity)
         super().__init__(tlv_nonce, payload)
 
@@ -74,6 +83,11 @@ class TLVPacketNoteOff(TLVPacket):
 class TLVPacketNoteOnOff(TLVPacket):
     def __init__(self, on, off, note, channel, velocity):
         tlv_nonce = 0x13
+        self.on = on
+        self.off = off
+        self.note = note
+        self.channel = channel
+        self.velocity = velocity
         payload = struct.pack('<QQBBB', on, off, note, channel, velocity)
         super().__init__(tlv_nonce, payload)
 
@@ -97,6 +111,8 @@ class TLVPacketPanic(TLVPacket):
 class TLVPacketBeat(TLVPacket):
     def __init__(self, bpm, count):
         tlv_nonce = 0x20
+        self.bpm = bpm
+        self.count = count
         payload = struct.pack('<BI', bpm, count)
         super().__init__(tlv_nonce, payload)
 
@@ -109,6 +125,9 @@ class TLVPacketBeat(TLVPacket):
 class TLVPacketStart(TLVPacket):
     def __init__(self, us_since_1900, bpm, count):
         tlv_nonce = 0x21
+        self.us_since_1900 = us_since_1900
+        self.bpm = bpm
+        self.count = count
         payload = struct.pack('<QBI', us_since_1900, bpm, count)
         super().__init__(tlv_nonce, payload)
 
@@ -121,6 +140,13 @@ class TLVPacketStart(TLVPacket):
 class TLVPacketKeyNotes(TLVPacket):
     def __init__(self, root, third, fifth, seventh, ninth, eleventh, thirteenth):
         tlv_nonce = 0x30
+        self.root = root
+        self.third = third
+        self.fifth = fifth
+        self.seventh = seventh
+        self.ninth = ninth
+        self.eleventh = eleventh
+        self.thirteenth = thirteenth
         payload = struct.pack('<BBBBBBB', root, third, fifth, seventh, ninth, eleventh, thirteenth)
         super().__init__(tlv_nonce, payload)
 
@@ -133,6 +159,9 @@ class TLVPacketKeyNotes(TLVPacket):
 class TLVPacketChord(TLVPacket):
     def __init__(self, on, off, note):
         tlv_nonce = 0x31
+        self.on = on
+        self.off = off
+        self.note = note
         payload = struct.pack('<QQ16B', on, off, *note)
         super().__init__(tlv_nonce, payload)
 
@@ -162,6 +191,8 @@ class TLVPacketScale(TLVPacket):
     }
     def __init__(self, root, scale_type):
         tlv_nonce = 0x32
+        self.root = root
+        self.scale_type = scale_type
         scale_type_mapped = self.scale_type_map.get(scale_type)
         if scale_type_mapped is None:
             # FIXME print is not the smartes move, but raise would be worse
@@ -186,6 +217,7 @@ class TLVPacketScale(TLVPacket):
 class TLVPacketArtist(TLVPacket):
     def __init__(self, artist):
         tlv_nonce = 0x23
+        self.artist = artist
         payload = struct.pack('<234b', *artist)
         super().__init__(tlv_nonce, payload)
 
@@ -198,6 +230,7 @@ class TLVPacketArtist(TLVPacket):
 class TLVPacketTitle(TLVPacket):
     def __init__(self, title):
         tlv_nonce = 0x24
+        self.title = title
         payload = struct.pack('<234b', *title)
         super().__init__(tlv_nonce, payload)
 
@@ -210,6 +243,10 @@ class TLVPacketTitle(TLVPacket):
 class TLVPacketLedColor(TLVPacket):
     def __init__(self, led, r, g, b):
         tlv_nonce = 0x40
+        self.led = led
+        self.r = r
+        self.g = g
+        self.b = b
         payload = struct.pack('<BBBB', led, r, g, b)
         super().__init__(tlv_nonce, payload)
 
