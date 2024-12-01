@@ -329,7 +329,9 @@ def main():
         random.shuffle(files)
 
     # provide time to clients without NTP (flow3r, rm NTP from others too)
-    send_tlv_packet(TLVPacketTime(get_us_since_1900()))
+    # three times as packet loss is real
+    for _ in range(3):
+        send_tlv_packet(TLVPacketTime(get_us_since_1900()))
 
     for f in files:
         play_mada_file(f)
