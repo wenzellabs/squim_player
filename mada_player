@@ -328,6 +328,9 @@ def main():
     if args.randomize:
         random.shuffle(files)
 
+    # provide time to clients without NTP (flow3r, rm NTP from others too)
+    send_tlv_packet(TLVPacketTime(get_us_since_1900()))
+
     for f in files:
         play_mada_file(f)
 
