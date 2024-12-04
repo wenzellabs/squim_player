@@ -333,6 +333,7 @@ def main():
 
     for f in files:
         play_mada_file(f)
+        time.sleep(4)
 
 if __name__ == "__main__":
     main()
