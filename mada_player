@@ -220,9 +220,7 @@ def parse_title(line):
     if match:
         title = match.group(1).strip()[:234]
         print(f'setting title to {title}')
-        print(f'{len(title)}')
         title = title.ljust(234, '\0').encode('ascii', 'replace')
-        print(f'{len(title)}')
         send_tlv_packet(TLVPacketTitle(title))
 
 def parse_note(line):
