@@ -313,6 +313,11 @@ def play_mada_file(filename):
     send_tlv_packet(TLVPacketTitle(basename))
     send_tlv_packet(TLVPacketArtist(extension))
 
+    # provide time to clients without NTP (flow3r, rm NTP from others too)
+    # three times as packet loss is real
+    for _ in range(3):
+        send_tlv_packet(TLVPacketTime(get_us_since_1900()))
+
     play_song(song_lines)
 
 def main():
@@ -325,11 +330,6 @@ def main():
 
     if args.randomize:
         random.shuffle(files)
-
-    # provide time to clients without NTP (flow3r, rm NTP from others too)
-    # three times as packet loss is real
-    for _ in range(3):
-        send_tlv_packet(TLVPacketTime(get_us_since_1900()))
 
     for f in files:
         play_mada_file(f)
