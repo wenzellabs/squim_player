@@ -141,7 +141,7 @@ def parse_scale(line):
         scale_type = match.group(2)
         root = re.sub(r'(maj|min|dim|aug|sus|7|9|11|13|69|add)', '', root) # FIXME sus, sus4 etc
         print(f"setting scale to {root} {scale_type}")
-        send_tlv_packet(TLVPacketScale(midi_notes.get(root), getattr(TLVPacketScale.Enum_scale_type, scale_type)))
+        send_tlv_packet(TLVPacketScale(midi_notes.get(root), scale_type))
 
 def parse_chord(line):
     chord_type2list = {
