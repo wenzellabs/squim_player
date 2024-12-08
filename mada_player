@@ -42,16 +42,19 @@ midi_notes = {
 class ChordProgression:
     def __init__(self, t_start:int = None, bpm:int = None) -> None:
         self.initial_latency = INITIAL_LATENCY
-        if t_start is None:
-            self.t_start = get_us_since_1900() + self.initial_latency
-        else:
-            self.t_start = t_start + self.initial_latency
+        self.set_starttime(t_start)
         if bpm is None:
-            self.bpm = random.randint(80, 160)
+            self.bpm = random.randint(60, 200)
         else:
             self.bpm = bpm
         
         self.set_bpm(self.bpm)
+
+    def set_starttime(self, t_start:int = None):
+        if t_start is None:
+            self.t_start = get_us_since_1900() + self.initial_latency
+        else:
+            self.t_start = t_start + self.initial_latency
 
     def generate_chord(self, n_beat64:int, root:str, notes:List[int], advance_beats:bool):
         
@@ -114,14 +117,10 @@ def get_us_since_1900():
 def send_tlv_packet(packet):
     sock.sendto(packet.to_bytes(), ('255.255.255.255', SQUIM_PORT))
 
-# stop all notes
-for _ in range(3):
-    send_tlv_packet(TLVPacketPanic())
-
 
 t_start = get_us_since_1900() + INITIAL_LATENCY
 
-cp = ChordProgression(t_start)
+cp = ChordProgression()
 
 def remove_comments(line):
     return re.sub(r"\s*;.*", "", line)
@@ -302,6 +301,19 @@ def play_song(song_lines):
             parse_line(line)
 
 def play_mada_file(filename):
+    # stop all notes
+    for _ in range(3):
+        send_tlv_packet(TLVPacketPanic())
+        time.sleep(0.1)
+
+    cp.set_starttime()
+
+    # provide time to clients without NTP (flow3r, rm NTP from others too)
+    # three times as packet loss is real
+    for _ in range(3):
+        send_tlv_packet(TLVPacketTime(get_us_since_1900()))
+        time.sleep(0.1)
+
     with open(filename, 'r') as file:
         song_lines = file.readlines()
     if '.' in filename:
@@ -313,10 +325,7 @@ def play_mada_file(filename):
     send_tlv_packet(TLVPacketTitle(basename))
     send_tlv_packet(TLVPacketArtist(extension))
 
-    # provide time to clients without NTP (flow3r, rm NTP from others too)
-    # three times as packet loss is real
-    for _ in range(3):
-        send_tlv_packet(TLVPacketTime(get_us_since_1900()))
+    time.sleep(2)
 
     play_song(song_lines)
 
