@@ -76,7 +76,8 @@ for message in midi_file.play():
         print(f'beat {beat_count}')
         beat_count += 1
         next_beat_time_us += int(60.0 / bpm * 1e6)  # Schedule next beat in microseconds
-        send_tlv_packet(TLVPacketPanic())
+        # dirty way to compensate for UDP packet loss of note_off packets
+        # send_tlv_packet(TLVPacketPanic())
     
     # handle note on/off events
     if message.type in ['note_on', 'note_off']:
