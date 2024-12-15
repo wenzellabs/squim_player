@@ -108,6 +108,25 @@ class ChordProgression:
         self.beat_us = int(60.0 / self.bpm * 1000.0 * 1000.0)
         self.beat64_us = int(60.0 / self.bpm * 1000.0 * 1000.0 / 16.0)
 
+def midi2name(midi:int) -> str:
+    names = {
+        0: "C",
+        1: "C#",
+        2: "D",
+        3: "D#",
+        4: "E",
+        5: "F",
+        6: "F#",
+        7: "G",
+        8: "G#",
+        9: "A",
+        10: "A#",
+        11: "B",
+    }
+    name = names.get(midi%12)
+    name += str(midi//12 - 1)
+    return name
+
 def get_us_since_1900():
     NTP_DELTA = 2208988800      # seconds between 1900 and 1970
     current_time = time.time()  # seconds since epoch (1970)
@@ -116,11 +135,6 @@ def get_us_since_1900():
 
 def send_tlv_packet(packet):
     sock.sendto(packet.to_bytes(), ('255.255.255.255', SQUIM_PORT))
-
-
-t_start = get_us_since_1900() + INITIAL_LATENCY
-
-cp = ChordProgression()
 
 def remove_comments(line):
     return re.sub(r"\s*;.*", "", line)
@@ -177,7 +191,7 @@ def parse_chord(line):
             n_beat *= 16
         advance_beats = not bool(match.group(6))
 
-        print(f"playing chord: {root}{chord_type} for {n_beat / 16} beats")
+        print(f"playing chord {root}{chord_type} for {n_beat / 16} beats")
         
         # call the function to play the chord, with midi lookup inside
         cp.play_chord(n_beat, root, chord_type2list.get(chord_type), advance_beats)
@@ -197,7 +211,9 @@ def parse_rawchord(line):
             n_beat *= 16
         advance_beats = not bool(match.group(4))
 
-        print(f"playing rawchord with MIDI notes {midi_notes} for {n_beat / 16} beats")
+        midi_names = [midi2name(n) for n in midi_notes]
+
+        print(f"playing rawchord with MIDI notes {midi_names} for {n_beat / 16} beats")
         cp.play_rawchord(n_beat, midi_notes, advance_beats)
     else:
         print(f"error: invalid rawchord format in line '{line}'")
@@ -236,7 +252,7 @@ def parse_note(line):
 
         note_midi = note_to_midi(note_str, octave)
 
-        print(f'playing note  {note_str} for {n_beat / 16} beats')
+        print(f'playing {note_str} for {n_beat / 16} beats')
         cp.note_on_off(note_midi, n_beat, advance_beats)
     else:
         print(f"error: invalid note format in line '{line}'")
@@ -251,7 +267,7 @@ def parse_midinote(line):
             n_beat *= 16
         advance_beats = not bool(match.group(4))
 
-        print(f'playing note {midinote} for {n_beat / 16} beats')
+        print(f'playing {midi2name(midinote)} for {n_beat / 16} beats')
         cp.note_on_off(midinote, n_beat, advance_beats)
     else:
         print(f"error: invalid note format in line '{line}'")
@@ -327,6 +343,10 @@ def play_mada_file(filename):
     send_tlv_packet(TLVPacketArtist(extension))
 
     play_song(song_lines)
+
+t_start = get_us_since_1900() + INITIAL_LATENCY
+
+cp = ChordProgression()
 
 def main():
     parser = argparse.ArgumentParser(description="MADA player")
