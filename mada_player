@@ -144,7 +144,8 @@ def parse_scale(line):
 
 def parse_chord(line):
     chord_type2list = {
-        "maj"       : [0, 4, 7],
+        ""          : [0, 4, 7],
+        "maj"       : [0, 4, 7], # same
         "m"         : [0, 3, 7],
         "m9"        : [0, 3, 7, 10, 14],
         "m7"        : [0, 3, 7, 10],
@@ -168,7 +169,7 @@ def parse_chord(line):
         
         # default to "maj" if no chord type is specified
         if chord_type is None:
-            chord_type = "maj"
+            chord_type = ""
 
         n_beat = int(match.group(4))  # duration in beats
         sixtyfourth = match.group(5)
