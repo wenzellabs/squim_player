@@ -326,8 +326,6 @@ def play_mada_file(filename):
     send_tlv_packet(TLVPacketTitle(basename))
     send_tlv_packet(TLVPacketArtist(extension))
 
-    time.sleep(2)
-
     play_song(song_lines)
 
 def main():
