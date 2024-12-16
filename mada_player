@@ -322,7 +322,7 @@ def play_song(song_lines, term_width):
     n_line = 0
     for line in song_lines:
         n_line += 1
-        percentage = f'{n_line/n_lines*100.0:.4}'
+        percentage = f'{(n_line/n_lines*100.0):.1f}'
         print(f'{percentage.rjust(get_terminal_width(term_width)-1)}%', end='\r', flush=True)
         line = line.strip()
         if line:
