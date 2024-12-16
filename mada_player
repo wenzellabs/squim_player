@@ -312,18 +312,24 @@ def parse_line(line):
     else:
         parse_chord(line)
 
-def play_song(song_lines):
+def get_terminal_width(specified_width=None):
+    if specified_width is not None:
+        return specified_width
+    return shutil.get_terminal_size().columns
+
+def play_song(song_lines, term_width):
     n_lines = len(song_lines)
     n_line = 0
     for line in song_lines:
         n_line += 1
         percentage = f'{n_line/n_lines*100.0:.4}'
-        print(f'{percentage.rjust(shutil.get_terminal_size().columns-1)}%', end='\r')
+        print(f'{percentage.rjust(get_terminal_width(term_width)-1)}%', end='\r')
         line = line.strip()
         if line:
             parse_line(line)
 
-def play_mada_file(filename):
+
+def play_mada_file(filename, term_width):
     # stop all notes
     for _ in range(3):
         send_tlv_packet(TLVPacketPanic())
@@ -348,7 +354,7 @@ def play_mada_file(filename):
     send_tlv_packet(TLVPacketTitle(basename))
     send_tlv_packet(TLVPacketArtist(extension))
 
-    play_song(song_lines)
+    play_song(song_lines,term_width)
 
 t_start = get_us_since_1900() + INITIAL_LATENCY
 
@@ -356,8 +362,9 @@ cp = ChordProgression()
 
 def main():
     parser = argparse.ArgumentParser(description="MADA player")
-    parser.add_argument("filename", nargs="*", default="default.mada", help="The MADA piece to play (default: default.mada)")
-    parser.add_argument("-r", "--randomize", action="store_true", help="Randomize the order of files before playing")
+    parser.add_argument('filename', nargs="*", default='default.mada', help='the MADA piece to play (default: default.mada)')
+    parser.add_argument('-r', '--randomize', action='store_true', help='randomize the order of files before playing')
+    parser.add_argument('-w', '--width', type=int, help='specify terminal width (default is try guessing)')
     args = parser.parse_args()
     
     files = args.filename
@@ -366,7 +373,7 @@ def main():
         random.shuffle(files)
 
     for f in files:
-        play_mada_file(f)
+        play_mada_file(f, args.width)
         time.sleep(4)
 
 if __name__ == "__main__":
