@@ -3,6 +3,7 @@
 import re
 import time
 import socket
+import shutil
 import random
 import argparse
 from typing import List
@@ -312,7 +313,12 @@ def parse_line(line):
         parse_chord(line)
 
 def play_song(song_lines):
+    n_lines = len(song_lines)
+    n_line = 0
     for line in song_lines:
+        n_line += 1
+        percentage = f'{n_line/n_lines*100.0:.4}'
+        print(f'{percentage.rjust(shutil.get_terminal_size().columns-1)}%', end='\r')
         line = line.strip()
         if line:
             parse_line(line)
